@@ -1,0 +1,51 @@
+.texto-color-offset-top-left
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    background-color: mix($color-acento-contenido, #FFF, 25%)
+    top: 0
+    bottom: 70%
+    left: 0
+    right: 75%
+
+.texto-color-offset-top-left.color-secundario
+  &::before
+    background-color: mix($color-secundario, #FFF, 25%)
+    
+.texto-color-offset-top-left-2
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    background-color: mix($color-acento-contenido, #FFF, 25%)
+    top: 0
+    bottom: 40%
+    left: 0
+    right: 75%
+
+.texto-color-offset-top-left-2.color-secundario
+  &::before
+    background-color: mix($color-secundario, #FFF, 25%)
+
+.imagen-color-offset-top-left
+  position: relative
+  > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    bottom: 75%
+    left: 0
+    right: 65%
+.imagen-color-offset-top-left.color-secundario
+  &::before
+    background-color: mix($color-secundario, #FFF, 58%)
+.imagen-color-offset-top-left.color-acento-contenido
+  &::before
+    background-color: mix($color-acento-contenido, #FFF, 58%)
