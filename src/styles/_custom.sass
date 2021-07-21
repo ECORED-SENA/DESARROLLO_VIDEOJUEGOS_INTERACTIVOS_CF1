@@ -49,3 +49,72 @@
 .imagen-color-offset-top-left.color-acento-contenido
   &::before
     background-color: mix($color-acento-contenido, #FFF, 58%)
+
+.carousel
+  padding-left: 2.5%
+  padding-right: 2.5%
+  .carousel-inner
+    background-image: url("../assets/curso/tema1-imagen19.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    border-radius: 15px
+
+.container-title
+  background-color: $white
+  border-top-left-radius: 20px
+  border-top-right-radius: 20px
+.carousel
+  button
+    background-color: #fcfcfc
+    width: auto
+    top: 44%
+    bottom: 44%
+    border-radius: 200px
+    opacity: 1
+    padding: 0.75em
+    border: 1px solid $color-sistema-f
+    span
+      color: $color-primario
+    .carousel-control-prev-icon
+      background-image: url("../assets/curso/prev-icon.svg")
+    .carousel-control-next-icon
+      background-image: url("../assets/curso/next-icon.svg")
+    &:focus
+      background-color: #fcfcfc
+    &:hover
+      background-color: mix($color-primario, #fff, 30%)
+
+.container-image-box-color
+  position: relative
+  .color-text
+    position: absolute
+    bottom: 0
+    left: 0
+    background-color: $color-acento-contenido
+    width: 45%
+    border-top-right-radius: 15px
+    p
+      color: white
+
+.container-uno-color
+  background-color: #69EBF9
+  border-radius: 10px
+.container-uno-color.claro
+  background-color: #CDFAFF
+
+figure.container-elements
+  img
+    height: 80%
+    object-fit: contain
+
+.container-elements-text
+  background-color: #D8FAFE
+  table
+    tbody
+      tr
+        td
+          font-size: 12px
+          border: none
+.container-maquinas
+  background: rgb(102,207,234);
+  background: linear-gradient(172deg, rgba(102,207,234,1) 0%, rgba(21,183,222,1) 100%);
