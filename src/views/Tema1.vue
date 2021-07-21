@@ -215,9 +215,10 @@
     figure.mb-5
       img(src='@/assets/curso/tema1-imagen17.svg')
 
+    TODO: Pendiente de implementar infografia
     .row.justify-content-center
       .col-12.col-lg-10
-        .tarjeta.color-primario.p-3
+        .tarjeta.color-primario.container-maquinas.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/tema1-imagen18.svg")
@@ -225,7 +226,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Ver anexo de Infografía
-                  p.text-small  Infografía de Pipeline del videojuego 
+                  p.text-small Infografía de Pipeline del videojuego 
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
                     span Descargar
