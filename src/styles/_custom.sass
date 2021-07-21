@@ -59,10 +59,21 @@
     background-size: cover
     border-radius: 15px
 
+@media screen and ( min-width: 1200 )
+  .carousel
+    .carousel-inner
+      min-height: 400px
+
 .container-title
   background-color: $white
   border-top-left-radius: 20px
   border-top-right-radius: 20px
+.container-title.bottom
+  background-color: $white
+  border-top-left-radius: 0px
+  border-top-right-radius: 0px
+  border-bottom-left-radius: 20px
+  border-bottom-right-radius: 20px
 .carousel
   button
     background-color: #fcfcfc
@@ -116,5 +127,66 @@ figure.container-elements
           font-size: 12px
           border: none
 .container-maquinas
-  background: rgb(102,207,234);
-  background: linear-gradient(172deg, rgba(102,207,234,1) 0%, rgba(21,183,222,1) 100%);
+  background: rgb(102,207,234)
+  background: linear-gradient(172deg, rgba(102,207,234,1) 0%, rgba(21,183,222,1) 100%)
+
+.div-background-games
+  background-image: url('../assets/curso/tema1-imagen19.svg')
+  background-repeat: no-repeat
+  background-size: cover
+  border-radius: 20px
+.container-juegos-blanco
+  background-color: white
+  border-radius: 15px
+
+.cajon.color-acento-contenido
+  background-color: mix($color-acento-contenido, #fff, 25%)
+
+.tabs-a__tab
+  background-color: #E8E8E8
+.tabs-a__tab__selected
+  > *
+    color: white
+
+.tarjeta.color-primario
+  background-color: mix($color-primario, #fff, 15%)
+  > *
+    color: black
+    strong
+      color: black
+  ul
+    li
+      p
+        color: black
+        strong
+          color: black
+
+.line-selector-text
+  height: 8px
+  &.color-acento-contenido
+    background-color: $color-acento-contenido
+  &.color-primario
+    background-color: $color-secundario
+.caja-texto
+  &.color-acento-contenido
+    background-color: #E1DDFC
+  &.color-primario
+    background-color: #D8F3F9
+
+ul.lista-ul--color.change
+  li
+    i
+      color: $color-primario
+.horizontal-scroll
+  align-items: start!important
+
+.bloque-texto-a.color-primario
+  background-color: $color-primario
+  &::before
+    background-color: #DCE5E7
+
+figure
+  text-align: center
+  img
+    width: auto
+    max-height: 100%!important
