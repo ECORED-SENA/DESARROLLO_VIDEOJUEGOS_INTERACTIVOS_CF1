@@ -708,102 +708,81 @@
         i.fas.fa-gamepad
         p.mb-0 Y, también, tener los elementos que se pueden destruir, mover, tirar. Elementos que pueden esconder algún secreto, no tener nada, o facilitar el acceso a otro espacio. 
 
-    #carouselExampleIndicators.carousel.slide.mb-5(data-bs-ride='carousel')
-      .carousel-indicators
-        button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
-        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
-        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='2' aria-label='Slide 3')
-        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='3' aria-label='Slide 4')
-        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='4' aria-label='Slide 5')
-        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='5' aria-label='Slide 6')
-        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='6' aria-label='Slide 7')
-        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='7' aria-label='Slide 8')
-        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='8' aria-label='Slide 9')
-        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='9' aria-label='Slide 10')
-        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='10' aria-label='Slide 11')
-      .carousel-inner.p-5
-        .row.align-items-center
-          .col
-            .carousel-item.active
-              .row.justify-content-center
-                .col-11
-                  .pt-2.pb-1.ps-4.pe-4.container-title
-                    .row
-                      .col
-                        p.mb-0 En la figura 43, de “Megaman 10”, se puede observar el recorrido de principio a fin.
-                      .col-auto
-                        .titulo-sexto.color-acento-contenido.mb-0
-                          h5 Figura 43
-                          span <i>Ejemplo uno, escenario “Megaman 10”</i>
-              img(src="@/assets/curso/tema2-imagen33.png")
-
-            .carousel-item
-              .row.justify-content-center
-                .col-11
-                  .pt-2.pb-1.ps-4.pe-4.container-title
-                    .row
-                      .col
-                        p.mb-0 En el siguiente fragmento de la figura 44, de “Megaman 10”, se puede observar uno de los espacios por donde debe pasar “Megaman”, aquí inicia la historia y el personaje realiza saltos para poder avanzar al siguiente nivel.
-                      .col-auto
-                        .titulo-sexto.color-acento-contenido.mb-0
-                          h5 Figura 44
-                          span <i>Ejemplo dos, escenario “Megaman 10”</i>
-              img(src="@/assets/curso/tema2-imagen34.png")
-
-            .carousel-item
-              .row.justify-content-center
-                .col-11
-                  .pt-2.pb-1.ps-4.pe-4.container-title
-                    p.mb-0 En la figura 45, se puede ver que en el piso hay unos pinchos, si el personaje cae en esas zonas, automáticamente muere; también, al final del nivel, se pueden observar unas escaleras para pasar al siguiente nivel.
-              img(src="@/assets/curso/tema2-imagen35.png")
-              .row.justify-content-center
-                .col-11
-                  .pt-2.pb-1.ps-4.pe-4.container-title.bottom
-                    .row.justify-content-center
-                      .col-auto
-                        .titulo-sexto.color-acento-contenido.mb-0
-                          h5 Figura 45
-                          span <i>Ejemplo tres, escenario “Megaman 10”</i>
-
-            .carousel-item
-              .row.justify-content-center
-                .col-11
-                  .pt-2.pb-1.ps-4.pe-4.container-title
-                    p.mb-0 En la figura 46, se observa el enemigo mayor ante el que se debe pelear, y es el último nivel por el que se atraviesa.
-              img(src="@/assets/curso/tema2-imagen36.png")
-              .row.justify-content-center
-                .col-11
-                  .pt-2.pb-1.ps-4.pe-4.container-title.bottom
-                    .row.justify-content-center
-                      .col-auto
-                        .titulo-sexto.color-acento-contenido.mb-0
-                          h5 Figura 46
-                          span <i>Ejemplo cuatro, nivel final “Megaman 10”</i>
-
-            .carousel-item
-              .row.justify-content-center
-                .col-11
-                  .pt-2.pb-1.ps-4.pe-4.container-title
-                    p.mb-0 En todos estos niveles, finalmente, se le agregan los npc enemigos y el resto de obstáculos que complementan la dificultad de los recorridos, lo que aumenta el ritmo de juego.
-              img(src="@/assets/curso/tema2-imagen37.png")
-              .row.justify-content-center
-                .col-11
-                  .pt-2.pb-1.ps-4.pe-4.container-title.bottom
-                    .row.justify-content-center
-                      .col-auto
-                        .titulo-sexto.color-acento-contenido.mb-0
-                          h5 Figura 47
-                          span <i>Niveles de un videojuego</i>
-
-
-
-
-      button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
-        span.carousel-control-prev-icon(aria-hidden='true')
-        span.visually-hidden Previous
-      button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
-        span.carousel-control-next-icon(aria-hidden='true')
-        span.visually-hidden Next
+    .p-5
+      .tarjeta.tarjeta--games.p-4.mb-5
+        SlyderA
+          .p-5
+            .row.justify-content-center
+              .col-11
+                .pt-2.pb-1.ps-4.pe-4.container-title
+                  .row
+                    .col
+                      p.mb-0 En la figura 43, de “Megaman 10”, se puede observar el recorrido de principio a fin.
+                    .col-auto
+                      .titulo-sexto.color-acento-contenido.mb-0
+                        h5 Figura 43
+                        span <i>Ejemplo uno, escenario “Megaman 10”</i>
+            img(src="@/assets/curso/tema2-imagen33.png")
+          .p-5
+            .row.justify-content-center
+              .col-11
+                .pt-2.pb-1.ps-4.pe-4.container-title
+                  .row
+                    .col
+                      p.mb-0 En el siguiente fragmento de la figura 44, de “Megaman 10”, se puede observar uno de los espacios por donde debe pasar “Megaman”, aquí inicia la historia y el personaje realiza saltos para poder avanzar al siguiente nivel.
+                    .col-auto
+                      .titulo-sexto.color-acento-contenido.mb-0
+                        h5 Figura 44
+                        span <i>Ejemplo dos, escenario “Megaman 10”</i>
+            img(src="@/assets/curso/tema2-imagen34.png")
+          .p-5
+            .row.justify-content-center
+              .col-12.col-md-10
+                .row.justify-content-center
+                  .col-11
+                    .pt-2.pb-1.ps-4.pe-4.container-title
+                      p.mb-0 En la figura 45, se puede ver que en el piso hay unos pinchos, si el personaje cae en esas zonas, automáticamente muere; también, al final del nivel, se pueden observar unas escaleras para pasar al siguiente nivel.
+                img(src="@/assets/curso/tema2-imagen35.png")
+                .row.justify-content-center
+                  .col-11
+                    .pt-2.pb-1.ps-4.pe-4.container-title.bottom
+                      .row.justify-content-center
+                        .col-auto
+                          .titulo-sexto.color-acento-contenido.mb-0
+                            h5 Figura 45
+                            span <i>Ejemplo tres, escenario “Megaman 10”</i>
+          .p-5
+            .row.justify-content-center
+              .col-12.col-md-6
+                .row.justify-content-center
+                  .col-11
+                    .pt-2.pb-1.ps-4.pe-4.container-title
+                      p.mb-0 En la figura 46, se observa el enemigo mayor ante el que se debe pelear, y es el último nivel por el que se atraviesa.
+                img(src="@/assets/curso/tema2-imagen36.png")
+                .row.justify-content-center
+                  .col-11
+                    .pt-2.pb-1.ps-4.pe-4.container-title.bottom
+                      .row.justify-content-center
+                        .col-auto
+                          .titulo-sexto.color-acento-contenido.mb-0
+                            h5 Figura 46
+                            span <i>Ejemplo cuatro, nivel final “Megaman 10”</i>
+          .p-5
+            .row.justify-content-center
+              .col-12.col-md-10
+                .row.justify-content-center
+                  .col-11
+                    .pt-2.pb-1.ps-4.pe-4.container-title
+                      p.mb-0 En todos estos niveles, finalmente, se le agregan los npc enemigos y el resto de obstáculos que complementan la dificultad de los recorridos, lo que aumenta el ritmo de juego.
+                img(src="@/assets/curso/tema2-imagen37.png")
+                .row.justify-content-center
+                  .col-11
+                    .pt-2.pb-1.ps-4.pe-4.container-title.bottom
+                      .row.justify-content-center
+                        .col-auto
+                          .titulo-sexto.color-acento-contenido.mb-0
+                            h5 Figura 47
+                            span <i>Niveles de un videojuego</i>
   
 </template>
 
