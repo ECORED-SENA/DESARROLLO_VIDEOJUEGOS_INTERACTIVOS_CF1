@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
     
-    figure.mb-5
+    figure.mb-5(data-aos="zoom-in" data-aos-delay="150" data-aos-offset="200" data-aos-duration="1000")
       img(src="@/assets/curso/introduccion-banner.svg", alt="Texto que describa la imagen")
 
     .px-4.py-3.texto-color-offset-top-left

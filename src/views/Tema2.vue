@@ -13,7 +13,7 @@
 
     .row.justify-content-center
       .col-12.col-lg-10
-        .row.container-uno-color.p-5.mb-5
+        .row.container-uno-color.p-5.mb-5(data-aos="fade-left" data-aos-delay="100" data-aos-duration="600")
           .col-12.col-lg-3.mb-5.mb-lg-0
             figure
               img(src="@/assets/curso/tema2-imagen1.svg")
@@ -23,7 +23,7 @@
               br
               | Ejemplo lluvia de ideas: niño aventurero, explora, animales, extraterrestre, niño desjuiciado, desaparecido, escape, lucha, monstruos, mamá, busca comida, perdida en bosque, medallones para regresar y avanzar, alimentar el niño, duende, explora ambientes uno frío y uno cálido, busca de medallones, monedas de oro, pasa niveles recolectando, árboles, bosque, noche, día, puente, muerte, mundo, dios, flores, frutas, mago.
 
-        .row.container-uno-color.claro.p-5.mb-5
+        .row.container-uno-color.claro.p-5.mb-5(data-aos="fade-right" data-aos-delay="200" data-aos-duration="600")
           .col-12.col-lg-3.mb-5.mb-lg-0
             figure
               img(src="@/assets/curso/tema2-imagen2.svg")
@@ -31,7 +31,7 @@
             h4 b. Escoger la temática  
             p.mb-5 Se recomienda crear la temática a partir de las ideas más relevantes que surjan de la lluvia de ideas para armar su propia temática. Ejemplo temático: Flynn: niño perdido en un bosque, busca frutos para ayudar a su madre a curarse de una enfermedad terminal.
 
-        .row.container-uno-color.p-5.mb-5
+        .row.container-uno-color.p-5.mb-5(data-aos="fade-left" data-aos-delay="200" data-aos-duration="600")
           .col-12.col-lg-3.mb-5.mb-lg-0
             figure
               img(src="@/assets/curso/tema2-imagen3.svg")
@@ -293,7 +293,7 @@
     p.mb-5 ¿Cómo se afecta la percepción de los objetos según la clase de luz que los ilumina? Estos van a mostrar ciertas características gracias al tipo de iluminación que se utiliza.  Es posible distinguir ciertos aspectos de los elementos, tales como su color, textura, volumen, forma, ubicación en el espacio, entre otros, los cuales pueden variar debido al uso de un tipo de iluminación en particular. Gracias a las luces y sombras, es posible percibir la forma tridimensional de un objeto, por eso es preciso mencionar que hay que tener en cuenta qué tipo de iluminación está afectando nuestra escena; para ello, a continuación, se mencionan los tipos de luces que se implementan:
 
     .row.mb-5
-      .col-12.col-lg-6.mb-5.mb-lg-0.d-flex
+      .col-12.col-lg-6.mb-5.mb-lg-0.d-flex(data-aos="slide-right" data-aos-delay="250" data-aos-duration="600" data-aos-offset="200")
         .caja-texto.color-primario.p-5
           .row.mb-5
             .col-3
@@ -301,7 +301,7 @@
           p.mb-0
             strong Luz natural:
             |  La luz natural es la que emite el sol y se proyecta sobre los cuerpos, pero varía según la hora del día. Por ello, es posible notar el momento del día según la posición del sol. Asimismo, las sombras variarán y será posible ver que, según se mueva el sol, las sombras serán más largas o más cortas sobre el piso, las sombras de los objetos serán marcadas de forma dura y densa. Esto puede variar solo cuando se encuentra un cielo nublado, el cual sirve de filtro, lo que hará que la luz sea menos densa y las sombras sean más tenues, menos marcadas. La hora del día también influirá en cómo se ve cualquier objeto, si se ve más frío o más cálido.
-      .col-12.col-lg-6.d-flex
+      .col-12.col-lg-6.d-flex(data-aos="slide-left" data-aos-delay="250" data-aos-duration="600" data-aos-offset="200")
         .caja-texto.color-acento-contenido.p-5
           .row.mb-5
             .col-3
@@ -310,7 +310,7 @@
             strong Luz articial:
             |  La luz artificial sería toda aquella producida por linternas, lámparas, bombillos, fogatas, velas, antorchas, entre otras. Puede propagarse de forma recta o radial, puede tener diferentes posiciones y orientaciones, así como también variedad de colores, intensidades y texturas
     
-    TabsC.color-acento-contenido.mb-5
+    TabsC.color-acento-contenido.mb-5(data-aos="slide-up" data-aos-delay="300" data-aos-duration="600" data-aos-offset="200")
       .py-3.py-md-4(titulo="Aspectos importantes de la luz")
         SlyderP
           .row
@@ -610,7 +610,7 @@
         
         p.mb-5 Son los resultados de haber puesto en acción las mecánicas. Estas hacen parte fundamental del juego y definen de alguna manera el estilo de ellos. Algunos ejemplos de estas son:
 
-        .row.align-items-center.container-uno-color.p-5.mb-5
+        .row.align-items-center.container-uno-color.p-5.mb-5(data-aos="slide-left" data-aos-delay="100" data-aos-duration="600" data-aos-offset="200")
           .col-12.col-lg-3.mb-5.mb-lg-0
             figure
               img(src="@/assets/curso/tema2-imagen23.svg")
@@ -618,7 +618,7 @@
             h4 Supervivencia.
             p.mb-5 Son las mecánicas que, como su nombre indica, son necesarias para que el personaje se mantenga en el juego o muera, pudiendo ser, pero no limitándose a ellas, las vidas, barra de energía, nivel de sangre, nivel de hambre o sed, entre otras.
 
-        .row.align-items-center.container-uno-color.claro.p-5.mb-5
+        .row.align-items-center.container-uno-color.claro.p-5.mb-5(data-aos="slide-right" data-aos-delay="100" data-aos-duration="600" data-aos-offset="200") 
           .col-12.col-lg-3.mb-5.mb-lg-0
             figure
               img(src="@/assets/curso/tema2-imagen24.svg")
@@ -626,7 +626,7 @@
             h4 Puntaje y/o experiencia. 
             p.mb-5 Representa el porcentaje de avance en estadísticas del personaje, en el cual está el usuario en el juego.
 
-        .row.align-items-center.container-uno-color.p-5.mb-5
+        .row.align-items-center.container-uno-color.p-5.mb-5(data-aos="slide-left" data-aos-delay="100" data-aos-duration="600" data-aos-offset="200")
           .col-12.col-lg-3.mb-5.mb-lg-0
             figure
               img(src="@/assets/curso/tema2-imagen25.svg")
@@ -634,7 +634,7 @@
             h4 Niveles. 
             p.mb-5 Hacen parte de los puntos a alcanzar para avanzar en la evolución o mejora del personaje en el juego.
 
-        .row.align-items-center.container-uno-color.claro.p-5.mb-5
+        .row.align-items-center.container-uno-color.claro.p-5.mb-5(data-aos="slide-right" data-aos-delay="100" data-aos-duration="600" data-aos-offset="200")
           .col-12.col-lg-3.mb-5.mb-lg-0
             figure
               img(src="@/assets/curso/tema2-imagen26.svg")
@@ -642,7 +642,7 @@
             h4 Conquista de territorios
             p.mb-5 Son las dinámicas principales en los juegos FPS, donde se busca conquistar un mapa o territorio.
 
-        .row.align-items-center.container-uno-color.p-5.mb-5
+        .row.align-items-center.container-uno-color.p-5.mb-5(data-aos="slide-left" data-aos-delay="100" data-aos-duration="600" data-aos-offset="200")
           .col-12.col-lg-3.mb-5.mb-lg-0
             figure
               img(src="@/assets/curso/tema2-imagen27.svg")
@@ -650,7 +650,7 @@
             h4 Entendimiento espacial.  
             p.mb-5 Los juegos de <i>puzzles</i> incluyen esta dinámica, en la que se busca, mediante habilidades, poder solucionar rompecabezas o acertijos.
 
-        .row.align-items-center.container-uno-color.claro.p-5.mb-5
+        .row.align-items-center.container-uno-color.claro.p-5.mb-5(data-aos="slide-right" data-aos-delay="100" data-aos-duration="600" data-aos-offset="200")
           .col-12.col-lg-3.mb-5.mb-lg-0
             figure
               img(src="@/assets/curso/tema2-imagen28.svg")
@@ -658,7 +658,7 @@
             h4 Destrucción
             p.mb-5 Son dinámicas en las que el objetivo principal es acabar con todo. Los <i>“Battle Royal”</i> son ejemplo de este tipo de dinámicas.
 
-        .row.align-items-center.container-uno-color.p-5.mb-5
+        .row.align-items-center.container-uno-color.p-5.mb-5(data-aos="slide-left" data-aos-delay="100" data-aos-duration="600" data-aos-offset="200")
           .col-12.col-lg-3.mb-5.mb-lg-0
             figure
               img(src="@/assets/curso/tema2-imagen29.svg")
@@ -666,7 +666,7 @@
             h4 Construcción. 
             p.mb-5 Dinámicas en que la acción principal es que, para avanzar, se necesita crear elementos que influyen en el entorno. Ejemplo de estos juegos son <i>“Dragon quest builders”, “Minecraft”</i>.
 
-        .row.align-items-center.container-uno-color.claro.p-5.mb-5
+        .row.align-items-center.container-uno-color.claro.p-5.mb-5(data-aos="slide-right" data-aos-delay="100" data-aos-duration="600" data-aos-offset="200")
           .col-12.col-lg-3.mb-5.mb-lg-0
             figure
               img(src="@/assets/curso/tema2-imagen30.svg")
@@ -674,7 +674,7 @@
             h4 Colección.
             p.mb-5 En esta dinámica, la finalidad es recolectar ciertos elementos para poder avanzar o ganar la partida. Se usa frecuentemente en juegos de plataforma, donde, para avanzar de nivel, se tiene que recolectar elementos como monedas o estrellas. Ejemplo de ello son juegos como <i>“Little Big Planet”</i>.
 
-        .row.align-items-center.container-uno-color.p-5.mb-5
+        .row.align-items-center.container-uno-color.p-5.mb-5(data-aos="slide-left" data-aos-delay="100" data-aos-duration="600" data-aos-offset="200")
           .col-12.col-lg-3.mb-5.mb-lg-0
             figure
               img(src="@/assets/curso/tema2-imagen31.svg")
@@ -682,7 +682,7 @@
             h4 Persecución o evasión. 
             p.mb-5 Juegos en los que la finalidad es capturar o escapar de otros elementos o personajes. Se puede resaltar un juego como <i>“Pacman”</i>, u otros más recientes que usan esta dinámica, como <i>“Grand Theft Auto”</i> o <i>“Saints Row”</i>.
 
-        .row.align-items-center.container-uno-color.claro.p-5.mb-5
+        .row.align-items-center.container-uno-color.claro.p-5.mb-5(data-aos="slide-right" data-aos-delay="100" data-aos-duration="600" data-aos-offset="200")
           .col-12.col-lg-3.mb-5.mb-lg-0
             figure
               img(src="@/assets/curso/tema2-imagen32.svg")
