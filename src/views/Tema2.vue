@@ -140,7 +140,7 @@
           p Observe el ejemplo de la ficha técnica de identidad para un personaje principal.
           .row
             .col-12.col-lg-7.offset-lg-5
-              a.anexo.mb-4(:href="obtenerLink('/downloads/CF001_2.1_Ficha Técnica de personaje.docx - Documentos de Google.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('/downloads/CF001_2.1_Ficha Técnica de personaje.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -276,7 +276,7 @@
 
     .row
       .col-12.col-lg-7.offset-lg-5
-        a.anexo.mb-4(:href="obtenerLink('/downloads/CF001_2.2_Creacion de la historia.docx - Documentos de Google.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/CF001_2.2_Creacion de la historia.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -492,7 +492,7 @@
 
     .row
       .col-12.col-lg-4.offset-lg-8
-        a.anexo.mb-4(:href="obtenerLink('/downloads/CF001_2.4_Guion tecnico.docx - Documentos de Google.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/CF001_2.4_Guion tecnico.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -523,7 +523,7 @@
           br
           br
           | En el diseño de videojuegos, se toma una maqueta o plantilla principal como molde, allí se describe la estructura base del videojuego y se describen los niveles del mismo, creando una plantilla para cada nivel, con el fin de tener claridad en las características y diferencias que existen entre nivel y nivel, y para detallar las interacciones del personaje con el entorno y los objetos activos.
-        a.anexo.mb-4(:href="obtenerLink('/downloads/CF001_2.4_Guion tecnico.docx - Documentos de Google.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/CF001_2.5_Plantilla Storyboard.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

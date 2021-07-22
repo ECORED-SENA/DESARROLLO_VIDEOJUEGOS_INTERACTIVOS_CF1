@@ -23,7 +23,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Historia del videojuego',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -50,7 +50,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Idea general del videojuego',
         desarrolloContenidos: true,
         subMenu: [
           {

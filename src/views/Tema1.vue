@@ -215,7 +215,6 @@
     figure.mb-5
       img(src='@/assets/curso/tema1-imagen17.svg')
 
-    TODO: Pendiente de implementar infografia
     .row.justify-content-center
       .col-12.col-lg-10
         .tarjeta.color-primario.container-maquinas.p-3
@@ -228,7 +227,7 @@
                   h3.mb-1 Ver anexo de Infografía
                   p.text-small Infografía de Pipeline del videojuego 
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/infografia 1.1_l.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
     
