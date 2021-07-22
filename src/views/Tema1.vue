@@ -215,7 +215,7 @@
     figure.mb-5
       img(src='@/assets/curso/tema1-imagen17.svg')
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-in" data-aos-delay="100" data-aos-duration="600")
       .col-12.col-lg-10
         .tarjeta.color-primario.container-maquinas.p-3
           .row.justify-content-around.align-items-center
@@ -253,7 +253,7 @@
                     .titulo-sexto.color-acento-contenido.mb-0
                       h5 Figura 2
                       span Videojuego audio Ninja
-              figure(style="max-height: 235px")
+              figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen20.jpg")
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
@@ -266,7 +266,7 @@
                     .titulo-sexto.color-acento-contenido.mb-0
                       h5 Figura 2
                       span Videojuego Grabbity
-              figure(style="max-height: 235px")
+              figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen21.jpg")
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
@@ -292,7 +292,7 @@
                     .titulo-sexto.color-acento-contenido.mb-0
                       h5 Figura 2
                       span Videojuego Story Warriors
-              figure(style="max-height: 235px")
+              figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen23.jpg")
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
@@ -305,7 +305,7 @@
                     .titulo-sexto.color-acento-contenido.mb-0
                       h5 Figura 2
                       span Videojuego Neón Fury
-              figure(style="max-height: 235px")
+              figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen24.jpg")
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
@@ -318,7 +318,7 @@
                     .titulo-sexto.color-acento-contenido.mb-0
                       h5 Figura 2
                       span Videojuego World War Doh 
-              figure(style="max-height: 235px")
+              figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen25.jpg")
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
@@ -331,7 +331,7 @@
                     .titulo-sexto.color-acento-contenido.mb-0
                       h5 Figura 2
                       span Videojuego Ark: Survival Evolved 
-              figure(style="max-height: 235px")
+              figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen26.jpg")
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
@@ -344,7 +344,7 @@
                     .titulo-sexto.color-acento-contenido.mb-0
                       h5 Figura 2
                       span Videojuego Haimrik
-              figure(style="max-height: 235px")
+              figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen27.jpg")
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
@@ -359,7 +359,7 @@
                     .titulo-sexto.color-acento-contenido.mb-0
                       h5 Figura 2
                       span Videojuego Un cabrón en Transmilenio 
-              figure(style="max-height: 235px")
+              figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen28.jpg")
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
@@ -372,7 +372,7 @@
                     .titulo-sexto.color-acento-contenido.mb-0
                       h5 Figura 2
                       span Videojuego Captain Toonhead 
-              figure(style="max-height: 235px")
+              figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen29.jpg")
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
@@ -385,7 +385,7 @@
                     .titulo-sexto.color-acento-contenido.mb-0
                       h5 Figura 2
                       span Videojuego Cristales
-              figure(style="max-height: 235px")
+              figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen30.jpg")    
 
     #t_1_3.titulo-segundo
@@ -527,7 +527,7 @@
 
     .row.justify-content-center.mb-5
       .col-12.col-lg-10
-        .row.container-uno-color.p-5.mb-5
+        .row.container-uno-color.p-5.mb-5(data-aos="slide-right" data-aos-delay="100" data-aos-duration="600")
           .col-12.col-lg-3.mb-5.mb-lg-0
             figure
               img(src="@/assets/curso/tema1-imagen41.svg")
@@ -544,7 +544,7 @@
                 figure
                   img(src="@/assets/curso/tema1-imagen42.svg")
 
-        .row.container-uno-color.claro.p-5
+        .row.container-uno-color.claro.p-5(data-aos="slide-left" data-aos-delay="100" data-aos-duration="600")
           .col-12.col-lg-3.mb-5.mb-lg-0
             figure
               img(src="@/assets/curso/tema1-imagen43.svg")
@@ -571,40 +571,40 @@
     p.mb-5 Las consolas de videojuegos siguen siendo el sistema más popular de la actualidad. Entre ellas, se puede encontrar un cruce generacional, lo que se conoce como consolas de anterior generación y de nueva generación.
 
     .row.mb-5
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex(data-aos="zoom-in-left" data-aos-delay="200" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen45.png")
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         table
           tbody
             tr
               td.align-middle Es la cuarta consola de la marca Sony, salió al mercado en 2013. Modo de gráficos mejorados: el juego se ejecuta a 1080p y 30 fps, pero con mejoras gráficas. 
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen46.png")
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text(data-aos="zoom-in-right" data-aos-delay="200" data-aos-duration="600")
         table
           tbody
             tr
               td.align-middle  Tercera consola de videojuegos lanzada por Microsoft con polémica, puesto que se pretendía que fuese obligatorio que siempre estuviese conectada a Internet para poder usarse. Lanzada en 2013, se considera de anterior generación, precedida por la actual Xbox Series X.
     .row.mb-5
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex(data-aos="zoom-in-left" data-aos-delay="200" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen47.png")
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         table
           tbody
             tr
               td.align-middle Consola de videojuegos de la marca Sony, la quinta en ser lanzada por esta marca, en 2020.  Con dos modelos, uno con unidad lectora de disco y otro sin esta. Desarrollada para mostrar juegos con resoluciones 4K.
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen48.png")
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text(data-aos="zoom-in-right" data-aos-delay="200" data-aos-duration="600")
         table
           tbody
             tr
               td.align-middle Cuarta consola de generación lanzada por Microsoft para competir con la PS5. Destaca por su capacidad de dar soporte a resoluciones 8K.
-    .row.mb-5
+    .row.mb-5(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
       .col-12.col-lg-3.mb-5.mb-lg-0.d-flex
         figure.container-elements.p-5
           img(src="@/assets/curso/tema1-imagen49.png")
@@ -619,52 +619,52 @@
     p.mb-5 En los últimos años se ha vuelto muy popular el PC como sistema de videojuegos, esto en parte porque las desarrolladoras están lanzando por este medio los juegos que salen en videoconsolas. Se perfila a futuro como el sistema por excelencia. En el PC, es posible encontrar plataformas dedicadas a videojuegos basados en la nube, en un sistema similar a como trabaja Netflix, de las cuales podemos destacar las siguientes:
 
     .row.mb-5
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex(data-aos="zoom-in-left" data-aos-delay="100" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen50.png")
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         table
           tbody
             tr
               td.align-middle Perteneciente a Valve, es la más grande plataforma de videojuegos para PC y MAC, con más de 7300 juegos, en la cual se pueden encontrar juegos de todo tipo, incluso los llamados Free to Play.
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen51.png")
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text(data-aos="zoom-in-right" data-aos-delay="100" data-aos-duration="600")
         table
           tbody
             tr
               td.align-middle Es la plataforma de videojuegos de Google, ofrece videojuegos vía streaming, es decir, se ejecutan en los servidores de Google y se juegan a través de la app o el navegador.
     .row.mb-5
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex(data-aos="zoom-in-left" data-aos-delay="100" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen52.png")
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         table
           tbody
             tr
               td.align-middle Es la plataforma de Ubisoft, desarrolladora destacada de videojuegos, en la cual podemos encontrar la saga “Assassins Creed”.
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen53.png")
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text(data-aos="zoom-in-right" data-aos-delay="100" data-aos-duration="600")
         table
           tbody
             tr
               td.align-middle Plataforma perteneciente a la desarrolladora Electronics Arts, que se destaca por poseer juegos como FIFA.
     .row.mb-5
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex(data-aos="zoom-in-left" data-aos-delay="100" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen54.png")
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         table
           tbody
             tr
               td.align-middle Plataforma que ha tomado mucha popularidad por ser la desarrolladora del juego free to play “Fornite” y el motor de videojuegos Unreal Engine; además de que semanalmente obsequian juegos.
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen55.png")
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text(data-aos="zoom-in-right" data-aos-delay="100" data-aos-duration="600")
         table
           tbody
             tr
