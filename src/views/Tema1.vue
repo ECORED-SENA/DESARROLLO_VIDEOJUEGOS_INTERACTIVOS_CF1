@@ -239,21 +239,9 @@
     .mb-4.px-4.py-3.texto-color-offset-top-left-2.color-secundario
       p.mb-0 Aquí se mencionan algunos de los videojuegos más sobresalientes elaborados por empresas colombianas, algunos ganadores de diferentes premios, como también catalogados entre los más descargados. Cabe aclarar que no son todos los videojuegos realizados en el país:
 
-    #carouselExampleIndicators.carousel.slide.mb-5(data-bs-ride='carousel')
-      .carousel-indicators
-        button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
-        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
-        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='2' aria-label='Slide 3')
-        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='3' aria-label='Slide 4')
-        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='4' aria-label='Slide 5')
-        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='5' aria-label='Slide 6')
-        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='6' aria-label='Slide 7')
-        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='7' aria-label='Slide 8')
-        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='8' aria-label='Slide 9')
-        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='9' aria-label='Slide 10')
-        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='10' aria-label='Slide 11')
-      .carousel-inner.p-5
-        .carousel-item.active
+    .p-5
+      .tarjeta.tarjeta--games.p-4.mb-5
+        SlyderA
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
               .h5 Audio Ninja 
@@ -267,7 +255,6 @@
                       span Videojuego audio Ninja
               figure(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen20.jpg")
-        .carousel-item
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
               .h5 Grabbity
@@ -278,24 +265,22 @@
                   .pt-2.pb-1.ps-4.pe-4.container-title
                     .titulo-sexto.color-acento-contenido.mb-0
                       h5 Figura 2
-                      span Videojuego audio Ninja
+                      span Videojuego Grabbity
               figure(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen21.jpg")
-        .carousel-item
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
               .h5 Poltergeist: a Pixelated horror 
               p.mb-0 En este juego tipo puzzle en 2D, creado bajo la técnica pixel art, en vista isométrica, el jugador debe asumir el papel de Henry B. Knight, un fantasma que tiene por objetivo hacer huir a la familia que vive en su antigua mansión. Fue creado por el estudio Glitchy Pixel y se lanzó al mercado en el año 2014.
-            .col-12.col-lg-5
+            .col-12.col-lg-3.offset-lg-2
               .row.justify-content-center
                 .col-auto
                   .pt-2.pb-1.ps-4.pe-4.container-title
                     .titulo-sexto.color-acento-contenido.mb-0
                       h5 Figura 2
-                      span Videojuego audio Ninja
-              figure(style="max-height: 235px")
+                      span Videojuego Poltergeist
+              figure
                 img(src="@/assets/curso/tema1-imagen22.jpg")
-        .carousel-item
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
               .h5 Story Warriors: Fairy Tales (2015) 
@@ -306,10 +291,9 @@
                   .pt-2.pb-1.ps-4.pe-4.container-title
                     .titulo-sexto.color-acento-contenido.mb-0
                       h5 Figura 2
-                      span Videojuego audio Ninja
+                      span Videojuego Story Warriors
               figure(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen23.jpg")
-        .carousel-item
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
               .h5 Neon Fury. Neón Fury (2017) 
@@ -320,10 +304,9 @@
                   .pt-2.pb-1.ps-4.pe-4.container-title
                     .titulo-sexto.color-acento-contenido.mb-0
                       h5 Figura 2
-                      span Videojuego audio Ninja
+                      span Videojuego Neón Fury
               figure(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen24.jpg")
-        .carousel-item
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
               .h5 World War Doh 
@@ -334,10 +317,9 @@
                   .pt-2.pb-1.ps-4.pe-4.container-title
                     .titulo-sexto.color-acento-contenido.mb-0
                       h5 Figura 2
-                      span Videojuego audio Ninja
+                      span Videojuego World War Doh 
               figure(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen25.jpg")
-        .carousel-item
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
               .h5 Ark: Survival Evolved 
@@ -348,10 +330,9 @@
                   .pt-2.pb-1.ps-4.pe-4.container-title
                     .titulo-sexto.color-acento-contenido.mb-0
                       h5 Figura 2
-                      span Videojuego audio Ninja
+                      span Videojuego Ark: Survival Evolved 
               figure(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen26.jpg")
-        .carousel-item
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
               .h5 Haimrik (2018)  
@@ -362,10 +343,9 @@
                   .pt-2.pb-1.ps-4.pe-4.container-title
                     .titulo-sexto.color-acento-contenido.mb-0
                       h5 Figura 2
-                      span Videojuego audio Ninja
+                      span Videojuego Haimrik
               figure(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen27.jpg")
-        .carousel-item
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
               .h5 Un cabrón en Transmilenio 
@@ -378,10 +358,9 @@
                   .pt-2.pb-1.ps-4.pe-4.container-title
                     .titulo-sexto.color-acento-contenido.mb-0
                       h5 Figura 2
-                      span Videojuego audio Ninja
+                      span Videojuego Un cabrón en Transmilenio 
               figure(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen28.jpg")
-        .carousel-item
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
               .h5 Captain Toonhead 
@@ -392,10 +371,9 @@
                   .pt-2.pb-1.ps-4.pe-4.container-title
                     .titulo-sexto.color-acento-contenido.mb-0
                       h5 Figura 2
-                      span Videojuego audio Ninja
+                      span Videojuego Captain Toonhead 
               figure(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen29.jpg")
-        .carousel-item
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
               .h5 Cristales 
@@ -406,15 +384,9 @@
                   .pt-2.pb-1.ps-4.pe-4.container-title
                     .titulo-sexto.color-acento-contenido.mb-0
                       h5 Figura 2
-                      span Videojuego audio Ninja
+                      span Videojuego Cristales
               figure(style="max-height: 235px")
-                img(src="@/assets/curso/tema1-imagen30.jpg")
-      button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
-        span.carousel-control-prev-icon(aria-hidden='true')
-        span.visually-hidden Previous
-      button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
-        span.carousel-control-next-icon(aria-hidden='true')
-        span.visually-hidden Next
+                img(src="@/assets/curso/tema1-imagen30.jpg")    
 
     #t_1_3.titulo-segundo
       h2 1.3  Tipos de videojuegos y plataformas

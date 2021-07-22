@@ -1,6 +1,6 @@
 <template lang="pug">
 .slyder-c.px-5.py-3
-  ScrollHorizontal(v-if="elements.length" :selectedId="selected" item-full-width)
+  ScrollHorizontal.especial-hscroll(v-if="elements.length" :selectedId="selected" item-full-width)
     .slyder-c__slyde(
       v-for="(elm,index) in elements" 
       :key="'key-'+getId(index)"
