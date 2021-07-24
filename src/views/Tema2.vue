@@ -140,7 +140,7 @@
           p Observe el ejemplo de la ficha técnica de identidad para un personaje principal.
           .row
             .col-12.col-lg-7.offset-lg-5
-              a.anexo.mb-4(:href="obtenerLink('/downloads/CF001_2.1_Ficha Técnica de personaje.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('/downloads/CF001_2.1_Ficha Tecnica de personaje.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
