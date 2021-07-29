@@ -29,7 +29,7 @@
               img(src="@/assets/curso/tema2-imagen2.svg")
           .col-12.col-lg-9.mb-5.mb-lg-0
             h4 b. Escoger la temática  
-            p.mb-5 Se recomienda crear la temática a partir de las ideas más relevantes que surjan de la lluvia de ideas para armar su propia temática. Ejemplo temático: Flynn: niño perdido en un bosque, busca frutos para ayudar a su madre a curarse de una enfermedad terminal.
+            p.mb-5 Se recomienda crear la temática a partir de las ideas más relevantes que surjan de la lluvia de ideas para armar su propia temática. Ejemplo temático: <i>Flynn</i>: niño perdido en un bosque, busca frutos para ayudar a su madre a curarse de una enfermedad terminal.
 
         .row.container-uno-color.p-5.mb-5(data-aos="fade-left" data-aos-delay="200" data-aos-duration="600")
           .col-12.col-lg-3.mb-5.mb-lg-0
@@ -42,7 +42,7 @@
     h3.titulo-tercero Ejemplo de referentes de videojuegos:
 
     .row.p-4.div-background-games
-      .col-12.col-lg-4.mb-5.mb-lg-0.d-flex
+      .col-12.col-lg-4.mb-5.mb-lg-0
         .container-juegos-blanco.px-5.py-4
           .row.justify-content-center
             .col-auto
@@ -52,7 +52,7 @@
           figure
             img(src="@/assets/curso/tema2-imagen4.jpg")
             figcaption Nota. Tomada de <a href="https://playdead.com/games/limbo/#&gid=1&pid=7" target="_blank">https://playdead.com/games/limbo/#&gid=1&pid=7</a>
-      .col-12.col-lg-4.mb-5.mb-lg-0.d-flex
+      .col-12.col-lg-4.mb-5.mb-lg-0
         .container-juegos-blanco.px-5.py-4
           .row.justify-content-center
             .col-auto
@@ -61,9 +61,9 @@
                 span Videojuego <i>Do animals dream?</i>
           figure
             img(src="@/assets/curso/tema2-imagen5.jpg")
-            figcaption Nota. Tomada de <a href="https://playdead.com/games/limbo/#&gid=1&pid=7" target="_blank"></a>
+            figcaption Nota. Tomada de <a href="https://playdead.com/games/limbo/#&gid=1&pid=7" target="_blank">https://playdead.com/games/limbo/#&gid=1&pid=7</a>
 
-      .col-12.col-lg-4.d-flex
+      .col-12.col-lg-4
         .container-juegos-blanco.px-5.py-4
           .row.justify-content-center
             .col-auto
@@ -97,14 +97,14 @@
             .col-auto
               .titulo-sexto.color-acento-contenido.mb-2
                 h5 Figura 28
-                span Aspecto visual juego Agent Intercept
+                span Aspecto visual juego <i>Agent Intercept</i>
           figure
             img(src="@/assets/curso/tema2-imagen7.jpg")
             figcaption Nota. Tomada de <a href="https://store.steampowered.com/app/1502710/Agent_Intercept/" target="_blank">https://store.steampowered.com/app/1502710/Agent_Intercept/</a>
 
       .row.px-4(titulo="Thumbnails")
         .col-12.col-lg-6.mb-5.mb-lg-0
-          p.mb-0 En este paso, es donde comienza la exploración del proceso de diseño, se empiezan a hacer bocetos pequeños para explorar ideas que puedan funcionar o descartarse. Un punto a tener en cuenta es la creación de la silueta del personaje, para ver cómo se reconoce en la visualización; para ello, por ejemplo para un juego 2D lateral de plataformas, se crean thumbnails de la silueta en varias posiciones, teniendo en cuenta la vista lateral de la cámara. En igual caso, si el juego se viera en vista cenital, las siluetas deberían hacerse teniendo en cuenta esta vista.
+          p.mb-0 En este paso, es donde comienza la exploración del proceso de diseño, se empiezan a hacer bocetos pequeños para explorar ideas que puedan funcionar o descartarse. Un punto a tener en cuenta es la creación de la silueta del personaje, para ver cómo se reconoce en la visualización; para ello, por ejemplo para un juego <i>2D</i> lateral de plataformas, se crean thumbnails de la silueta en varias posiciones, teniendo en cuenta la vista lateral de la cámara. En igual caso, si el juego se viera en vista cenital, las siluetas deberían hacerse teniendo en cuenta esta vista.
         .col-12.col-lg-6
           .row.justify-content-center
             .col-auto
@@ -136,7 +136,7 @@
               .col-auto
                 .titulo-sexto.color-acento-contenido.mb-2
                   h5 Figura 31
-                  span Doce arquetipos de personalidad de Carl Gustav Jung
+                  span Doce arquetipos de personalidad de <i>Carl Gustav Jung</i>
             figure
               img(src="@/assets/curso/tema2-imagen10.svg")
               figcaption Nota. Tomada de <a href="https://www.ondho.com/que-es-arquetipo-marca/" target="_blank">https://www.ondho.com/que-es-arquetipo-marca/</a>
@@ -154,7 +154,7 @@
                 .anexo__texto
                   p
                     strong Anexo
-                    |  descargar PDF del ejemplo de la ficha técnica de un personaje.
+                    |  descargar <i>PDF</i> del ejemplo de la ficha técnica de un personaje.
 
     Separador
 
@@ -246,7 +246,7 @@
 
       .tarjeta.color-primario.p-4(titulo="D. Progresión")
         h4 Progresión
-        p Los cinco elementos de la estructura lúdica del juego, según Durgan Nallar (2015), son: deseos, objetivos, desafíos, progresión y recompensas.
+        p Los cinco elementos de la estructura lúdica del juego, según <i>Durgan Nallar</i> (2015), son: deseos, objetivos, desafíos, progresión y recompensas.
         ul.lista-ul--color
           li 
             i.fas.fa-gamepad
@@ -353,7 +353,7 @@
                 .col-auto
                   .titulo-sexto.color-acento-contenido.mb-2
                     h5 Figura 33
-                    span Ejemplo de luz frontal en software Blender
+                    span Ejemplo de luz frontal en <i>software Blender</i>
               figure
                 img(src="@/assets/curso/tema2-imagen12.png")
           .row
@@ -370,7 +370,7 @@
                 .col-auto
                   .titulo-sexto.color-acento-contenido.mb-2
                     h5 Figura 34
-                    span Ejemplo de luz lateral en software Blender
+                    span Ejemplo de luz lateral en <i>software Blender</i>
               figure
                 img(src="@/assets/curso/tema2-imagen13.png")
           .row
@@ -387,7 +387,7 @@
                 .col-auto
                   .titulo-sexto.color-acento-contenido.mb-2
                     h5 Figura 35
-                    span Ejemplo de luz cenital en software Blender
+                    span Ejemplo de luz cenital en <i>software Blender</i>
               figure
                 img(src="@/assets/curso/tema2-imagen14.png")
           .row
@@ -404,7 +404,7 @@
                 .col-auto
                   .titulo-sexto.color-acento-contenido.mb-2
                     h5 Figura 36
-                    span Ejemplo de contraluz en software Blender
+                    span Ejemplo de contraluz en <i>software Blender</i>
               figure
                 img(src="@/assets/curso/tema2-imagen15.png")
           
@@ -426,7 +426,7 @@
                 .col-auto
                   .titulo-sexto.color-acento-contenido.mb-2
                     h5 Figura 37
-                    span Ejemplo de luz dura en software Blender
+                    span Ejemplo de luz dura en <i>software Blender</i>
               figure
                 img(src="@/assets/curso/tema2-imagen16.png")
           .row
@@ -443,7 +443,7 @@
                 .col-auto
                   .titulo-sexto.color-acento-contenido.mb-2
                     h5 Figura 38
-                    span Ejemplo de luz suave en software Blender
+                    span Ejemplo de luz suave en <i>software Blender</i>
               figure
                 img(src="@/assets/curso/tema2-imagen17.png")
 
@@ -498,12 +498,20 @@
     #t_2_4.titulo-segundo
       h2 2.4  Guion técnico
 
-    p.mb-5 En el guion técnico también se describen las indicaciones técnicas precisas, como la división en planos, el encuadre que delimita el espacio, estableciendo dónde empieza y termina el cuadro. También se elige el ángulo de la cámara, dependiendo de la altura o punto de vista en que se graben los movimientos de la cámara, que pueden ser físicos u ópticos (de las lentes); los detalles de iluminación, los sonidos concretos y la música que acompaña cada escena. 
+    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-8.mb-4.mb-lg-0
+          .bloque-texto-a__texto.p-4
+            p En el guion técnico también se describen las indicaciones técnicas precisas, como la división en planos, el encuadre que delimita el espacio, estableciendo dónde empieza y termina el cuadro. También se elige el ángulo de la cámara, dependiendo de la altura o punto de vista en que se graben los movimientos de la cámara, que pueden ser físicos u ópticos (de las lentes); los detalles de iluminación, los sonidos concretos y la música que acompaña cada escena. 
+        .col-lg-4
+          h2.mb-0 Es importante escribir la hora de la escena, si es de día, en la tarde o en la noche. Asimismo, si es una escena en el espacio exterior, o en un espacio interno. Esto permite saber el tipo de iluminación que ambientará dicha escena.
+
+    p.mb-5 
 
     p.mb-5 El guion técnico permite describir cada una de las escenas y qué elementos tendrá. Todo depende del tipo de videojuego que se desea realizar. Por ejemplo, la posición de la cámara, si es un juego de posición lateral, se puede usar una cámara frontal, pero si se desea ver todo el espacio del juego, se puede usar una cámara cenital. 
       br
       br
-      | Por último, se debe numerar cada una de las escenas, como 1, 2, 3, etc., con la finalidad de mantener una secuencia lineal, de acuerdo con el guion narrativo, y permitirá realizar un storyboard detallado, en orden. También es importante mencionar si es una escena en un espacio exterior o interior y la hora en la que está sucediendo la escena.
+      | Por último, se debe numerar cada una de las escenas, como 1, 2, 3, etc., con la finalidad de mantener una secuencia lineal, de acuerdo con el guion narrativo, y permitirá realizar un <i>storyboard</i> detallado, en orden. También es importante mencionar si es una escena en un espacio exterior o interior y la hora en la que está sucediendo la escena.
 
     .row
       .col-12.col-lg-4.offset-lg-8
@@ -518,14 +526,14 @@
     Separador
 
     #t_2_5.titulo-segundo
-      h2 2.5  Storyboard
+      h2 2.5  <i>Storyboard</i>
 
     .row.mb-5
       .col-12.col-lg-6.mb-5.mb-lg-0
-        p.mb-5 El storyboard fundamentalmente es la base donde se ilustran los elementos y narrativa sobre una plantilla en que se detalla cada parte o escena del videojuego. En él se relata, de manera breve pero concisa, el desarrollo de la trama o historia del videojuego, para poder explicar el funcionamiento, las mecánicas y la distribución de elementos. 
+        p.mb-5 El <i>storyboard</i> fundamentalmente es la base donde se ilustran los elementos y narrativa sobre una plantilla en que se detalla cada parte o escena del videojuego. En él se relata, de manera breve pero concisa, el desarrollo de la trama o historia del videojuego, para poder explicar el funcionamiento, las mecánicas y la distribución de elementos. 
           br
           br
-          | En el storyboard se explica cómo debe ser vista la pantalla, según la cámara, y también se describen acciones de la toma, como sonidos o efectos que deben realizarse. Gracias a esto, el equipo de producción del videojuego tiene claro lo que debe realizar, como elementos background, perspectiva de la cámara, iluminación, así como describir las mecánicas que lo conforman y elementos que aparecen en determinados momentos, como interfaces e interacciones. 
+          | En el <i>storyboard</i> se explica cómo debe ser vista la pantalla, según la cámara, y también se describen acciones de la toma, como sonidos o efectos que deben realizarse. Gracias a esto, el equipo de producción del videojuego tiene claro lo que debe realizar, como elementos <i>background</i>, perspectiva de la cámara, iluminación, así como describir las mecánicas que lo conforman y elementos que aparecen en determinados momentos, como interfaces e interacciones. 
           br
           br
           | En el diseño de videojuegos, se toma una maqueta o plantilla principal como molde, allí se describe la estructura base del videojuego y se describen los niveles del mismo, creando una plantilla para cada nivel, con el fin de tener claridad en las características y diferencias que existen entre nivel y nivel, y para detallar las interacciones del personaje con el entorno y los objetos activos.
@@ -533,7 +541,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p <strong>Anexo.</strong> Descargue aquí una <strong>plantilla</strong> de guion gráfico y conozca un  <strong>ejemplo de storyboard.</strong>
+            p <strong>Anexo.</strong> Descargue aquí una <strong>plantilla</strong> de guion gráfico y conozca un  <strong>ejemplo de <i>storyboard</i>.</strong>
 
       .col-12.col-lg-6
         .caja-texto.color-primario.p-5
@@ -546,7 +554,7 @@
             .col-auto
               .titulo-sexto.color-acento-contenido.mb-0
                 h5 Figura 41
-                span <i>Storyboard Flynn en el bosque Gaokerena</i>
+                span <i>Storyboard Flynn</i> en el bosque <i>Gaokerena</i>
           figure
             img(src="@/assets/curso/tema2-imagen20.png")
     
@@ -560,12 +568,12 @@
             p.mb-4 Con plantillas bien elaboradas, no quedan dudas a la hora de desarrollar los elementos para el videojuego, porque permiten reflejar cómo se verá la escena al final, las acciones, objetivos y aspectos de importancia, esquematizando así las situaciones que se crearán para la historia.
               br
               br
-              | Existe también una gran variedad de herramientas digitales para crear storyboards que son de uso gratuito, como Storyboardthat y Storyboarder. Estos programas también permiten desarrollar el guion gráfico.
+              | Existe también una gran variedad de herramientas digitales para crear <i>storyboards</i> que son de uso gratuito, como Storyboardthat y Storyboarder. Estos programas también permiten desarrollar el guion gráfico.
             .row.justify-content-center.mb-3
               .col-auto
                 .titulo-sexto.color-acento-contenido.mb-0
                   h5 Figura 42
-                  span Ejemplo de <i>storyboard digital</i>
+                  span Ejemplo de <i>storyboard </i> digital
             figure
               img(src="@/assets/curso/tema2-imagen21.png")
 
@@ -599,7 +607,7 @@
             .col-3
               .line-selector-text.color-acento-contenido
           p.mb-0
-            strong Elliott Avedon (2005), en su libro The Study of the Games, menciona diez tips para tener más claridad acerca de las mecánicas. 
+            strong Elliott Avedon (2005), en su libro <i>The Study of the Games</i>, menciona diez tips para tener más claridad acerca de las mecánicas. 
             br
             br
             | Estos son: el propósito del juego, el procedimiento para efectuar la acción, las reglas que gobiernan la acción, el número de jugadores, el rol de los jugadores, el resultado o recompensa, las habilidades requeridas, los patrones de interacción, la actividad física necesaria para jugar y el equipamiento preciso.
@@ -723,11 +731,11 @@
                 .pt-2.pb-1.ps-4.pe-4.container-title
                   .row
                     .col
-                      p.mb-0 En la figura 43, de “Megaman 10”, se puede observar el recorrido de principio a fin.
+                      p.mb-0 En la figura 43, de <i>“Megaman</i> 10”, se puede observar el recorrido de principio a fin.
                     .col-auto
                       .titulo-sexto.color-acento-contenido.mb-0
                         h5 Figura 43
-                        span <i>Ejemplo uno, escenario “Megaman 10”</i>
+                        span <i>Ejemplo uno, escenario “<i>Megaman</i> 10”</i>
             figure                        
               img(src="@/assets/curso/tema2-imagen33.png")
               figcaption Nota. Tomada de <a href="https://www.vgmaps.com/Atlas/Wii/MegaMan10-BladeMan.png" target="_blank">https://www.vgmaps.com/Atlas/Wii/MegaMan10-BladeMan.png</a>
@@ -738,14 +746,14 @@
                 .pt-2.pb-1.ps-4.pe-4.container-title
                   .row
                     .col
-                      p.mb-0 En el siguiente fragmento de la figura 44, de “Megaman 10”, se puede observar uno de los espacios por donde debe pasar “Megaman”, aquí inicia la historia y el personaje realiza saltos para poder avanzar al siguiente nivel.
+                      p.mb-0 En el siguiente fragmento de la figura 44, de “<i>Megaman</i> 10”, se puede observar uno de los espacios por donde debe pasar “Megaman”, aquí inicia la historia y el personaje realiza saltos para poder avanzar al siguiente nivel.
                     .col-auto
                       .titulo-sexto.color-acento-contenido.mb-0
                         h5 Figura 44
-                        span <i>Ejemplo dos, escenario “Megaman 10”</i>
+                        span <i>Ejemplo dos, escenario “<i>Megaman</i> 10”</i>
             figure
               img(src="@/assets/curso/tema2-imagen34.png")
-              figcaption Nota. Tomada de <a href="https://www.vgmaps.com/Atlas/Wii/MegaMan10-BladeMan.png" target="_blank">https://www.vgmaps.com/Atlas/Wii/MegaMan10-BladeMan.png</a>
+              figcaption Fragmento tomado de <a href="https://www.vgmaps.com/Atlas/Wii/MegaMan10-BladeMan.png" target="_blank">https://www.vgmaps.com/Atlas/Wii/MegaMan10-BladeMan.png</a>
           .p-5
             .row.justify-content-center
               .col-12.col-md-10
@@ -755,7 +763,7 @@
                       p.mb-0 En la figura 45, se puede ver que en el piso hay unos pinchos, si el personaje cae en esas zonas, automáticamente muere; también, al final del nivel, se pueden observar unas escaleras para pasar al siguiente nivel.
                 figure
                   img(src="@/assets/curso/tema2-imagen35.png")
-                  figcaption Nota. Tomada de <a href="https://www.vgmaps.com/Atlas/Wii/MegaMan10-BladeMan.png" target="_blank">https://www.vgmaps.com/Atlas/Wii/MegaMan10-BladeMan.png</a>
+                  figcaption Fragmento tomado de <a href="https://www.vgmaps.com/Atlas/Wii/MegaMan10-BladeMan.png" target="_blank">https://www.vgmaps.com/Atlas/Wii/MegaMan10-BladeMan.png</a>
                 .row.justify-content-center
                   .col-11
                     .pt-2.pb-1.ps-4.pe-4.container-title.bottom
@@ -763,7 +771,7 @@
                         .col-auto
                           .titulo-sexto.color-acento-contenido.mb-0
                             h5 Figura 45
-                            span <i>Ejemplo tres, escenario “Megaman 10”</i>
+                            span <i>Ejemplo tres, escenario “<i>Megaman</i> 10”</i>
           .p-5
             .row.justify-content-center
               .col-12.col-lg-6
@@ -773,7 +781,7 @@
                       p.mb-0 En la figura 46, se observa el enemigo mayor ante el que se debe pelear, y es el último nivel por el que se atraviesa.
                 figure      
                   img(src="@/assets/curso/tema2-imagen36.png")
-                  figcaption Nota. Tomada de <a href="https://www.vgmaps.com/Atlas/Wii/MegaMan10-BladeMan.png" target="_blank">https://www.vgmaps.com/Atlas/Wii/MegaMan10-BladeMan.png</a>
+                  figcaption Fragmento tomado de <a href="https://www.vgmaps.com/Atlas/Wii/MegaMan10-BladeMan.png" target="_blank">https://www.vgmaps.com/Atlas/Wii/MegaMan10-BladeMan.png</a>
                 .row.justify-content-center
                   .col-11
                     .pt-2.pb-1.ps-4.pe-4.container-title.bottom
@@ -781,7 +789,7 @@
                         .col-auto
                           .titulo-sexto.color-acento-contenido.mb-0
                             h5 Figura 46
-                            span <i>Ejemplo cuatro, nivel final “Megaman 10”</i>
+                            span <i>Ejemplo cuatro, nivel final “<i>Megaman</i> 10”</i>
           .p-5
             .row.justify-content-center
               .col-12.col-md-10

@@ -286,7 +286,7 @@
                       span Videojuego <i>Poltergeist</i>
               figure
                 img(src="@/assets/curso/tema1-imagen22.jpg")
-                figcaption Nota. Tomada de Poltergeist : <i>A Pixelated Horror</i> sur PS Vita @JVL <a href="jeuxvideo-live.com" target="_blank">(jeuxvideo-live.com)</a>
+                figcaption Nota. Tomada de Poltergeist : <i>A Pixelated Horror</i> sur PS Vita @JVL <a href="https://www.jeuxvideo-live.com" target="_blank">(jeuxvideo-live.com)</a>
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
               .h5 <i>Story Warriors: Fairy Tales</i> (2015) 
@@ -314,25 +314,25 @@
                       span Videojuego Neón Fury
               figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen24.jpg")
-                figcaption Nota. Tomada de <a href="https://g-mnews.com/news/colombia-apuesta-a-pleno-por-los-videojuegos/" target="_blank">Colombia apuesta a pleno por los videojuegos – Gaming And Media (g-mnews.com)</a>
+                figcaption Nota. Tomada de <a href="https://g-mnews.com/news/colombia-apuesta-a-pleno-por-los-videojuegos/" target="_blank">Colombia apuesta a pleno por los videojuegos – <i>Gaming And Media</i> (g-mnews.com)</a>
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
-              .h5 World War Doh 
-              p.mb-0 Es un juego cuyos personajes parecen elaborados en un software 3D, pero realmente usaron la técnica de la plastilina y el Stop Motion para generar las animaciones. Este es un juego que pertenece a la empresa Jam City, que compró la empresa Brainz. Su primera versión salió en el año 2017, para celulares.
+              .h5 <i>World War Doh</i> 
+              p.mb-0 Es un juego cuyos personajes parecen elaborados en un <i>software</i> 3D, pero realmente usaron la técnica de la plastilina y el <i>Stop Motion</i> para generar las animaciones. Este es un juego que pertenece a la empresa <i>Jam City</i>, que compró la empresa <i>Brainz</i>. Su primera versión salió en el año 2017, para celulares.
             .col-12.col-lg-5
               .row.justify-content-center
                 .col-auto
                   .pt-2.pb-1.ps-4.pe-4.container-title
                     .titulo-sexto.color-acento-contenido.mb-0
                       h5 Figura 7
-                      span Videojuego World War Doh 
+                      span Videojuego <i>World War Doh </i>
               figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen25.jpg")
                 figcaption Nota. Tomada de <a href="https://worldwardoh.com" target="_blank">https://worldwardoh.com</a>
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
-              .h5 Ark: Survival Evolved 
-              p.mb-0 Es un juego que se ambienta en una isla en la que deambulan animales prehistóricos, los cuales deben ser domados o cazados. Ahí se debe sobrevivir a como dé lugar. Desarrollado por gráficos en 3D, lanzado en el año 2017. Se puede jugar en cualquier plataforma, IOS, Android, consola, PC. Además, es un juego multijugador, que funciona en línea. 
+              .h5 <i>Ark: Survival Evolved</i>
+              p.mb-0 Es un juego que se ambienta en una isla en la que deambulan animales prehistóricos, los cuales deben ser domados o cazados. Ahí se debe sobrevivir a como dé lugar. Desarrollado por gráficos en 3D, lanzado en el año 2017. Se puede jugar en cualquier plataforma, <i>IOS, Android</i>, consola, PC. Además, es un juego multijugador, que funciona en línea. 
             .col-12.col-lg-5
               .row.justify-content-center
                 .col-auto
@@ -345,24 +345,24 @@
                 figcaption Nota. Tomada de <a href="http://www.studiowildcard.com/2016/1/12/nbpnnxbu6rpzpc4ishl3uttyj7lnuj" target="_blank">http://www.studiowildcard.com/2016/1/12/nbpnnxbu6rpzpc4ishl3uttyj7lnuj</a>
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
-              .h5 Haimrik (2018)  
-              p.mb-0 “Haimrik” fue creado por la compañía Below The Game (BTG) y una empresa rusa en el año 2018, alcanzando un importante avance en cuanto a propiedad intelectual para Colombia, ya que se logró lanzar para plataformas como Xbox One, Playstation 4 y PC en Steam.  Se trata de un videojuego en 2D de acción y aventuras, ubicado en escenarios del Medioevo, mezcla el entretenimiento con lo educativo, ya que el objetivo del jugador es derrotar a los enemigos usando las palabras correctas para resolver los rompecabezas presentes en cada nivel. 
+              .h5 <i>Haimrik</i> (2018)  
+              p.mb-0 <i>“Haimrik”</i> fue creado por la compañía <i>Below The Game</i> (BTG) y una empresa rusa en el año 2018, alcanzando un importante avance en cuanto a propiedad intelectual para Colombia, ya que se logró lanzar para plataformas como <i>Xbox One, Playstation</i> 4 y PC en <i>Steam</i>.  Se trata de un videojuego en 2D de acción y aventuras, ubicado en escenarios del Medioevo, mezcla el entretenimiento con lo educativo, ya que el objetivo del jugador es derrotar a los enemigos usando las palabras correctas para resolver los rompecabezas presentes en cada nivel. 
             .col-12.col-lg-5
               .row.justify-content-center
                 .col-auto
                   .pt-2.pb-1.ps-4.pe-4.container-title
                     .titulo-sexto.color-acento-contenido.mb-0
                       h5 Figura 9
-                      span Videojuego Haimrik
+                      span Videojuego <i>Haimrik</i>
               figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen27.jpg")
-                figcaption Nota. Tomada de <a href="https://www.3djuegos.com/26211/haimrik/#-img-3452317-26211-0-0" target="_blank">Haimrik para PC - 3DJuegos</a>
+                figcaption Nota. Tomada de <a href="https://www.3djuegos.com/26211/haimrik/#-img-3452317-26211-0-0" target="_blank"><i>Haimrik</i> para PC - 3DJuegos</a>
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
               .h5 Un cabrón en Transmilenio 
-              p.mb-0 Desarrollado por Black Mamba Studio en el 2019, es un sencillo videojuego de acción, en el que el jugador, representado por un cabrito, debe bajarse  en su parada de destino abriéndose paso a través de vacas y cerdos que representan a los demás pasajeros, antes de que las puertas del Transmilenio se cierren. 
+              p.mb-0 Desarrollado por <i>Black Mamba Studio</i> en el 2019, es un sencillo videojuego de acción, en el que el jugador, representado por un cabrito, debe bajarse  en su parada de destino abriéndose paso a través de vacas y cerdos que representan a los demás pasajeros, antes de que las puertas del Transmilenio se cierren. 
                 br
-                | Este videojuego fue ganador del premio Bogotá Game Challenge, gracias a los bien implementados gráficos 2D, la paleta de colores usada, una entretenida mecánica de juego, una experiencia de usuario intuitiva y al propósito de este juego, pues, a través de él, sus desarrolladores pretenden crear mayor conciencia y mejorar la cultura ciudadana en el sistema de transporte masivo. 
+                | Este videojuego fue ganador del premio Bogotá <i>Game Challenge</i>, gracias a los bien implementados gráficos 2D, la paleta de colores usada, una entretenida mecánica de juego, una experiencia de usuario intuitiva y al propósito de este juego, pues, a través de él, sus desarrolladores pretenden crear mayor conciencia y mejorar la cultura ciudadana en el sistema de transporte masivo. 
             .col-12.col-lg-5
               .row.justify-content-center
                 .col-auto
@@ -372,25 +372,25 @@
                       span Videojuego Un cabrón en Transmilenio 
               figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen28.jpg")
-                figcaption Tomada de <a href="https://black-mamba-studio.itch.io/un-cabron-en-transmilenio" target="_blank">Un Cabrón en Transmilenio by Black Mamba Studio, QuietGecko, prinfrexita, Carenalga (itch.io)</a>
+                figcaption Tomada de <a href="https://black-mamba-studio.itch.io/un-cabron-en-transmilenio" target="_blank">Un Cabrón en Transmilenio by <i>Black Mamba Studio</i>, <i>QuietGecko</i>, <i>prinfrexita</i>, <i>Carenalga</i> (itch.io)</a>
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
-              .h5 Captain Toonhead 
-              p.mb-0 “Captain Toonhead” es una mejora al juego Neon Fury (2013), creada por Teravision Games, que se lanzará en 2021. Se trata de un juego de realidad virtual, con excelentes gráficos en 3D, desarrollado para dispositivos VR de alta gama (PSVR, Vive, Quest y Rift), en el que el jugador debe usar su armamento y su habilidad en la construcción de torres para defender su base de enemigos cibernéticos.
+              .h5 <i>Captain Toonhead </i>
+              p.mb-0 <i>“Captain Toonhead”</i> es una mejora al juego <i>Neon Fury</i> (2013), creada por <i>Teravision Games</i>, que se lanzará en 2021. Se trata de un juego de realidad virtual, con excelentes gráficos en <i>3D</i>, desarrollado para dispositivos <i>VR</i> de alta gama (<i>PSVR, Vive, Quest y Rift</i>), en el que el jugador debe usar su armamento y su habilidad en la construcción de torres para defender su base de enemigos cibernéticos.
             .col-12.col-lg-5
               .row.justify-content-center
                 .col-auto
                   .pt-2.pb-1.ps-4.pe-4.container-title
                     .titulo-sexto.color-acento-contenido.mb-0
                       h5 Figura 11
-                      span Videojuego Captain Toonhead 
+                      span Videojuego <i>Captain Toonhead</i>
               figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen29.jpg")
                 figcaption Nota. Tomada de <a href="https://teravisiongames.com/site/captain-toonhead/" target="_blank">https://teravisiongames.com/site/captain-toonhead/</a>
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
               .h5 Cristales 
-              p.mb-0 Es un juego tipo JRPG clásico, que se estrena este verano de 2021. Este es un juego de tipo exploración, en el que se mezclan los tiempos pasado, presente y futuro. Realizado con una estética 2D, elaborado cuadro por cuadro. Desarrollado por Dreams Uncorporated, juego que se puede jugar en diversas consolas y en computadora.
+              p.mb-0 Es un juego tipo <i>JRPG</i> clásico, que se estrena este verano de 2021. Este es un juego de tipo exploración, en el que se mezclan los tiempos pasado, presente y futuro. Realizado con una estética <i>2D</i>, elaborado cuadro por cuadro. Desarrollado por <i>Dreams Uncorporated</i>, juego que se puede jugar en diversas consolas y en computadora.
             .col-12.col-lg-5
               .row.justify-content-center
                 .col-auto
@@ -434,56 +434,56 @@
 
       .row.p-3(titulo="Juegos FPS ")
         .col-md-7.mb-4.mb-md-0
-          p En este género, la cámara se sitúa en la cabeza del personaje, en plano subjetivo, lo que da la sensación de que la vista del personaje es la vista del usuario. Como característica principal está el hecho de que, en su mayoría, este tipo de juegos optan por una acción frenética, donde se acentúan los reflejos y la precisión, como también, en algunos casos, aumenta la inmersión, al verse los objetos a gran detalle. Algunos ejemplos son “Doom”, “Halo” y “Quake”.
+          p En este género, la cámara se sitúa en la cabeza del personaje, en plano subjetivo, lo que da la sensación de que la vista del personaje es la vista del usuario. Como característica principal está el hecho de que, en su mayoría, este tipo de juegos optan por una acción frenética, donde se acentúan los reflejos y la precisión, como también, en algunos casos, aumenta la inmersión, al verse los objetos a gran detalle. Algunos ejemplos son <i>“Doom”, “Halo”</i> y <i>“Quake”</i>.
 
         .col-md-5
           .row.justify-content-center
             .col-auto
               .titulo-sexto.color-acento-contenido
                 h5 Figura 14
-                span Videojuego Doom
+                span Videojuego <i>Doom</i>
           figure
             img(src='@/assets/curso/tema1-imagen33.jpg')
             figcaption Nota. Tomada de <a href="https://bethesda.net/es/game/doom" target="blank">https://bethesda.net/es/game/doom</a>
       
       .row.px-3(titulo="Juegos de plataforma")
         .col-md-7.mb-4.mb-md-0
-          p Es un género muy popular, gracias a juegos como “Super Mario Bros.” o “Sonic”, en el que, en vista de tercera persona, el personaje avanza sobre diferentes escenarios que sirven de niveles, sorteando obstáculos por medio de saltos o el uso de habilidades, para llegar al final de cada escenario.
+          p Es un género muy popular, gracias a juegos como <i>“Super Mario Bros.”</i> o <i>“Sonic”</i>, en el que, en vista de tercera persona, el personaje avanza sobre diferentes escenarios que sirven de niveles, sorteando obstáculos por medio de saltos o el uso de habilidades, para llegar al final de cada escenario.
           
         .col-md-5
           .row.justify-content-center
             .col-auto
               .titulo-sexto.color-acento-contenido
                 h5 Figura 15
-                span Videojuego Super Mario Bros.
+                span Videojuego <i>Super Mario Bros</i>.
           figure
             img(src='@/assets/curso/tema1-imagen34.jpg')
             figcaption Nota. Tomada de <a target="_blank" href="https://www.nintendo.es/Juegos/NES/Super-Mario-Bros--803853.html">https://www.nintendo.es/Juegos/NES/Super-Mario-Bros--803853.html</a>
 
       .row.px-3(titulo="Juegos simuladores")
         .col-md-7.mb-4.mb-md-0
-          p Como su nombre lo indica, este género de juegos busca simular la realidad y transmitir sensaciones que realmente no están sucediendo, como en juegos de conducción de vehículos o simuladores de vuelo, entre ellos “Flight Simulator” y “Bus Simulator”.
+          p Como su nombre lo indica, este género de juegos busca simular la realidad y transmitir sensaciones que realmente no están sucediendo, como en juegos de conducción de vehículos o simuladores de vuelo, entre ellos <i>“Flight Simulator”</i> y <i>“Bus Simulator”</i>.
           
         .col-md-5
           .row.justify-content-center
             .col-auto
               .titulo-sexto.color-acento-contenido
                 h5 Figura 16
-                span Videojuego Flight Simulator
+                span Videojuego <i>Flight Simulator</i>
           figure
             img(src='@/assets/curso/tema1-imagen35.jpg')
-            figcaption Nota. Tomada de <a href="https://www.xbox.com/es-CO/games/microsoft-flight-simulator" target="_blank"></a>
+            figcaption Nota. Tomada de <a href="https://www.xbox.com/es-CO/games/microsoft-flight-simulator" target="_blank">https://www.xbox.com/es-CO/games/microsoft-flight-simulator</a>
 
       .row.px-3(titulo="Juegos de deportes")
         .col-md-7.mb-4.mb-md-0
-          p Son aquellos videojuegos que toman como función principal las mecánicas físicas, para representar deportes, en algunas ocasiones, no como simulación, puesto que los tiempos, espacios y velocidades no corresponden a un acercamiento con la realidad, pero sí conservando las bases del deporte en el que se basan. Algunos de estos juegos son “Fifa”, “Pes”, “Nba2k”.
+          p Son aquellos videojuegos que toman como función principal las mecánicas físicas, para representar deportes, en algunas ocasiones, no como simulación, puesto que los tiempos, espacios y velocidades no corresponden a un acercamiento con la realidad, pero sí conservando las bases del deporte en el que se basan. Algunos de estos juegos son <i>“Fifa”, “Pes”, “Nba2k”</i>.
           
         .col-md-5
           .row.justify-content-center
             .col-auto
               .titulo-sexto.color-acento-contenido
                 h5 Figura 17
-                span Videojuego FIFA 21
+                span Videojuego <i>FIFA</i> 21
           figure
             img(src='@/assets/curso/tema1-imagen36.jpg')
             figcaption Nota. Tomada de <a href="https://www.ea.com/es-es/games/fifa/fifa-21/media-hub/media/fifa-21-next-level-scenes-row" target="_blank">https://www.ea.com/es-es/games/fifa/fifa-21/media-hub/media/fifa-21-next-level-scenes-row</a>
@@ -505,7 +505,7 @@
 
       .row.px-3(titulo="Juegos de aventura")
         .col-md-7.mb-4.mb-md-0
-          p Son juegos en los cuales la premisa principal es la exploración del mundo en el que habita el personaje principal, donde se investiga y se resuelven acertijos para continuar avanzando. Se hace énfasis en las historias y el desarrollo del personaje; por ello, generalmente, son para 1 solo jugador, como el caso de “Zelda” y “Alundra”.
+          p Son juegos en los cuales la premisa principal es la exploración del mundo en el que habita el personaje principal, donde se investiga y se resuelven acertijos para continuar avanzando. Se hace énfasis en las historias y el desarrollo del personaje; por ello, generalmente, son para 1 solo jugador, como el caso de <i>“Zelda” y “Alundra”</i>.
           
         .col-md-5
           .row.justify-content-center
@@ -533,7 +533,7 @@
       
       .row.px-3(titulo="Juegos casuales")
         .col-md-7.mb-4.mb-md-0
-          p Videojuegos basados en temáticas de entretenimiento o educación, que están destinados a jugadores no habituales que buscan una distracción diferente. Están basados en reglas simples y no requieren de una gran dedicación ni compromiso. Entre ellos están <i>“Angry Birds”, “Plants vs Zombies”</i>.
+          p Videojuegos basados en temáticas de entretenimiento o educación, que están destinados a jugadores no habituales que buscan una distracción diferente. Están basados en reglas simples y no requieren de una gran dedicación ni compromiso. Entre ellos están <i>“Angry Birds”, “Plants vs. Zombies”</i>.
           
         .col-md-5
           .row.justify-content-center
@@ -556,25 +556,25 @@
             figure
               img(src="@/assets/curso/tema1-imagen41.svg")
           .col-12.col-lg-9.mb-5.mb-lg-0
-            h4 Sistema Europeo PEGI (Pan European Game Information) 
-            p.mb-5 Fue creado el 9 de abril de 2003. El sistema PEGI se aplica en 32 países europeos y únicamente es obligatorio en dos de ellos, en Finlandia y Noruega.
+            h4 Sistema Europeo <i>PEGI</i> (<i>Pan European Game Information</i>) 
+            p.mb-5 Fue creado el 9 de abril de 2003. El sistema <i>PEGI</i> se aplica en 32 países europeos y únicamente es obligatorio en dos de ellos, en Finlandia y Noruega.
             .row
               .col-12.col-lg-10
                 .row.justify-content-center
                   .col-auto
                     .titulo-sexto.color-acento-contenido
                       h5 Figura 22
-                      span Gráfica de clasificaciones en los videojuegos PEGI
+                      span Gráfica de clasificaciones en los videojuegos <i>PEGI</i>
                 figure
                   img(src="@/assets/curso/tema1-imagen42.svg")
-                  figcaption Nota. Tomada de <a target="_blank" href="https://www.divulgaciondinamica.es/blog/que-es-pegi-videojuegos/">https://www.divulgaciondinamica.es/blog/que-es-pegi-videojuegos/</a>
+                  figcaption Nota. Tomada de <a class="text-wrap" target="_blank" href="https://www.divulgaciondinamica.es/blog/que-es-pegi-videojuegos/">https://www.divulgaciondinamica.es/blog/que-es-pegi-videojuegos/</a>
 
         .row.container-uno-color.claro.p-5(data-aos="slide-left" data-aos-delay="100" data-aos-duration="600")
           .col-12.col-lg-3.mb-5.mb-lg-0
             figure
               img(src="@/assets/curso/tema1-imagen43.svg")
           .col-12.col-lg-9.mb-5.mb-lg-0
-            h4 Sistema estadounidense <i>Entertainment Software Rating Board</i> (ESRB). 
+            h4 Sistema estadounidense <i>Entertainment Software Rating Board</i> (ESRB)
             p.mb-5 Creado en 1994, tras la aparición del videojuego <i>“Mortal Kombat”</i> y toda la polémica que desató al contener violencia explícita. Utiliza letras alfabéticas, para clasificar así su contenido.
             .row
               .col-12.col-lg-10
@@ -582,7 +582,7 @@
                   .col-auto
                     .titulo-sexto.color-acento-contenido
                       h5 Figura 23
-                      span Gráfica de clasificaciones en los videojuegos ESRB
+                      span Gráfica de clasificaciones en los videojuegos <i>ESRB</i>
                 figure
                   img(src="@/assets/curso/tema1-imagen44.svg")
                   figcaption Nota. Tomada de <a target="_blank" href="https://rtvc-assets-radionica3.s3.amazonaws.com/s3fs-public/senalradionica/articulo-noticia/galeriaimagen/fotorcreatedn.jpg">https://rtvc-assets-radionica3.s3.amazonaws.com/s3fs-public/senalradionica/articulo-noticia/galeriaimagen/fotorcreatedn.jpg</a> 
@@ -604,7 +604,7 @@
         table
           tbody
             tr
-              td.align-middle Es la cuarta consola de la marca Sony, salió al mercado en 2013. Modo de gráficos mejorados: el juego se ejecuta a 1080p y 30 fps, pero con mejoras gráficas. 
+              td.align-middle Es la cuarta consola de la marca <i>Sony</i>, salió al mercado en 2013. Modo de gráficos mejorados: el juego se ejecuta a 1080p y 30 fps, pero con mejoras gráficas. 
       .col-12.col-lg-3.mb-0.d-flex(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen46.png")
@@ -612,7 +612,7 @@
         table
           tbody
             tr
-              td.align-middle  Tercera consola de videojuegos lanzada por Microsoft con polémica, puesto que se pretendía que fuese obligatorio que siempre estuviese conectada a Internet para poder usarse. Lanzada en 2013, se considera de anterior generación, precedida por la actual Xbox Series X.
+              td.align-middle  Tercera consola de videojuegos lanzada por <i>Microsoft</i> con polémica, puesto que se pretendía que fuese obligatorio que siempre estuviese conectada a Internet para poder usarse. Lanzada en 2013, se considera de anterior generación, precedida por la actual <i>Xbox Series X</i>.
     .row.mb-5
       .col-12.col-lg-3.mb-0.d-flex(data-aos="zoom-in-left" data-aos-delay="200" data-aos-duration="600")
         figure.container-elements
@@ -621,7 +621,7 @@
         table
           tbody
             tr
-              td.align-middle Consola de videojuegos de la marca Sony, la quinta en ser lanzada por esta marca, en 2020.  Con dos modelos, uno con unidad lectora de disco y otro sin esta. Desarrollada para mostrar juegos con resoluciones 4K.
+              td.align-middle Consola de videojuegos de la marca <i>Sony</i>, la quinta en ser lanzada por esta marca, en 2020.  Con dos modelos, uno con unidad lectora de disco y otro sin esta. Desarrollada para mostrar juegos con resoluciones 4K.
       .col-12.col-lg-3.mb-0.d-flex(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen48.png")
@@ -629,7 +629,7 @@
         table
           tbody
             tr
-              td.align-middle Cuarta consola de generación lanzada por Microsoft para competir con la PS5. Destaca por su capacidad de dar soporte a resoluciones 8K.
+              td.align-middle Cuarta consola de generación lanzada por <i>Microsoft</i> para competir con la <i>PS5</i>. Destaca por su capacidad de dar soporte a resoluciones <i>8K</i>.
     .row.mb-5(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
       .col-12.col-lg-3.mb-0.d-flex
         figure.container-elements.p-5
@@ -642,7 +642,7 @@
 
     h3.titulo-tercero PC
 
-    p.mb-5 En los últimos años se ha vuelto muy popular el PC como sistema de videojuegos, esto en parte porque las desarrolladoras están lanzando por este medio los juegos que salen en videoconsolas. Se perfila a futuro como el sistema por excelencia. En el PC, es posible encontrar plataformas dedicadas a videojuegos basados en la nube, en un sistema similar a como trabaja Netflix, de las cuales podemos destacar las siguientes:
+    p.mb-5 En los últimos años se ha vuelto muy popular el PC como sistema de videojuegos, esto en parte porque las desarrolladoras están lanzando por este medio los juegos que salen en videoconsolas. Se perfila a futuro como el sistema por excelencia. En el PC, es posible encontrar plataformas dedicadas a videojuegos basados en la nube, en un sistema similar a como trabaja <i>Netflix</i>, de las cuales podemos destacar las siguientes:
 
     .row.mb-5
       .col-12.col-lg-3.mb-0.d-flex(data-aos="zoom-in-left" data-aos-delay="100" data-aos-duration="600")
@@ -652,7 +652,7 @@
         table
           tbody
             tr
-              td.align-middle Perteneciente a Valve, es la más grande plataforma de videojuegos para PC y MAC, con más de 7300 juegos, en la cual se pueden encontrar juegos de todo tipo, incluso los llamados Free to Play.
+              td.align-middle Perteneciente a Valve, es la más grande plataforma de videojuegos para <i>PC y MAC</i>, con más de 7300 juegos, en la cual se pueden encontrar juegos de todo tipo, incluso los llamados <i>Free to Play</i>.
       .col-12.col-lg-3.mb-0.d-flex(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen51.png")
@@ -669,7 +669,7 @@
         table
           tbody
             tr
-              td.align-middle Es la plataforma de Ubisoft, desarrolladora destacada de videojuegos, en la cual podemos encontrar la saga “Assassins Creed”.
+              td.align-middle Es la plataforma de Ubisoft, desarrolladora destacada de videojuegos, en la cual podemos encontrar la saga <i>“Assassins Creed”</i>.
       .col-12.col-lg-3.mb-0.d-flex(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen53.png")
@@ -677,7 +677,7 @@
         table
           tbody
             tr
-              td.align-middle Plataforma perteneciente a la desarrolladora Electronics Arts, que se destaca por poseer juegos como FIFA.
+              td.align-middle Plataforma perteneciente a la desarrolladora Electronics Arts, que se destaca por poseer juegos como <i>FIFA</i>.
     .row.mb-5
       .col-12.col-lg-3.mb-0.d-flex(data-aos="zoom-in-left" data-aos-delay="100" data-aos-duration="600")
         figure.container-elements
@@ -686,7 +686,7 @@
         table
           tbody
             tr
-              td.align-middle Plataforma que ha tomado mucha popularidad por ser la desarrolladora del juego free to play “Fornite” y el motor de videojuegos Unreal Engine; además de que semanalmente obsequian juegos.
+              td.align-middle Plataforma que ha tomado mucha popularidad por ser la desarrolladora del juego free to play <i>“Fornite”</i> y el motor de videojuegos <i>Unreal Engine</i>; además de que semanalmente obsequian juegos.
       .col-12.col-lg-3.mb-0.d-flex(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen55.png")
@@ -694,27 +694,27 @@
         table
           tbody
             tr
-              td.align-middle Son plataformas que toman como base los navegadores web; generalmente alojan juegos casuales. Un sistema en el cual la mayoría son juegos gratis. Tuvo sus inicios en la ya difunta Adobe Flash Player. Entre ellas, se destacan: https://armorgames.com/, https://www.minijuegos.com/, https://www.juegosdiarios.com/
+              td.align-middle Son plataformas que toman como base los navegadores web; generalmente alojan juegos casuales. Un sistema en el cual la mayoría son juegos gratis. Tuvo sus inicios en la ya difunta Adobe Flash Player. Entre ellas, se destacan: <a href='https://armorgames.com/' target='_blank'>https://armorgames.com/</a>, <a href='https://www.minijuegos.com/' target='_blank'>https://www.minijuegos.com/</a>, <a href='https://www.juegosdiarios.com/' target='_blank'></a>
     
     .row.justify-content-center.mb-5
       .col-10
         .container-maquinas.p-5
           .row
             .col-12.col-lg-6.mb-5.mb-lg-0
-              h3.text-white Máquinas recreativas o arcades
-              p.mb-0.text-white Populares en los 80 y 90, en los centros comerciales o salones recreativos. Han visto disminuida su popularidad al entrar en juego los sistemas domésticos y el Internet. Algunos Arcades populares son el Pong, Rush'nAttack, Astro Fighter y Frogger.
+              h3.text-white Máquinas recreativas o <i>arcades</i>
+              p.mb-0.text-white Populares en los 80 y 90, en los centros comerciales o salones recreativos. Han visto disminuida su popularidad al entrar en juego los sistemas domésticos y el Internet. Algunos Arcades populares son el <i>Pong, Rush'nAttack, Astro Fighter y Frogger</i>.
             .col-12.col-lg-6
               .row.justify-content-center
                 .col-auto
                   .titulo-sexto.color-acento-contenido.mb-0
                     h5.text-white Figura 24
-                    span.text-white Arcades populares
+                    span.text-white <i>Arcades</i> populares
               figure
                 img(src="@/assets/curso/tema1-imagen56.svg")
     .row
       .col-12.col-lg-6.mb-5.mb-lg-0
         h3 Celulares
-        p.mb-0 Los celulares, en la última década, se han posicionado como el hardware con mayor catálogo de juegos. Sea de paso dicho, su mayor concentración se basa en videojuegos casuales, popularizándose con el lanzamiento de <i>“Angry Birds”, “Candy Crush”, “Plants vs. Zombies”</i>, entre otros. Aunque con la tecnología avanzando de manera exponencial, los videojuegos que antes se lanzaban en consolas están llegando a estos dispositivos; juegos tipo battle royale (todos contra todos), como <i>“Free Fire”</i> o <i>“Fortnite”</i>, siendo así que las consolas portátiles prácticamente han desaparecido del panorama actual y los teléfonos móviles han tomado el lugar que estas han dejado.
+        p.mb-0 Los celulares, en la última década, se han posicionado como el hardware con mayor catálogo de juegos. Sea de paso dicho, su mayor concentración se basa en videojuegos casuales, popularizándose con el lanzamiento de <i>“Angry Birds”, “Candy Crush”, “Plants vs. Zombies”</i>, entre otros. Aunque con la tecnología avanzando de manera exponencial, los videojuegos que antes se lanzaban en consolas están llegando a estos dispositivos; juegos tipo<i> battle royale</i> (todos contra todos), como <i>“Free Fire”</i> o <i>“Fortnite”</i>, siendo así que las consolas portátiles prácticamente han desaparecido del panorama actual y los teléfonos móviles han tomado el lugar que estas han dejado.
       .col-12.col-lg-6
         figure
           img(src="@/assets/curso/tema1-imagen57.svg")
