@@ -17,7 +17,7 @@
       LineaTiempoC.color-acento-contenido
         .row.px-5(titulo="Años 50")
           p Se puede atribuir a William Higinbotham como el primero en crear un videojuego, quien trabajó en los años 30 activamente en el desarrollo de un radar en la Segunda Guerra Mundial. Por lo tanto, en los años 50, hizo uso de un radar y lo adaptó, gracias a sus conocimientos en electrónica y física, creando el juego 
-            strong “Tennis for Two”
+            strong <i>“Tennis for Two”</i>
             | , el cual funcionaba con una perilla que se podía girar a la izquierda o a la derecha, para ajustar la trayectoria de la pelota de ping pong. 
             br
             br
@@ -30,7 +30,7 @@
               figure.mb-4
                 img(src='@/assets/curso/tema1-imagen1.jpg')
               p.mb-0.text-center
-                strong Tennis for Two
+                strong <i>Tennis for Two</i>
           .col-md-6.d-flex
             .p-4.imagen-color-offset-top-left.color-secundario
               figure.mb-4
@@ -40,81 +40,84 @@
 
 
         div.px-5(titulo="1972")
-          p.mb-5 En 1972, nace <strong>Pong</strong>, de Nolan Bushnell, al parecer basado en la misma lógica de <strong>“Tennis for Two”</strong>, aunque en vista superior y una mecánica muy similar, creando a partir de aquí a Atari, una empresa que empezó a distribuir máquinas en Estados Unidos. 
+          p.mb-5 En 1972, nace <strong>Pong</strong>, de Nolan Bushnell, al parecer basado en la misma lógica de <strong><i>“Tennis for Two”</i></strong>, aunque en vista superior y una mecánica muy similar, creando a partir de aquí a Atari, una empresa que empezó a distribuir máquinas en Estados Unidos. 
             br
             br
-            | Después, aparece Ralph Baer, que muchos años atrás, en 1968, había creado una videoconsola que se llamaba <strong>-Magnavox Odyssey</strong>, y uno de sus principales juegos fue <strong>“Chase Game”</strong>, que también era muy parecido a los ya mencionados, y quien demandó a Atari, cobrando una indemnización por uso de los derechos del juego.
+            | Después, aparece Ralph Baer, que muchos años atrás, en 1968, había creado una videoconsola que se llamaba -<strong><i>Magnavox Odyssey</i></strong>, y uno de sus principales juegos fue <strong><i>“Chase Game”</i></strong>, que también era muy parecido a los ya mencionados, y quien demandó a Atari, cobrando una indemnización por uso de los derechos del juego.
           .row.justify-content-center
             .col-12.col-md-4
               .p-4.imagen-color-offset-top-left.color-secundario
                 figure.mb-4
                   img(src='@/assets/curso/tema1-imagen3.jpg')
                 p.mb-0.text-center
-                  strong Pong
+                  strong <i>Pong</i>
 
         div.px-5(titulo="1978")
-          p.mb-5 A su vez, en Japón, en 1978, por la empresa Taito, surge ¨”Space Invaders”, uno de los grandes referentes de los videojuegos. 
+          p.mb-5 A su vez, en Japón, en 1978, por la empresa Taito, surge <i>”Space Invaders”</i>, uno de los grandes referentes de los videojuegos. 
             br
-            | Namco crea, en 1980, uno de los juegos más icónicos del mercado: “Pacman”.
+            | Namco crea, en 1980, uno de los juegos más icónicos del mercado: <i>“Pacman”</i>.
           .row
             .col-12.col-lg-3.mb-4.mb-md-0.d-flex
               .p-4.imagen-color-offset-top-left.color-secundario
                 figure.mb-4
                   img(src='@/assets/curso/tema1-imagen4.jpg')
                 p.mb-0.text-center
-                  strong Space Invaders
+                  strong <i>Space Invaders</i>
             .col-12.col-lg-5.offset-lg-1.d-flex
               .p-4.imagen-color-offset-top-left.color-acento-contenido
                 figure.mb-4
                   img(src='@/assets/curso/tema1-imagen5.jpg')
                 p.mb-0.text-center
-                  strong Pacman
+                  strong <i>Pacman</i>
 
         div.px-5(titulo="1981")
-          p.mb-5 Posterior a ellos, Nintendo, una empresa que se encarga de crear naipes, decide aventurarse en el desarrollo de la tecnología de los videojuegos, contratando a Shigeru Miyamoto, quien en 1981 creó a <strong>“Donkey Kong”</strong>, un gorila que tiene capturada a una princesa que debe ser rescatada por Jumpman, quien posteriormente se convierte en el famoso Mario Bros.
+          p.mb-5 Posterior a ellos, Nintendo, una empresa que se encarga de crear naipes, decide aventurarse en el desarrollo de la tecnología de los videojuegos, contratando a Shigeru Miyamoto, quien en 1981 creó a <strong><i>“Donkey Kong”</i></strong>, un gorila que tiene capturada a una princesa que debe ser rescatada por <i>Jumpman</i>, quien posteriormente se convierte en el famoso <i>Mario Bros</i>.
           .row.justify-content-center
-            .col-12.col-lg-4
+            .col-8.col-lg-4
               .p-4.imagen-color-offset-top-left.color-acento-contenido
                 figure.mb-4
                   img(src='@/assets/curso/tema1-imagen6.jpg')
                 p.mb-0.text-center
-                  strong Donkey Kong
+                  strong <i>Donkey Kong</i>
 
         div.px-5(titulo="1982")
-          p.mb-5 En el año 1982, cuatro trabajadores de la empresa Atari deciden renunciar, porque no se consideraban valorados por la empresa, después de que esta fue vendida a la Warner, y juntos crean la empresa Activision, lanzando el primer videojuego de plataformas, “Pitfall”. 
+          p.mb-5 En el año 1982, cuatro trabajadores de la empresa Atari deciden renunciar, porque no se consideraban valorados por la empresa, después de que esta fue vendida a la Warner, y juntos crean la empresa Activision, lanzando el primer videojuego de plataformas, <i>“Pitfall”</i>. 
           .row.justify-content-center
-            .col-12.col-lg-4
+            .col-8.col-lg-4
               .p-4.imagen-color-offset-top-left.color-secundario
                 figure.mb-4
                   img(src='@/assets/curso/tema1-imagen7.jpg')
                 p.mb-0.text-center
-                  strong Pitfall
+                  strong <i>Pitfall</i>
 
         div.px-5(titulo="1985")
-          p.mb-5 En los años 80, en Estados Unidos, los videojuegos tienen una caída considerable; por ello, llega Japón al rescate y, en 1985, Nintendo  posiciona uno de los juegos más icónicos de la historia, “Super Mario Bros.”,  que viene del juego “Donkey Kong”. El mismo diseñador crea después “Zelda”, la historia de un niño que se mueve en el campo y avanza explorando diversos sitios. 
+          p.mb-5 En los años 80, en Estados Unidos, los videojuegos tienen una caída considerable; por ello, llega Japón al rescate y, en 1985, Nintendo  posiciona uno de los juegos más icónicos de la historia, <i>“Super Mario Bros.”</i>,  que viene del juego <i>“Donkey Kong”</i>. El mismo diseñador crea después “Zelda”, la historia de un niño que se mueve en el campo y avanza explorando diversos sitios. 
           .row.justify-content-center
             .col-12.col-lg-10
               .p-4.imagen-color-offset-top-left.color-secundario
                 figure.mb-4
                   img(src='@/assets/curso/tema1-imagen8.jpg')
                 p.mb-0.text-center
-                  strong Pitfall
+                  strong <i>Super Mario Bros</i>
 
         div.px-5(titulo="1987")
-          p.mb-5 En el año 1982, cuatro trabajadores de la empresa Atari deciden renunciar, porque no se consideraban valorados por la empresa, después de que esta fue vendida a la Warner, y juntos crean la empresa Activision, lanzando el primer videojuego de plataformas, “Pitfall”. 
+          p.mb-5 En 1987, la empresa Capcom crea <i>“Streetfighter”</i> y otros títulos más. Asimismo, otra empresa importante, Konami, crea “Contra”.
+            br
+            br
+            | En este mismo año,  LucasFilm Games saca al mercado un juego de aventuras llamado <i>“Maniac Mansion”</i>, el primero en hacer uso del clic del mouse. Posterior a ello, también se creó <i>“Indiana Jones and the last crusade”</i>, en 1989.
           .row.justify-content-center
-            .col-12.col-lg-4
-              .p-4.imagen-color-offset-top-left.color-acento-contenido
+            .col-8.col-lg-4
+              .p-4.imagen-color-offset-top-left.color-secundario
                 figure.mb-4
                   img(src='@/assets/curso/tema1-imagen9.jpg')
                 p.mb-0.text-center
                   strong Maniac Mansion
 
         div.px-5(titulo="1988")
-          p.mb-5 En el año 1982, cuatro trabajadores de la empresa Atari deciden renunciar, porque no se consideraban valorados por la empresa, después de que esta fue vendida a la Warner, y juntos crean la empresa Activision, lanzando el primer videojuego de plataformas, “Pitfall”. 
+          p.mb-5 En 1988, Nintendo decide crear una consola portátil, llamada <i>Gameboy</i>, cuyo juego estrella es el “Tetris”, que fue creado en Rusia, por Alexey Pajitnov, quien trabajaba para una empresa rusa, que distribuye el juego, y, finalmente, llega a manos de Nintendo.
           .row.justify-content-center
-            .col-12.col-lg-4
-              .p-4.imagen-color-offset-top-left.color-secundario
+            .col-9.col-lg-4
+              .p-4.imagen-color-offset-top-left.color-acento-contenido
                 figure.mb-4
                   img(src='@/assets/curso/tema1-imagen10.jpg')
                 p.mb-0.text-center
@@ -124,7 +127,7 @@
           p.mb-5 Sega, después de mucha competencia con Nintendo, crea “Sonic”, en 1991, uno de sus íconos estrella.
             br
             br
-            | En un principio, los juegos se destacan por que son representados con luces blancas. Posterior a ello, en los años 80, introducen los 8, 16 y 32 bits. Y en los 90, se da una evolución hacia el 3D, donde los gráficos se encuentran renderizados y pueden ser usados en las diversas consolas. 
+            | En un principio, los juegos se destacan porque son representados con luces blancas. Posterior a ello, en los años 80, introducen los 8, 16 y 32 bits. Y en los 90, se da una evolución hacia el 3D, donde los gráficos se encuentran renderizados y pueden ser usados en las diversas consolas. 
           .row.justify-content-center
             .col-12.col-lg-6
               .p-4.imagen-color-offset-top-left.color-secundario
@@ -134,7 +137,7 @@
                   strong Sonic
 
         div.px-5(titulo="1992")
-          p.mb-5 Id Software creó juegos que rápidamente se usaron en computadoras, como “Wolfenstein” 3D y Doom juegos en primera persona tipo shooter que tenían una vista y recorrido en 3D creado en 1992 y 1993 respectivamente. 
+          p.mb-5 <i>Id Software</i> creó juegos que rápidamente se usaron en computadoras, como “Wolfenstein” 3D y Doom juegos en primera persona tipo shooter que tenían una vista y recorrido en 3D creado en 1992 y 1993 respectivamente. 
           .row.justify-content-center
             .col-12.col-lg-6
               .p-4.imagen-color-offset-top-left.color-acento-contenido
@@ -145,14 +148,14 @@
 
         .row.justify-content-center(titulo="1996")
           .col-12.col-lg-6.mb-5.mb-lg-0
-            p.mb-0 En 1994, “Donkey Kong Country” sale al mercado, con un estilo 3D prerrenderizado, igual que “Warcraft Orcs and humans”.
+            p.mb-0 En 1994, <i>“Donkey Kong Country”</i> sale al mercado, con un estilo 3D prerrenderizado, igual que <i>“Warcraft Orcs and humans”</i>.
               br
               br
-              | En 1996, aparece uno de los primeros juegos de estrategia, el gran reconocido “Diablo”, un RPG,  seguido de “Age of empires”, en 1997. 
+              | En 1996, aparece uno de los primeros juegos de estrategia, el gran reconocido “Diablo”, un RPG,  seguido de <i>“Age of empires”</i>, en 1997. 
               br
               br
-              | Sony y Sega son los nuevos competidores del mercado, y salen nuevos juegos, como “Resident Evil”, en 1996. En ese mismo año, el famoso juego  “Super Mario 64” es adaptado por primera vez en 3D.
-          .col-12.col-lg-3
+              | Sony y Sega son los nuevos competidores del mercado, y salen nuevos juegos, como <i>“Resident Evil”</i>, en 1996. En ese mismo año, el famoso juego  “Super Mario 64” es adaptado por primera vez en 3D.
+          .col-6.col-lg-3
             .p-4.imagen-color-offset-top-left.color-secundario
                 figure.mb-4
                   img(src='@/assets/curso/tema1-imagen13.jpg')
@@ -165,15 +168,15 @@
               br
               br
               | Finalmente, esta evolución del videojuego muestra que la calidad de imagen es muy superior, logrando juegos fotorealistas.
-          .col-12.col-lg-3
+          .col-6.col-lg-3
             .p-4.imagen-color-offset-top-left.color-acento-contenido
                 figure.mb-4
                   img(src='@/assets/curso/tema1-imagen14.jpg')
                 p.mb-0.text-center
-                  strong Resident Evil
+                  strong Halo
         
         div.px-5(titulo="2004")
-          p.mb-5 En el año 2004, “World of the Warcraft”, el cual es la cuarta saga de una serie que evoluciona como multijugador masivo de tiempo real.
+          p.mb-5 En el año 2004, <i>“World of the Warcraft”</i>, el cual es la cuarta saga de una serie que evoluciona como multijugador masivo de tiempo real.
             br
             br
             | En 2004, llega una nueva forma de videojuegos, al eliminar los controles, con el Kinect de la Xbox 360, creando juegos que cambian la jugabilidad, utilizando el cuerpo de la persona como herramienta de acción. 
@@ -189,28 +192,28 @@
           p.mb-5 En adelante a los años 2000, se ve un desarrollo muy alto en la calidad y jugabilidad, mejorando día a día en cada una de las entregas.
             br
             br
-            | En el año 2009, nace “Angry Birds”, uno de los juegos más descargados de la Play Store, adentrándose en los celulares inteligentes. 
+            | En el año 2009, nace <i>“Angry Birds”</i>, uno de los juegos más descargados de la <i>Play Store</i>, adentrándose en los celulares inteligentes. 
             br
             br
             | Cabe destacar que los juegos, debido a los altos estándares, son cada vez más pesados y requieren de procesamientos mucho más veloces, pero esto ha permitido que sean mucho más realistas que antes.  Los videojuegos día a día siguen evolucionando. 
           .row.justify-content-center
             .col-12.col-lg-6
-              .p-4.imagen-color-offset-top-left.color-secundario
+              .p-4.imagen-color-offset-top-left.color-acento-contenido
                 figure.mb-4
                   img(src='@/assets/curso/tema1-imagen16.jpg')
                 p.mb-0.text-center
                   strong Angry Birds
 
     #t_1_1.titulo-segundo
-      h2 1.1  Pipeline del videojuego
+      h2 1.1  <i>Pipeline</i> del videojuego
 
-    p.mb-5 El pipeline es el proceso productivo que acarrea el videojuego. Por ello es importante definirlo, para tener un flujo de trabajo detallado, lo que permite que se realice en un proceso lógico, evitando retrasos en la realización del producto final.
+    p.mb-5 El <i>pipeline</i> es el proceso productivo que acarrea el videojuego. Por ello es importante definirlo, para tener un flujo de trabajo detallado, lo que permite que se realice en un proceso lógico, evitando retrasos en la realización del producto final.
     
     .row.justify-content-center
       .col-auto
         .titulo-sexto.color-acento-contenido.w-auto
           h5 Figura 1 
-          span Pipeline videojuego
+          span <i>Pipeline</i> videojuego
 
     figure.mb-5
       img(src='@/assets/curso/tema1-imagen17.svg')
@@ -225,7 +228,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Ver anexo de Infografía
-                  p.text-small Infografía de Pipeline del videojuego 
+                  p.text-small Infografía de <i>Pipeline</i> del videojuego 
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/infografia 1.1_l.pdf')" target="_blank")
                     span Descargar
@@ -245,68 +248,73 @@
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
               .h5 Audio Ninja 
-              p.mb-0 Es un juego con estética 2D, cuyo fin es derrotar enemigos presionando botones en la pantalla para ir atacándolos al ritmo de la música. Fue diseñado para la plataforma Apple Store en el 2013, por la compañía Cocodrilo Dog, quedando como subcampeón en la categoría ‘Game runner up’ en el mismo año.
+              p.mb-0 Es un juego con estética 2D, cuyo fin es derrotar enemigos presionando botones en la pantalla para ir atacándolos al ritmo de la música. Fue diseñado para la plataforma Apple Store en el 2013, por la compañía Cocodrilo <i>Dog</i>, quedando como subcampeón en la categoría <i>‘Game runner up’</i> en el mismo año.
             .col-12.col-lg-5
               .row.justify-content-center
                 .col-auto
                   .pt-2.pb-1.ps-4.pe-4.container-title
                     .titulo-sexto.color-acento-contenido.mb-0
                       h5 Figura 2
-                      span Videojuego audio Ninja
+                      span Videojuego Audio Ninja
               figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen20.jpg")
+                figcaption Tomada de <a href="https://www.cocodrilodog.com/web/#audioninja" target="_blank">https://www.cocodrilodog.com/web/#audioninja</a>
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
-              .h5 Grabbity
-              p.mb-0 En 2013, Efectos Studio lanzó este juego, el cual cuenta con una estética en 2D bien contrastada, donde el personaje resalta, pues este es de color negro y se mueve a través de un mundo de laberintos totalmente coloridos, esquivando los obstáculos que se le presentan en el camino; haciendo uso del acelerómetro incorporado en el celular o Tablet.
+              .h5 <i>Grabbity</i>
+              p.mb-0 En 2013, Efectos Studio lanzó este juego, el cual cuenta con una estética en 2D bien contrastada, donde el personaje resalta, pues este es de color negro y se mueve a través de un mundo de laberintos totalmente coloridos, esquivando los obstáculos que se le presentan en el camino; haciendo uso del acelerómetro incorporado en el celular o tablet.
             .col-12.col-lg-5
               .row.justify-content-center
                 .col-auto
                   .pt-2.pb-1.ps-4.pe-4.container-title
                     .titulo-sexto.color-acento-contenido.mb-0
-                      h5 Figura 2
-                      span Videojuego Grabbity
+                      h5 Figura 3
+                      span Videojuego <i>Grabbity</i>
               figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen21.jpg")
+                figcaption Nota. Tomada de <a href="https://www.xataka.com.co/videojuegos/grabbity-un-divertido-juego-que-hara-girar-sin-control" target="_blank">https://www.xataka.com.co/videojuegos/grabbity-un-divertido-juego-que-hara-girar-sin-control</a>
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
-              .h5 Poltergeist: a Pixelated horror 
-              p.mb-0 En este juego tipo puzzle en 2D, creado bajo la técnica pixel art, en vista isométrica, el jugador debe asumir el papel de Henry B. Knight, un fantasma que tiene por objetivo hacer huir a la familia que vive en su antigua mansión. Fue creado por el estudio Glitchy Pixel y se lanzó al mercado en el año 2014.
+              .h5 <i>Poltergeist: a Pixelated horror </i>
+              p.mb-0 En este juego tipo puzzle en 2D, creado bajo la técnica pixel art, en vista isométrica, el jugador debe asumir el papel de Henry B. Knight, un fantasma que tiene por objetivo hacer huir a la familia que vive en su antigua mansión. Fue creado por el estudio <i>Glitchy Pixel</i> y se lanzó al mercado en el año 2014.
             .col-12.col-lg-3.offset-lg-2
               .row.justify-content-center
                 .col-auto
                   .pt-2.pb-1.ps-4.pe-4.container-title
                     .titulo-sexto.color-acento-contenido.mb-0
-                      h5 Figura 2
-                      span Videojuego Poltergeist
+                      h5 Figura 4
+                      span Videojuego <i>Poltergeist</i>
               figure
                 img(src="@/assets/curso/tema1-imagen22.jpg")
+                figcaption Nota. Tomada de Poltergeist : <i>A Pixelated Horror</i> sur PS Vita @JVL <a href="jeuxvideo-live.com" target="_blank">(jeuxvideo-live.com)</a>
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
-              .h5 Story Warriors: Fairy Tales (2015) 
-              p.mb-0 Creado en el año 2015, por la empresa colombiana Below The Games (BTG), fundada por Carlos Rocha, trata de una aventura interactiva tipo puzzle, que narra interesantes cuentos de hadas, lo cual lo convierte en una atractiva forma de leer para los niños, ya que mezcla el entretenimiento con lo educativo.
+              .h5 <i>Story Warriors: Fairy Tales</i> (2015) 
+              p.mb-0 Creado en el año 2015, por la empresa colombiana <i>Below The Games</i> (BTG), fundada por Carlos Rocha, trata de una aventura interactiva tipo puzzle, que narra interesantes cuentos de hadas, lo cual lo convierte en una atractiva forma de leer para los niños, ya que mezcla el entretenimiento con lo educativo.
             .col-12.col-lg-5
               .row.justify-content-center
                 .col-auto
                   .pt-2.pb-1.ps-4.pe-4.container-title
                     .titulo-sexto.color-acento-contenido.mb-0
-                      h5 Figura 2
-                      span Videojuego Story Warriors
+                      h5 Figura 5
+                      span Videojuego <i>Story Warriors</i>
               figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen23.jpg")
+                figcaption Nota. Tomada de <a href="https://twitter.com/SWFairyTales/status/577462629402353664/photo/2" target="_blank">SW: Fairy Tales (@SWFairyTales) / Twitter</a>
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
-              .h5 Neon Fury. Neón Fury (2017) 
+              .h5 <i>Neon Fury. Neón Fury</i> (2017) 
               p.mb-0 Es un juego de defensa de torres, creado para la realidad virtual, en el que se destacan sus gráficos en 3D y que se desarrolla en un escenario retro futurista. Fue diseñado por Teravision Games, compañía que ha venido creando contenido para reconocidas empresas, como Namco, Atari, Disney, Nickelodeon, Unicef, Natgeo y Discovery.
             .col-12.col-lg-5
               .row.justify-content-center
                 .col-auto
                   .pt-2.pb-1.ps-4.pe-4.container-title
                     .titulo-sexto.color-acento-contenido.mb-0
-                      h5 Figura 2
+                      h5 Figura 6
                       span Videojuego Neón Fury
               figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen24.jpg")
+                figcaption Nota. Tomada de <a href="https://g-mnews.com/news/colombia-apuesta-a-pleno-por-los-videojuegos/" target="_blank">Colombia apuesta a pleno por los videojuegos – Gaming And Media (g-mnews.com)</a>
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
               .h5 World War Doh 
@@ -316,10 +324,11 @@
                 .col-auto
                   .pt-2.pb-1.ps-4.pe-4.container-title
                     .titulo-sexto.color-acento-contenido.mb-0
-                      h5 Figura 2
+                      h5 Figura 7
                       span Videojuego World War Doh 
               figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen25.jpg")
+                figcaption Nota. Tomada de <a href="https://worldwardoh.com" target="_blank">https://worldwardoh.com</a>
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
               .h5 Ark: Survival Evolved 
@@ -329,10 +338,11 @@
                 .col-auto
                   .pt-2.pb-1.ps-4.pe-4.container-title
                     .titulo-sexto.color-acento-contenido.mb-0
-                      h5 Figura 2
-                      span Videojuego Ark: Survival Evolved 
+                      h5 Figura 8
+                      span Videojuego <i>Ark: Survival Evolved </i>
               figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen26.jpg")
+                figcaption Nota. Tomada de <a href="http://www.studiowildcard.com/2016/1/12/nbpnnxbu6rpzpc4ishl3uttyj7lnuj" target="_blank">http://www.studiowildcard.com/2016/1/12/nbpnnxbu6rpzpc4ishl3uttyj7lnuj</a>
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
               .h5 Haimrik (2018)  
@@ -342,10 +352,11 @@
                 .col-auto
                   .pt-2.pb-1.ps-4.pe-4.container-title
                     .titulo-sexto.color-acento-contenido.mb-0
-                      h5 Figura 2
+                      h5 Figura 9
                       span Videojuego Haimrik
               figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen27.jpg")
+                figcaption Nota. Tomada de <a href="https://www.3djuegos.com/26211/haimrik/#-img-3452317-26211-0-0" target="_blank">Haimrik para PC - 3DJuegos</a>
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
               .h5 Un cabrón en Transmilenio 
@@ -357,10 +368,11 @@
                 .col-auto
                   .pt-2.pb-1.ps-4.pe-4.container-title
                     .titulo-sexto.color-acento-contenido.mb-0
-                      h5 Figura 2
+                      h5 Figura 10
                       span Videojuego Un cabrón en Transmilenio 
               figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen28.jpg")
+                figcaption Tomada de <a href="https://black-mamba-studio.itch.io/un-cabron-en-transmilenio" target="_blank">Un Cabrón en Transmilenio by Black Mamba Studio, QuietGecko, prinfrexita, Carenalga (itch.io)</a>
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
               .h5 Captain Toonhead 
@@ -370,10 +382,11 @@
                 .col-auto
                   .pt-2.pb-1.ps-4.pe-4.container-title
                     .titulo-sexto.color-acento-contenido.mb-0
-                      h5 Figura 2
+                      h5 Figura 11
                       span Videojuego Captain Toonhead 
               figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen29.jpg")
+                figcaption Nota. Tomada de <a href="https://teravisiongames.com/site/captain-toonhead/" target="_blank">https://teravisiongames.com/site/captain-toonhead/</a>
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
               .h5 Cristales 
@@ -383,10 +396,12 @@
                 .col-auto
                   .pt-2.pb-1.ps-4.pe-4.container-title
                     .titulo-sexto.color-acento-contenido.mb-0
-                      h5 Figura 2
+                      h5 Figura 12
                       span Videojuego Cristales
               figure.especial(style="max-height: 235px")
-                img(src="@/assets/curso/tema1-imagen30.jpg")    
+                img(src="@/assets/curso/tema1-imagen30.jpg")
+                figcaption Nota. Tomada de <a href="https://modusgames.com/cris-tales/" target="_blank">https://modusgames.com/cris-tales/</a>
+
 
     #t_1_3.titulo-segundo
       h2 1.3  Tipos de videojuegos y plataformas
@@ -396,7 +411,7 @@
       .color-text.px-4.py-4
         p.mb-0 El ocio y tiempo de esparcimiento de la cultura y la sociedad actual, a partir de los años 80, ha tenido una gran transformación. Cada vez más personas dedican tiempo y dinero hacia medios de entretenimientos tecnológicos, uno de ellos, los videojuegos. Esta industria desarrolló una curva de éxito exponencial al ser cada vez más asequible, convirtiéndose en una de las de mayor consumo en la actualidad.
 
-    h3.titulo-tercero 1.3.1 Tipos de juegos
+    h3.titulo-tercero Tipos de juegos
     
     p.mb-5 Los videojuegos evolucionaron tomando nuevas mecánicas y características que los fueron transformando y a su vez desarrollando estilos diferenciados unos de otros, partiendo de la premisa de acción y recompensa. Debido a sus variaciones, los videojuegos se pueden clasificar en diferentes géneros y subgéneros, tomando en cuenta su tipo de jugabilidad, de los cuales podemos destacar los siguientes: 
 
@@ -405,16 +420,17 @@
         .col-md-7.mb-4.mb-md-0
           p Son juegos en los cuales se recrean combates entre mínimo 2 contrincantes sobre una arena de batalla, en perspectiva lateral en tercera persona.  
             br
-            | En este tipo de juegos, como el famoso “Yo contra el barrio”, los jugadores se enfrentan a una cantidad amplia de enemigos, mientras van recorriendo escenarios conectados, que sirven como niveles. Puede jugar más de 1 jugador, de manera cooperativa. Otros ejemplos de este tipo de juegos son “Double Dragon”  y “Final Fight”.
+            | En este tipo de juegos, como el famoso “Yo contra el barrio”, los jugadores se enfrentan a una cantidad amplia de enemigos, mientras van recorriendo escenarios conectados, que sirven como niveles. Puede jugar más de 1 jugador, de manera cooperativa. Otros ejemplos de este tipo de juegos son <i>“Double Dragon”</i>  y <i>“Final Fight”</i>.
       
         .col-md-5
           .row.justify-content-center
             .col-auto
               .titulo-sexto.color-acento-contenido
                 h5 Figura 13
-                span Videojuego Final Fight
+                span Videojuego <i>Final Fight</i>
           figure
             img(src='@/assets/curso/tema1-imagen32.jpg')
+            figcaption Nota. Tomada de <a href="https://www.hobbyconsolas.com/reportajes/mejores-juegos-beat-em-retro-historia-83324" target="_blank">https://www.hobbyconsolas.com/reportajes/mejores-juegos-beat-em-retro-historia-83324</a>
 
       .row.p-3(titulo="Juegos FPS ")
         .col-md-7.mb-4.mb-md-0
@@ -428,6 +444,7 @@
                 span Videojuego Doom
           figure
             img(src='@/assets/curso/tema1-imagen33.jpg')
+            figcaption Nota. Tomada de <a href="https://bethesda.net/es/game/doom" target="blank">https://bethesda.net/es/game/doom</a>
       
       .row.px-3(titulo="Juegos de plataforma")
         .col-md-7.mb-4.mb-md-0
@@ -441,6 +458,7 @@
                 span Videojuego Super Mario Bros.
           figure
             img(src='@/assets/curso/tema1-imagen34.jpg')
+            figcaption Nota. Tomada de <a target="_blank" href="https://www.nintendo.es/Juegos/NES/Super-Mario-Bros--803853.html">https://www.nintendo.es/Juegos/NES/Super-Mario-Bros--803853.html</a>
 
       .row.px-3(titulo="Juegos simuladores")
         .col-md-7.mb-4.mb-md-0
@@ -454,10 +472,11 @@
                 span Videojuego Flight Simulator
           figure
             img(src='@/assets/curso/tema1-imagen35.jpg')
+            figcaption Nota. Tomada de <a href="https://www.xbox.com/es-CO/games/microsoft-flight-simulator" target="_blank"></a>
 
       .row.px-3(titulo="Juegos de deportes")
         .col-md-7.mb-4.mb-md-0
-          p Son aquellos videojuegos que toman como función principal las mecánicas físicas, para representar deportes, en algunas ocasiones, no como simulación, puesto que los tiempos espacios y velocidades no corresponden a un acercamiento con la realidad, pero sí conservando las bases del deporte en el que se basan. Algunos de estos juegos son “Fifa”, “Pes”, “Nba2k”.
+          p Son aquellos videojuegos que toman como función principal las mecánicas físicas, para representar deportes, en algunas ocasiones, no como simulación, puesto que los tiempos, espacios y velocidades no corresponden a un acercamiento con la realidad, pero sí conservando las bases del deporte en el que se basan. Algunos de estos juegos son “Fifa”, “Pes”, “Nba2k”.
           
         .col-md-5
           .row.justify-content-center
@@ -467,19 +486,21 @@
                 span Videojuego FIFA 21
           figure
             img(src='@/assets/curso/tema1-imagen36.jpg')
+            figcaption Nota. Tomada de <a href="https://www.ea.com/es-es/games/fifa/fifa-21/media-hub/media/fifa-21-next-level-scenes-row" target="_blank">https://www.ea.com/es-es/games/fifa/fifa-21/media-hub/media/fifa-21-next-level-scenes-row</a>
 
       .row.px-3(titulo="Juegos de estrategia")
         .col-md-7.mb-4.mb-md-0
-          p En este género de juego, generalmente en tercera persona con vista cenital, el usuario empieza con pocos recursos y conociendo su objetivo final, y, para lograrlo, emplea procesos de construcciones, exploraciones y recolección de recursos para mejorar sus asentamientos, indicando y dando órdenes que sirven como acciones para que sus aliados realicen. Este tipo de juegos no avanza con tanta rapidez y se le da alto énfasis al argumento, como es el caso de “Age Of Empires”, “Warcraft”, entre otros.
+          p En este género de juego, generalmente en tercera persona con vista cenital, el usuario empieza con pocos recursos y conociendo su objetivo final, y, para lograrlo, emplea procesos de construcciones, exploraciones y recolección de recursos para mejorar sus asentamientos, indicando y dando órdenes que sirven como acciones para que sus aliados realicen. Este tipo de juegos no avanza con tanta rapidez y se le da alto énfasis al argumento, como es el caso de <i>“Age Of Empires”</i>, <i>“Warcraft”</i>, entre otros.
           
         .col-md-5
           .row.justify-content-center
             .col-auto
               .titulo-sexto.color-acento-contenido
                 h5 Figura 18
-                span Videojuego Age of Empires
+                span Videojuego <i>Age of Empires</i>
           figure
             img(src='@/assets/curso/tema1-imagen37.jpg')
+            figcaption Nota. Tomada de  <a href="https://www.ageofempires.com/games/age-of-empires-iv/" target="_blank">https://www.ageofempires.com/games/age-of-empires-iv/</a>
 
 
       .row.px-3(titulo="Juegos de aventura")
@@ -491,37 +512,40 @@
             .col-auto
               .titulo-sexto.color-acento-contenido
                 h5 Figura 19
-                span Videojuego The Legend of Zelda: Breath of the Wild
+                span Videojuego <i>The Legend of Zelda: Breath of the Wild</i>
           figure
             img(src='@/assets/curso/tema1-imagen38.jpg')
+            figcaption Nota. Tomada de  <a href="https://www.zelda.com/breath-of-the-wild/es/media" target="_blank">https://www.zelda.com/breath-of-the-wild/es/media</a>
 
       .row.px-3(titulo="Juegos de rol")
         .col-md-7.mb-4.mb-md-0
-          p En este tipo de videojuegos, como “Final Fantasy”, “The Witcher”, “The Elder Scrolls”, el usuario diseña el personaje desde el inicio e interpreta el rol del mismo. A medida que va avanzando, lo va desarrollando, aumentando parámetros como fuerza, resistencia, salud, entre otros. Pueden ser de 1 o varios personajes al mismo tiempo; generalmente se desarrollan en mundos abiertos, es decir, mundos completos, no seccionados en niveles.
+          p En este tipo de videojuegos, como <i>“Final Fantasy”</i>, <i>“The Witcher”</i>, <i>“The Elder Scrolls”</i>, el usuario diseña el personaje desde el inicio e interpreta el rol del mismo. A medida que va avanzando, lo va desarrollando, aumentando parámetros como fuerza, resistencia, salud, entre otros. Pueden ser de 1 o varios personajes al mismo tiempo; generalmente se desarrollan en mundos abiertos, es decir, mundos completos, no seccionados en niveles.
           
         .col-md-5
           .row.justify-content-center
             .col-auto
               .titulo-sexto.color-acento-contenido
                 h5 Figura 20
-                span Videojuego The Witcher 3: Wild Hunt
+                span Videojuego <i>The Witcher 3: Wild Hunt</i>
           figure
             img(src='@/assets/curso/tema1-imagen39.jpg')
+            figcaption Nota. Tomada de  <a href="https://thewitcher.com/en/witcher3" target="_blank">https://thewitcher.com/en/witcher3</a>
       
       .row.px-3(titulo="Juegos casuales")
         .col-md-7.mb-4.mb-md-0
-          p Videojuegos basados en temáticas de entretenimiento o educación, que están destinados a jugadores no habituales que buscan una distracción diferente. Están basados en reglas simples y no requieren de una gran dedicación ni compromiso. Entre ellos están “Angry Birds”, “Plants Vs Zombies”.
+          p Videojuegos basados en temáticas de entretenimiento o educación, que están destinados a jugadores no habituales que buscan una distracción diferente. Están basados en reglas simples y no requieren de una gran dedicación ni compromiso. Entre ellos están <i>“Angry Birds”, “Plants vs Zombies”</i>.
           
         .col-md-5
           .row.justify-content-center
             .col-auto
               .titulo-sexto.color-acento-contenido
                 h5 Figura 21
-                span Videojuego Angry Birds 2
+                span Videojuego <i>Angry Birds 2</i>
           figure
             img(src='@/assets/curso/tema1-imagen40.jpg')
+            figcaption Nota. Tomada de <a href="https://www.rovio.com/games/angry-birds-2/" target="_blank">https://www.rovio.com/games/angry-birds-2/</a>
     
-    h3.titulo-tercero 1.3.2 Sistemas de clasificación en los videojuegos.
+    h3.titulo-tercero Sistemas de clasificación en los videojuegos
 
     p.mb-5 Para el desarrollo de videojuegos existen sistemas de clasificación para poder ser vendidos o alquilados. Entre ellos, es posible destacar el sistema europeo y el americano.
 
@@ -543,26 +567,28 @@
                       span Gráfica de clasificaciones en los videojuegos PEGI
                 figure
                   img(src="@/assets/curso/tema1-imagen42.svg")
+                  figcaption Nota. Tomada de <a target="_blank" href="https://www.divulgaciondinamica.es/blog/que-es-pegi-videojuegos/">https://www.divulgaciondinamica.es/blog/que-es-pegi-videojuegos/</a>
 
         .row.container-uno-color.claro.p-5(data-aos="slide-left" data-aos-delay="100" data-aos-duration="600")
           .col-12.col-lg-3.mb-5.mb-lg-0
             figure
               img(src="@/assets/curso/tema1-imagen43.svg")
           .col-12.col-lg-9.mb-5.mb-lg-0
-            h4 Sistema estadounidense Entertainment Software Rating Board (ESRB). 
-            p.mb-5 Creado en 1994, tras la aparición del videojuego “Mortal Kombat” y toda la polémica que desató al contener violencia explícita. Utiliza letras alfabéticas, para clasificar así su contenido.
+            h4 Sistema estadounidense <i>Entertainment Software Rating Board</i> (ESRB). 
+            p.mb-5 Creado en 1994, tras la aparición del videojuego <i>“Mortal Kombat”</i> y toda la polémica que desató al contener violencia explícita. Utiliza letras alfabéticas, para clasificar así su contenido.
             .row
               .col-12.col-lg-10
                 .row.justify-content-center
                   .col-auto
                     .titulo-sexto.color-acento-contenido
                       h5 Figura 23
-                      span Gráfica de clasificaciones en los videojuegos PEGI
+                      span Gráfica de clasificaciones en los videojuegos ESRB
                 figure
                   img(src="@/assets/curso/tema1-imagen44.svg")
+                  figcaption Nota. Tomada de <a target="_blank" href="https://rtvc-assets-radionica3.s3.amazonaws.com/s3fs-public/senalradionica/articulo-noticia/galeriaimagen/fotorcreatedn.jpg">https://rtvc-assets-radionica3.s3.amazonaws.com/s3fs-public/senalradionica/articulo-noticia/galeriaimagen/fotorcreatedn.jpg</a> 
 
 
-    h3.titulo-tercero 1.3.2  Plataformas actuales de videojuegos.
+    h3.titulo-tercero  Plataformas actuales de videojuegos
 
     p.mb-5 Son los sistemas base donde funcionan los juegos, en dichos dispositivos se emplean lenguajes de programación. 
 
@@ -571,44 +597,44 @@
     p.mb-5 Las consolas de videojuegos siguen siendo el sistema más popular de la actualidad. Entre ellas, se puede encontrar un cruce generacional, lo que se conoce como consolas de anterior generación y de nueva generación.
 
     .row.mb-5
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex(data-aos="zoom-in-left" data-aos-delay="200" data-aos-duration="600")
+      .col-12.col-lg-3.mb-0.d-flex(data-aos="zoom-in-left" data-aos-delay="200" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen45.png")
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text.p-5.p-lg-0(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         table
           tbody
             tr
               td.align-middle Es la cuarta consola de la marca Sony, salió al mercado en 2013. Modo de gráficos mejorados: el juego se ejecuta a 1080p y 30 fps, pero con mejoras gráficas. 
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
+      .col-12.col-lg-3.mb-0.d-flex(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen46.png")
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text(data-aos="zoom-in-right" data-aos-delay="200" data-aos-duration="600")
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text.p-5.p-lg-0(data-aos="zoom-in-right" data-aos-delay="200" data-aos-duration="600")
         table
           tbody
             tr
               td.align-middle  Tercera consola de videojuegos lanzada por Microsoft con polémica, puesto que se pretendía que fuese obligatorio que siempre estuviese conectada a Internet para poder usarse. Lanzada en 2013, se considera de anterior generación, precedida por la actual Xbox Series X.
     .row.mb-5
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex(data-aos="zoom-in-left" data-aos-delay="200" data-aos-duration="600")
+      .col-12.col-lg-3.mb-0.d-flex(data-aos="zoom-in-left" data-aos-delay="200" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen47.png")
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text.p-5.p-lg-0(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         table
           tbody
             tr
               td.align-middle Consola de videojuegos de la marca Sony, la quinta en ser lanzada por esta marca, en 2020.  Con dos modelos, uno con unidad lectora de disco y otro sin esta. Desarrollada para mostrar juegos con resoluciones 4K.
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
+      .col-12.col-lg-3.mb-0.d-flex(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen48.png")
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text(data-aos="zoom-in-right" data-aos-delay="200" data-aos-duration="600")
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text.p-5.p-lg-0(data-aos="zoom-in-right" data-aos-delay="200" data-aos-duration="600")
         table
           tbody
             tr
               td.align-middle Cuarta consola de generación lanzada por Microsoft para competir con la PS5. Destaca por su capacidad de dar soporte a resoluciones 8K.
     .row.mb-5(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex
+      .col-12.col-lg-3.mb-0.d-flex
         figure.container-elements.p-5
           img(src="@/assets/curso/tema1-imagen49.png")
-      .col-12.col-lg-9.mb-5.mb-lg-0.d-flex.container-elements-text
+      .col-12.col-lg-9.mb-5.mb-lg-0.d-flex.container-elements-text.p-5.p-lg-0
         table
           tbody
             tr
@@ -619,52 +645,52 @@
     p.mb-5 En los últimos años se ha vuelto muy popular el PC como sistema de videojuegos, esto en parte porque las desarrolladoras están lanzando por este medio los juegos que salen en videoconsolas. Se perfila a futuro como el sistema por excelencia. En el PC, es posible encontrar plataformas dedicadas a videojuegos basados en la nube, en un sistema similar a como trabaja Netflix, de las cuales podemos destacar las siguientes:
 
     .row.mb-5
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex(data-aos="zoom-in-left" data-aos-delay="100" data-aos-duration="600")
+      .col-12.col-lg-3.mb-0.d-flex(data-aos="zoom-in-left" data-aos-delay="100" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen50.png")
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text.p-5.p-lg-0(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         table
           tbody
             tr
               td.align-middle Perteneciente a Valve, es la más grande plataforma de videojuegos para PC y MAC, con más de 7300 juegos, en la cual se pueden encontrar juegos de todo tipo, incluso los llamados Free to Play.
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
+      .col-12.col-lg-3.mb-0.d-flex(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen51.png")
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text(data-aos="zoom-in-right" data-aos-delay="100" data-aos-duration="600")
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text.p-5.p-lg-0(data-aos="zoom-in-right" data-aos-delay="100" data-aos-duration="600")
         table
           tbody
             tr
               td.align-middle Es la plataforma de videojuegos de Google, ofrece videojuegos vía streaming, es decir, se ejecutan en los servidores de Google y se juegan a través de la app o el navegador.
     .row.mb-5
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex(data-aos="zoom-in-left" data-aos-delay="100" data-aos-duration="600")
+      .col-12.col-lg-3.mb-0.d-flex(data-aos="zoom-in-left" data-aos-delay="100" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen52.png")
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text.p-5.p-lg-0(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         table
           tbody
             tr
               td.align-middle Es la plataforma de Ubisoft, desarrolladora destacada de videojuegos, en la cual podemos encontrar la saga “Assassins Creed”.
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
+      .col-12.col-lg-3.mb-0.d-flex(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen53.png")
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text(data-aos="zoom-in-right" data-aos-delay="100" data-aos-duration="600")
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text.p-5.p-lg-0(data-aos="zoom-in-right" data-aos-delay="100" data-aos-duration="600")
         table
           tbody
             tr
               td.align-middle Plataforma perteneciente a la desarrolladora Electronics Arts, que se destaca por poseer juegos como FIFA.
     .row.mb-5
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex(data-aos="zoom-in-left" data-aos-delay="100" data-aos-duration="600")
+      .col-12.col-lg-3.mb-0.d-flex(data-aos="zoom-in-left" data-aos-delay="100" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen54.png")
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text.p-5.p-lg-0(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         table
           tbody
             tr
               td.align-middle Plataforma que ha tomado mucha popularidad por ser la desarrolladora del juego free to play “Fornite” y el motor de videojuegos Unreal Engine; además de que semanalmente obsequian juegos.
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
+      .col-12.col-lg-3.mb-0.d-flex(data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600")
         figure.container-elements
           img(src="@/assets/curso/tema1-imagen55.png")
-      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text(data-aos="zoom-in-right" data-aos-delay="100" data-aos-duration="600")
+      .col-12.col-lg-3.mb-5.mb-lg-0.d-flex.container-elements-text.p-5.p-lg-0(data-aos="zoom-in-right" data-aos-delay="100" data-aos-duration="600")
         table
           tbody
             tr
@@ -688,7 +714,7 @@
     .row
       .col-12.col-lg-6.mb-5.mb-lg-0
         h3 Celulares
-        p.mb-0 Los celulares, en la última década, se han posicionado como el hardware con mayor catálogo de juegos. Sea de paso dicho, su mayor concentración se basa en videojuegos casuales, popularizándose con el lanzamiento de “Angry Birds”, “Candy Crush”, “Plant vs Zombies”, entre otros. Aunque con la tecnología avanzando de manera exponencial, los videojuegos que antes se lanzaban en consolas están llegando a estos dispositivos; juegos tipo battle royale (todos contra todos), como “Free Fire” o “Fortnite”, siendo así que las consolas portátiles prácticamente han desaparecido del panorama actual y los teléfonos móviles han tomado el lugar que estas han dejado.
+        p.mb-0 Los celulares, en la última década, se han posicionado como el hardware con mayor catálogo de juegos. Sea de paso dicho, su mayor concentración se basa en videojuegos casuales, popularizándose con el lanzamiento de <i>“Angry Birds”, “Candy Crush”, “Plants vs. Zombies”</i>, entre otros. Aunque con la tecnología avanzando de manera exponencial, los videojuegos que antes se lanzaban en consolas están llegando a estos dispositivos; juegos tipo battle royale (todos contra todos), como <i>“Free Fire”</i> o <i>“Fortnite”</i>, siendo así que las consolas portátiles prácticamente han desaparecido del panorama actual y los teléfonos móviles han tomado el lugar que estas han dejado.
       .col-12.col-lg-6
         figure
           img(src="@/assets/curso/tema1-imagen57.svg")
