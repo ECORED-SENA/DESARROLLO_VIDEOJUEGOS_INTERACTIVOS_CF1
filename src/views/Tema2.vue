@@ -504,7 +504,7 @@
           .bloque-texto-a__texto.p-4
             p En el guion técnico también se describen las indicaciones técnicas precisas, como la división en planos, el encuadre que delimita el espacio, estableciendo dónde empieza y termina el cuadro. También se elige el ángulo de la cámara, dependiendo de la altura o punto de vista en que se graben los movimientos de la cámara, que pueden ser físicos u ópticos (de las lentes); los detalles de iluminación, los sonidos concretos y la música que acompaña cada escena. 
         .col-lg-4
-          h2.mb-0 Es importante escribir la hora de la escena, si es de día, en la tarde o en la noche. Asimismo, si es una escena en el espacio exterior, o en un espacio interno. Esto permite saber el tipo de iluminación que ambientará dicha escena.
+          h4.mb-0 Es importante escribir la hora de la escena, si es de día, en la tarde o en la noche. Asimismo, si es una escena en el espacio exterior, o en un espacio interno. Esto permite saber el tipo de iluminación que ambientará dicha escena.
 
     p.mb-5 
 
