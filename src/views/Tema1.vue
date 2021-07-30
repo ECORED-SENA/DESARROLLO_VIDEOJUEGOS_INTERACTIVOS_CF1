@@ -18,7 +18,7 @@
         .row.px-5(titulo="Años 50")
           p Se puede atribuir a William Higinbotham como el primero en crear un videojuego, quien trabajó en los años 30 activamente en el desarrollo de un radar en la Segunda Guerra Mundial. Por lo tanto, en los años 50, hizo uso de un radar y lo adaptó, gracias a sus conocimientos en electrónica y física, creando el juego 
             strong <i>“Tennis for Two”</i>
-            | , el cual funcionaba con una perilla que se podía girar a la izquierda o a la derecha, para ajustar la trayectoria de la pelota de ping pong. 
+            | , el cual funcionaba con una perilla que se podía girar a la izquierda o a la derecha, para ajustar la trayectoria de la pelota de <i>ping pong</i>. 
             br
             br
             | Alexander Douglas, en 1952, creó 
@@ -104,14 +104,14 @@
           p.mb-5 En 1987, la empresa Capcom crea <i>“Streetfighter”</i> y otros títulos más. Asimismo, otra empresa importante, Konami, crea “Contra”.
             br
             br
-            | En este mismo año,  LucasFilm Games saca al mercado un juego de aventuras llamado <i>“Maniac Mansion”</i>, el primero en hacer uso del clic del mouse. Posterior a ello, también se creó <i>“Indiana Jones and the last crusade”</i>, en 1989.
+            | En este mismo año,  <i>LucasFilm Games</i> saca al mercado un juego de aventuras llamado <i>“Maniac Mansion”</i>, el primero en hacer uso del clic del mouse. Posterior a ello, también se creó <i>“Indiana Jones and the last crusade”</i>, en 1989.
           .row.justify-content-center
             .col-8.col-lg-4
               .p-4.imagen-color-offset-top-left.color-secundario
                 figure.mb-4
                   img(src='@/assets/curso/tema1-imagen9.jpg')
                 p.mb-0.text-center
-                  strong Maniac Mansion
+                  strong <i>Maniac Mansion</i>
 
         div.px-5(titulo="1988")
           p.mb-5 En 1988, Nintendo decide crear una consola portátil, llamada <i>Gameboy</i>, cuyo juego estrella es el “Tetris”, que fue creado en Rusia, por Alexey Pajitnov, quien trabajaba para una empresa rusa, que distribuye el juego, y, finalmente, llega a manos de Nintendo.
@@ -121,10 +121,10 @@
                 figure.mb-4
                   img(src='@/assets/curso/tema1-imagen10.jpg')
                 p.mb-0.text-center
-                  strong Tetris
+                  strong <i>Tetris</i>
 
         div.px-5(titulo="1991")
-          p.mb-5 Sega, después de mucha competencia con Nintendo, crea “Sonic”, en 1991, uno de sus íconos estrella.
+          p.mb-5 Sega, después de mucha competencia con Nintendo, crea <i>“Sonic”</i>, en 1991, uno de sus íconos estrella.
             br
             br
             | En un principio, los juegos se destacan porque son representados con luces blancas. Posterior a ello, en los años 80, introducen los 8, 16 y 32 bits. Y en los 90, se da una evolución hacia el 3D, donde los gráficos se encuentran renderizados y pueden ser usados en las diversas consolas. 
@@ -134,37 +134,37 @@
                 figure.mb-4
                   img(src='@/assets/curso/tema1-imagen11.jpg')
                 p.mb-0.text-center
-                  strong Sonic
+                  strong <i>Sonic</i>
 
         div.px-5(titulo="1992")
-          p.mb-5 <i>Id Software</i> creó juegos que rápidamente se usaron en computadoras, como “Wolfenstein” 3D y Doom juegos en primera persona tipo shooter que tenían una vista y recorrido en 3D creado en 1992 y 1993 respectivamente. 
+          p.mb-5 <i>Id Software</i> creó juegos que rápidamente se usaron en computadoras, como <i>“Wolfenstein”</i> 3D y <i>Doom</i> juegos en primera persona tipo <i>shooter</i> que tenían una vista y recorrido en 3D creado en 1992 y 1993 respectivamente. 
           .row.justify-content-center
             .col-12.col-lg-6
               .p-4.imagen-color-offset-top-left.color-acento-contenido
                 figure.mb-4
                   img(src='@/assets/curso/tema1-imagen12.jpg')
                 p.mb-0.text-center
-                  strong Wolfenstein
+                  strong <i>Wolfenstein</i>
 
         .row.justify-content-center(titulo="1996")
           .col-12.col-lg-6.mb-5.mb-lg-0
             p.mb-0 En 1994, <i>“Donkey Kong Country”</i> sale al mercado, con un estilo 3D prerrenderizado, igual que <i>“Warcraft Orcs and humans”</i>.
               br
               br
-              | En 1996, aparece uno de los primeros juegos de estrategia, el gran reconocido “Diablo”, un RPG,  seguido de <i>“Age of empires”</i>, en 1997. 
+              | En 1996, aparece uno de los primeros juegos de estrategia, el gran reconocido “Diablo”, un <i>RPG</i>,  seguido de <i>“Age of empires”</i>, en 1997. 
               br
               br
-              | Sony y Sega son los nuevos competidores del mercado, y salen nuevos juegos, como <i>“Resident Evil”</i>, en 1996. En ese mismo año, el famoso juego  “Super Mario 64” es adaptado por primera vez en 3D.
+              | <i>Sony</i> y <i>Sega</i> son los nuevos competidores del mercado, y salen nuevos juegos, como <i>“Resident Evil”</i>, en 1996. En ese mismo año, el famoso juego  “<i>Super Mario</i> 64” es adaptado por primera vez en 3D.
           .col-6.col-lg-3
             .p-4.imagen-color-offset-top-left.color-secundario
                 figure.mb-4
                   img(src='@/assets/curso/tema1-imagen13.jpg')
                 p.mb-0.text-center
-                  strong Resident Evil
+                  strong <i>Resident Evil</i>
 
         .row.justify-content-center(titulo="2001")
           .col-12.col-lg-6.mb-5.mb-lg-0
-            p.mb-0 Uno de los grandes juegos, “Halo”, se inserta al mercado en el 2001, mejorando enormemente en la jugabilidad. 
+            p.mb-0 Uno de los grandes juegos, <i>“Halo”</i>, se inserta al mercado en el 2001, mejorando enormemente en la jugabilidad. 
               br
               br
               | Finalmente, esta evolución del videojuego muestra que la calidad de imagen es muy superior, logrando juegos fotorealistas.
@@ -173,20 +173,20 @@
                 figure.mb-4
                   img(src='@/assets/curso/tema1-imagen14.jpg')
                 p.mb-0.text-center
-                  strong Halo
+                  strong <i>Halo</i>
         
         div.px-5(titulo="2004")
           p.mb-5 En el año 2004, <i>“World of the Warcraft”</i>, el cual es la cuarta saga de una serie que evoluciona como multijugador masivo de tiempo real.
             br
             br
-            | En 2004, llega una nueva forma de videojuegos, al eliminar los controles, con el Kinect de la Xbox 360, creando juegos que cambian la jugabilidad, utilizando el cuerpo de la persona como herramienta de acción. 
+            | En 2004, llega una nueva forma de videojuegos, al eliminar los controles, con el <i>Kinect</i> de la <i>Xbox</i> 360, creando juegos que cambian la jugabilidad, utilizando el cuerpo de la persona como herramienta de acción. 
           .row.justify-content-center
             .col-12.col-lg-6
               .p-4.imagen-color-offset-top-left.color-secundario
                 figure.mb-4
                   img(src='@/assets/curso/tema1-imagen15.jpg')
                 p.mb-0.text-center
-                  strong World of the Warcraft
+                  strong <i>World of the Warcraft</i>
 
         div.px-5(titulo="2009")
           p.mb-5 En adelante a los años 2000, se ve un desarrollo muy alto en la calidad y jugabilidad, mejorando día a día en cada una de las entregas.
@@ -202,7 +202,7 @@
                 figure.mb-4
                   img(src='@/assets/curso/tema1-imagen16.jpg')
                 p.mb-0.text-center
-                  strong Angry Birds
+                  strong <i>Angry Birds</i>
 
     #t_1_1.titulo-segundo
       h2 1.1  <i>Pipeline</i> del videojuego
