@@ -314,7 +314,7 @@
                       span Videojuego Neón Fury
               figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen24.jpg")
-                figcaption Nota. Tomada de <a href="https://g-mnews.com/news/colombia-apuesta-a-pleno-por-los-videojuegos/" target="_blank">Colombia apuesta a pleno por los videojuegos – <i>Gaming And Media</i> (g-mnews.com)</a>
+                figcaption Nota. Tomada de  Colombia apuesta a pleno por los videojuegos – <i>Gaming And Media</i>.
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
               .h5 <i>World War Doh</i> 
@@ -342,7 +342,9 @@
                       span Videojuego <i>Ark: Survival Evolved </i>
               figure.especial(style="max-height: 235px")
                 img(src="@/assets/curso/tema1-imagen26.jpg")
-                figcaption Nota. Tomada de <a href="http://www.studiowildcard.com/2016/1/12/nbpnnxbu6rpzpc4ishl3uttyj7lnuj" target="_blank">http://www.studiowildcard.com/2016/1/12/nbpnnxbu6rpzpc4ishl3uttyj7lnuj</a>
+                figcaption Nota. Tomada de Studio Wildcard.
+
+
           .row.p-5
             .col-12.col-lg-7.mb-5.mb-lg-0
               .h5 <i>Haimrik</i> (2018)  

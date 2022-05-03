@@ -481,7 +481,7 @@
                   span Ejemplo de luces y sombras afectando a un grupo de objetos
             figure
               img(src="@/assets/curso/tema2-imagen18.png")
-              figcaption Nota. Basada en el esquema de <a href="https://ludi-arte.webnode.es/blog/sexto/luz-y-sombra/" target="_blank">https://ludi-arte.webnode.es/blog/sexto/luz-y-sombra/</a>
+              figcaption Nota. Basada en el esquema de Ludi Arte - luz y sombra.
 
       .py-3.py-md-4(titulo="Triángulo básico de iluminación")
         .row.px-5.py-3
