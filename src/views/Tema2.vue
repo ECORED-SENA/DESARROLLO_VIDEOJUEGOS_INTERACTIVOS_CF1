@@ -52,8 +52,8 @@
                 span Videojuego Limbo
           figure.px-2
             img.img-a.img-t(src="@/assets/curso/tema2-imagen4.jpg")
-            p.mt-3.px-3 Nota. Tomada de 
-              <a href="https://playdead.com/games/limbo/#&gid=1&pid=7" target="_blank">https://playdead.com/games/limbo/#&gid=1&pid=7</a>
+          p.mt-3 Nota. Tomada de 
+            a(href="https://playdead.com/games/limbo/#&gid=1&pid=7" target="_blank") https://playdead.com/games/limbo/<br>#&gid=1&pid=7
         .col-lg-5.container-juegos-blanco.p-4
           .row.justify-content-center
             .col-auto.px-2
@@ -62,10 +62,10 @@
                 span Videojuego <i>Do animals dream?</i>
           figure.px-2
             img.img-a.img-t(src="@/assets/curso/tema2-imagen5.jpg")
-            p.mt-3.px-3 Nota. Tomada de 
-              <a href="https://store.steampowered.com/app/1338320/Do_Animals_Dream/?l=latam" target="_blank">https://store.steampowered.com/app/1338320/Do_Animals_Dream/?l=latam</a>
+          p.mt-3 Nota. Tomada de 
+            a(href="https://store.steampowered.com/app/1338320/Do_Animals_Dream/?l=latam" target="_blank") https://store.steampowered.com/<br>app/1338320/Do_Animals_Dream/?l=latam
 
-    .div-background-games.p-4.mt-5              
+    .div-background-games1.p-4.mt-5              
       .row.justify-content-evenly.align-items-stretch
         .col-lg-5.container-juegos-blanco.p-4
           .row.justify-content-center
@@ -75,9 +75,8 @@
                 span <i>Little nightmares</i>
           figure.px-2
             img.img-a.img-t(src="@/assets/curso/tema2-imagen6.jpg")
-            p.mt-3.px-3 Nota. Tomada de 
-              <a href="https://store.steampowered.com/app/424840/Little_Nightmares/?l=spanish" target="_blank">https://store.steampowered.com/app/424840/Little_Nightmares/?l=spanish</a>
-
+          p.mt-3 Nota. Tomada de 
+            a(href="https://store.steampowered.com/app/424840/Little_Nightmares/?l=spanish" target="_blank") https://store.steampowered.com/app/<br>424840/Little_Nightmares/?l=spanish
     Separador
 
     #t_2_1.titulo-segundo
