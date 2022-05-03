@@ -42,37 +42,40 @@
     h3.titulo-tercero Ejemplo de referentes de videojuegos:
 
     .row.p-4.div-background-games
-      .col-12.col-lg-4.mb-5.mb-lg-0
-        .container-juegos-blanco.px-5.py-4
+      .col-lg-4
+        .container-juegos-blanco.p-2
           .row.justify-content-center
-            .col-auto
+            .col-auto.px-2
               .titulo-sexto.color-acento-contenido.mb-2
                 h5 Figura 25
                 span Videojuego Limbo
-          figure
+          figure.px-2
             img(src="@/assets/curso/tema2-imagen4.jpg")
-            figcaption Nota. Tomada de <a href="https://playdead.com/games/limbo/#&gid=1&pid=7" target="_blank">https://playdead.com/games/limbo/#&gid=1&pid=7</a>
-      .col-12.col-lg-4.mb-5.mb-lg-0
-        .container-juegos-blanco.px-5.py-4
+            p.mt-3 Nota. Tomada de 
+              <a href="https://playdead.com/games/limbo/#&gid=1&pid=7" target="_blank">https://playdead.com/games/limbo/#&gid=1&pid=7</a>
+      .col-lg-4
+        .container-juegos-blanco.p-2
           .row.justify-content-center
-            .col-auto
+            .col-auto.px-2
               .titulo-sexto.color-acento-contenido.mb-2
                 h5 Figura 26
                 span Videojuego <i>Do animals dream?</i>
-          figure
+          figure.px-2
             img(src="@/assets/curso/tema2-imagen5.jpg")
-            figcaption Nota. Tomada de <a href="https://playdead.com/games/limbo/#&gid=1&pid=7" target="_blank">https://playdead.com/games/limbo/#&gid=1&pid=7</a>
+            p.mt-3 Nota. Tomada de 
+              <a href="https://store.steampowered.com/app/1338320/Do_Animals_Dream/?l=latam" target="_blank">https://store.steampowered.com/app/1338320/Do_Animals_Dream/?l=latam</a>
 
-      .col-12.col-lg-4
-        .container-juegos-blanco.px-5.py-4
+      .col-lg-4
+        .container-juegos-blanco.p-2
           .row.justify-content-center
-            .col-auto
+            .col-auto.px-2
               .titulo-sexto.color-acento-contenido.mb-2
                 h5 Figura 27
                 span <i>Little nightmares</i>
-          figure
+          figure.px-2
             img(src="@/assets/curso/tema2-imagen6.jpg")
-            figcaption Nota. Tomada de <a href="https://store.steampowered.com/app/424840/Little_Nightmares/?l=spanish" target="_blank">https://store.steampowered.com/app/424840/Little_Nightmares/?l=spanish</a>
+            p.mt-3 Nota. Tomada de 
+              <a href="https://store.steampowered.com/app/424840/Little_Nightmares/?l=spanish" target="_blank">https://store.steampowered.com/app/424840/Little_Nightmares/?l=spanish</a>
 
     Separador
 
@@ -148,7 +151,7 @@
           p Observe el ejemplo de la ficha técnica de identidad para un personaje principal.
           .row
             .col-12.col-lg-7.offset-lg-5
-              a.anexo.mb-4(:href="obtenerLink('/downloads/CF001_2.1_Ficha Tecnica de personaje.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('downloads/CF001_2.1_Ficha Tecnica de personaje.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -286,7 +289,7 @@
 
     .row
       .col-12.col-lg-7.offset-lg-5
-        a.anexo.mb-4(:href="obtenerLink('/downloads/CF001_2.2_Creacion de la historia.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('downloads/CF001_2.2_Creacion de la historia.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -515,7 +518,7 @@
 
     .row
       .col-12.col-lg-4.offset-lg-8
-        a.anexo.mb-4(:href="obtenerLink('/downloads/CF001_2.4_Guion tecnico.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('downloads/CF001_2.4_Guion tecnico.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -537,7 +540,7 @@
           br
           br
           | En el diseño de videojuegos, se toma una maqueta o plantilla principal como molde, allí se describe la estructura base del videojuego y se describen los niveles del mismo, creando una plantilla para cada nivel, con el fin de tener claridad en las características y diferencias que existen entre nivel y nivel, y para detallar las interacciones del personaje con el entorno y los objetos activos.
-        a.anexo.mb-4(:href="obtenerLink('/downloads/CF001_2.5_Plantilla Storyboard.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('downloads/CF001_2.5_Plantilla Storyboard.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
