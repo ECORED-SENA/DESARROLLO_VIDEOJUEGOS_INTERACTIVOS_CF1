@@ -1,0 +1,61 @@
+<svg id="tema1-imagen19" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1202.71" height="558.578" viewBox="0 0 1202.71 558.578">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_50242" data-name="Rectángulo 50242" width="1202.71" height="558.578" rx="18.345" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.938" y1="1.238" x2="0.207" y2="0.007" gradientUnits="objectBoundingBox">
+      <stop offset="0.075" stop-color="#13e4d4"/>
+      <stop offset="1" stop-color="#092bbd" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.972" y1="0.826" x2="0.04" y2="0.182" gradientUnits="objectBoundingBox">
+      <stop offset="0.1" stop-color="#8979f3"/>
+      <stop offset="1" stop-color="#a194f5" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-32.897" y1="-4.928" x2="-34.206" y2="-4.928" gradientUnits="objectBoundingBox">
+      <stop offset="0.195" stop-color="#69e9f8"/>
+      <stop offset="0.478" stop-color="#675bb6"/>
+      <stop offset="1" stop-color="#8979f3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="-60.391" y1="-10.607" x2="-61.701" y2="-10.607" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-5" x1="-141.628" y1="10.334" x2="-142.938" y2="10.334" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-6" x1="1.025" y1="-0.243" x2="0.194" y2="0.933" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-7" x1="0.5" y1="0.977" x2="0.5" y2="0.152" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fcfdfe"/>
+      <stop offset="0.989" stop-color="#fcfdfe" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="0.507" cy="0.409" fy="0.9030600190162659" r="0.498" gradientTransform="matrix(-1, 0, 0, 1, 1.014, 0)" gradientUnits="objectBoundingBox">
+      <stop offset="0.075" stop-color="#37e2f5"/>
+      <stop offset="1" stop-color="#04a4b6"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="0.507" cy="0.409" fy="0.9030600190162659" r="0.498" gradientTransform="matrix(-1, 0, 0, 1, 1.014, 0)" gradientUnits="objectBoundingBox">
+      <stop offset="0.042" stop-color="#f7d99e"/>
+      <stop offset="1" stop-color="#f1bf5e"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-4" cx="0.507" cy="0.409" fy="0.4090000092983246" r="0.498" xlink:href="#radial-gradient-3"/>
+    <radialGradient id="radial-gradient-6" cx="0.507" cy="0.409" fy="0.4090000092983246" r="0.498" xlink:href="#radial-gradient-3"/>
+  </defs>
+  <rect id="Rectángulo_50235" data-name="Rectángulo 50235" width="1202.71" height="558.578" rx="18.755" transform="translate(0 0)" fill="#e8f3ff"/>
+  <g id="Grupo_166889" data-name="Grupo 166889" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <ellipse id="Elipse_6060" data-name="Elipse 6060" cx="221.319" cy="221.319" rx="221.319" ry="221.319" transform="translate(-46.246 -194.661)" fill="url(#linear-gradient)"/>
+    <ellipse id="Elipse_6061" data-name="Elipse 6061" cx="334.604" cy="334.605" rx="334.604" ry="334.605" transform="translate(-180.433 273.936)" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectángulo_50236" data-name="Rectángulo 50236" width="30.268" height="228.986" transform="translate(425.352 251.538) rotate(-155.793)" fill="url(#linear-gradient-3)"/>
+    <ellipse id="Elipse_6062" data-name="Elipse 6062" cx="15.134" cy="5.04" rx="15.134" ry="5.04" transform="translate(517.179 47.283) rotate(-155.793)" fill="#453d7a"/>
+    <ellipse id="Elipse_6063" data-name="Elipse 6063" cx="10.334" cy="2.675" rx="10.334" ry="2.675" transform="translate(513.77 43.156) rotate(-155.793)" fill="#131240"/>
+    <rect id="Rectángulo_50237" data-name="Rectángulo 50237" width="16.598" height="113.469" transform="translate(409.807 164.193) rotate(-155.793)" fill="url(#linear-gradient-4)"/>
+    <ellipse id="Elipse_6064" data-name="Elipse 6064" cx="8.298" cy="2.764" rx="8.298" ry="2.764" transform="translate(455.2 63.223) rotate(-155.793)" fill="#453d7a"/>
+    <ellipse id="Elipse_6065" data-name="Elipse 6065" cx="5.667" cy="1.467" rx="5.667" ry="1.467" transform="translate(453.332 60.959) rotate(-155.793)" fill="#131240"/>
+    <rect id="Rectángulo_50238" data-name="Rectángulo 50238" width="30.268" height="206.934" transform="translate(246.028 454.855) rotate(24.207)" fill="url(#linear-gradient-5)"/>
+    <ellipse id="Elipse_6066" data-name="Elipse 6066" cx="15.134" cy="5.04" rx="15.134" ry="5.04" transform="translate(186.718 660.613) rotate(-155.793)" fill="#453d7a"/>
+    <ellipse id="Elipse_6067" data-name="Elipse 6067" cx="10.334" cy="2.675" rx="10.334" ry="2.675" transform="translate(183.309 656.485) rotate(-155.793)" fill="#131240"/>
+    <ellipse id="Elipse_6068" data-name="Elipse 6068" cx="123.429" cy="123.429" rx="123.429" ry="123.429" transform="translate(321.279 280.937)" fill="url(#linear-gradient-6)"/>
+    <rect id="Rectángulo_50239" data-name="Rectángulo 50239" width="19.928" height="103.899" transform="translate(496.437 379.581)" fill="url(#linear-gradient-7)"/>
+    <rect id="Rectángulo_50240" data-name="Rectángulo 50240" width="55.104" height="169.343" transform="translate(427.674 302.481)" fill="url(#linear-gradient-7)"/>
+    <rect id="Rectángulo_50241" data-name="Rectángulo 50241" width="55.104" height="169.343" transform="translate(228.332 89.999)" fill="url(#linear-gradient-7)"/>
+    <ellipse id="Elipse_6069" data-name="Elipse 6069" cx="27.274" cy="27.274" rx="27.274" ry="27.274" transform="translate(444.99 260.427)" fill="url(#radial-gradient)"/>
+    <ellipse id="Elipse_6070" data-name="Elipse 6070" cx="15.161" cy="15.161" rx="15.161" ry="15.161" transform="translate(90.574 485.456)" fill="url(#radial-gradient)"/>
+    <ellipse id="Elipse_6071" data-name="Elipse 6071" cx="8.428" cy="8.428" rx="8.428" ry="8.428" transform="translate(62.875 453.898)" fill="url(#radial-gradient-3)"/>
+    <ellipse id="Elipse_6072" data-name="Elipse 6072" cx="2.966" cy="2.966" rx="2.966" ry="2.966" transform="translate(90.667 415.061)" fill="url(#radial-gradient-4)"/>
+    <ellipse id="Elipse_6073" data-name="Elipse 6073" cx="6.733" cy="6.733" rx="6.733" ry="6.733" transform="translate(450.713 226.203)" fill="url(#radial-gradient-3)"/>
+    <ellipse id="Elipse_6074" data-name="Elipse 6074" cx="2.99" cy="2.99" rx="2.99" ry="2.99" transform="translate(346.749 185.241)" fill="url(#radial-gradient-6)"/>
+  </g>
+</svg>
