@@ -1,2 +1,1 @@
-module.exports =
-  'Historia y conceptos de diseño del videojuego'
+module.exports = 'Historia y conceptos de diseño del videojuego'

@@ -167,32 +167,6 @@ figure.container-elements
 .cajon.color-acento-contenido
   background-color: mix($color-acento-contenido, #fff, 25%)
 
-.tabs-a__tab
-  background-color: #E8E8E8
-.tabs-a__tab__selected
-  > *
-    color: white
-
-.tarjeta.color-primario
-  background-color: mix($color-primario, #fff, 15%)
-  > *
-    color: black
-    strong
-      color: black
-  ul
-    li
-      p
-        color: black
-        strong
-          color: black
-  .row
-    .col-auto
-      .titulo-sexto
-        h5
-          color: black
-        span
-          color: black
-
 .line-selector-text
   height: 8px
   &.color-acento-contenido
@@ -204,11 +178,6 @@ figure.container-elements
     background-color: #E1DDFC
   &.color-primario
     background-color: #D8F3F9
-
-ul.lista-ul--color.change
-  li
-    i
-      color: $color-primario
 
 .especial-hscroll    
   .horizontal-scroll
@@ -267,4 +236,31 @@ figure.especial
     align-items: center!important
 
 .bg-capt
-  background-color: #e8e8e8    
+  background-color: #e8e8e8
+
+.slyder-a__tipo-a .slyder-a__btn--sigt
+  transform: translateY(-50%) rotate(0deg)
+  right: -45px
+.slyder-a__tipo-a .slyder-a__btn--atrs
+  transform: translateY(-50%) rotate(0deg)
+  left: -45px
+.slyder-a__tipo-a .slyder-a__bullets
+  bottom: -30px
+.slyder-a__bullets__item
+  margin: 0 6px
+
+.tabs-a__tab
+  background-color: #E8E8E8
+
+.tarjeta.color-primario
+  *
+    color: $color-sistema-texto
+  background-color: #D8F3F9
+
+.bg
+  &-c1
+    background-color: #D9FAFE
+
+.txt
+  &-c1
+    color: #3cb1be

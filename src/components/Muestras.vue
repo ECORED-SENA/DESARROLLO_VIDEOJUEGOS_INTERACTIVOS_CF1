@@ -1,16 +1,22 @@
 <template lang="pug">
+
 div.mb-5
-  #encabezados.titulo-segundo
+
+  #encabezados.titulo-segundo.color-acento-botones
     h2 Encabezados
 
-  .titulo-principal
+  //- .titulo-principal debe ir acompañado de una de una de estas clases => 
+  //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+  .titulo-principal.color-acento-contenido
     .titulo-principal__numero
       span 1
     h1 Título principal, 30pt
 
   p.mb-5 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis. Maecenas cursus ante a diam porttitor mollis. Etiam vehicula dictum diam, eu pulvinar odio ultrices non. Vivamus viverra fermentum tortor, sit amet interdum nisl fermentum sed.
 
-  .titulo-segundo
+  //- .titulo-segundo debe ir acompañado de una de una de estas clases => 
+  //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+  .titulo-segundo.color-secundario
     h2 1.1  Título de segundo nivel, 24pt
 
   p.mb-5 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis. Maecenas cursus ante a diam porttitor mollis. Etiam vehicula dictum diam, eu pulvinar odio ultrices non. Vivamus viverra fermentum tortor, sit amet interdum nisl fermentum sed.
@@ -36,14 +42,14 @@ div.mb-5
     h5 Título de sexto nivel, 16pt
     span subtitulo
 
-  p.mb-5 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis. Maecenas cursus ante a diam porttitor mollis. Etiam vehicula dictum diam, eu pulvinar odio ultrices non. Vivamus viverra fermentum tortor, sit amet interdum nisl fermentum sed.
+  p.mb-0 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis. Maecenas cursus ante a diam porttitor mollis. Etiam vehicula dictum diam, eu pulvinar odio ultrices non. Vivamus viverra fermentum tortor, sit amet interdum nisl fermentum sed.
 
   Separador
 
-  #parrafos.titulo-segundo
+  #parrafos.titulo-segundo.color-acento-botones(data-aos="flip-up")
     h2 Párrafos
 
-  p.mb-5 Los párrafos mantienen un tamaño regular de 16 pt con interlineado base de 24 pt, sin embargo, existe excepciones para resaltar contenido donde se puede hacer uso de pesos 
+  p.mb-0 Los párrafos mantienen un tamaño regular de 16 pt con interlineado base de 24 pt, sin embargo, existe excepciones para resaltar contenido donde se puede hacer uso de pesos 
     span.text-thin THIN, 
     span.text-bold BOLD, 
     | y 
@@ -54,60 +60,97 @@ div.mb-5
 
   Separador
 
-  #botones.titulo-segundo
+  #botones.titulo-segundo.color-acento-botones
     h2 Botones
 
-  .mb-5
-    .mb-3
-      //- .boton debe ir acompañado de una de una de estas clases => 
-      //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-      a.boton.me-3.indicador__container(
-        :href="obtenerLink('/downloads/prueba.pdf')"
-        target="_blank"
-        type="application/pdf"
-        @mouseover="mostrarIndicador = false"
-      )
-        span Descargar
-        i.fas.fa-file-download
-        .indicador--click(v-if="mostrarIndicador")
+  .mb-3
+    //- .boton debe ir acompañado de una de una de estas clases => 
+    //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+    a.boton.me-3.indicador__container(
+      :href="obtenerLink('/downloads/prueba.pdf')"
+      target="_blank"
+      type="application/pdf"
+      @mouseover="mostrarIndicador = false"
+    )
+      span Descargar
+      i.fas.fa-file-download
+      .indicador--click(v-if="mostrarIndicador")
 
-    .mb-3
-      a.boton.color-primario.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
-        span Descargar
-        i.fas.fa-file-download
+  .mb-3
+    a.boton.color-primario.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+      span Descargar
+      i.fas.fa-file-download
 
-      a.boton.color-secundario.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
-        span Descargar
-        i.fas.fa-file-download
+    a.boton.color-secundario.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+      span Descargar
+      i.fas.fa-file-download
 
-      a.boton.color-acento-contenido.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
-        span Descargar
-        i.fas.fa-file-download
+    a.boton.color-acento-contenido.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+      span Descargar
+      i.fas.fa-file-download
 
-      a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
-        span Descargar
-        i.fas.fa-file-download
-    .mb-5
-      a.boton--sm.color-primario.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
-        span Descargar
-        i.fas.fa-file-download
+    a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+      span Descargar
+      i.fas.fa-file-download
 
-      a.boton--sm.color-secundario.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
-        span Descargar
-        i.fas.fa-file-download
+  div
+    a.boton--sm.color-primario.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+      span Descargar
+      i.fas.fa-file-download
 
-      a.boton--sm.color-acento-contenido.texto-blanco.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
-        span Descargar
-        i.fas.fa-file-download
+    a.boton--sm.color-secundario.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+      span Descargar
+      i.fas.fa-file-download
 
-      a.boton--sm.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
-        span Descargar
-        i.fas.fa-file-download
+    a.boton--sm.color-acento-contenido.texto-blanco.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+      span Descargar
+      i.fas.fa-file-download
+
+    a.boton--sm.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+      span Descargar
+      i.fas.fa-file-download
 
   Separador
 
 
-  #listas.titulo-segundo
+  .titulo-segundo.color-acento-botones
+    h2.mb-2 Botones de audio
+  .d-flex.mb-5
+    Audio.color-primario.mx-3(
+      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+      @audio-hover="mostrarIndicadorAudio = false"
+    )
+      .indicador--click(v-if="mostrarIndicadorAudio")
+    Audio.color-secundario.mx-3(:audio="require('@/assets/componentes/audios/audio-ej.mp3')")
+    Audio.color-acento-contenido.mx-3(:audio="require('@/assets/componentes/audios/audio-ej.mp3')")
+    Audio.color-acento-botones.mx-3(:audio="require('@/assets/componentes/audios/audio-ej.mp3')")
+  Separador
+  .titulo-segundo.color-acento-botones
+    h2.mb-2 Tarjetas Audio 
+  .row
+    .col-lg-6
+      TarjetaAudio.color-primario.mb-3(
+        texto="Texto de muestra  "
+        :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+      )
+        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+      TarjetaAudio.color-secundario.mb-3(
+        texto="Texto de muestra <br> Texto de muestra "
+        :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+      )
+      TarjetaAudio.color-acento-contenido.mb-3(
+        texto="Texto de muestra "
+        :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+        no-barra
+      )
+      TarjetaAudio.color-acento-botones.mb-3(
+        texto="Texto de muestra "
+        :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+      )
+  Separador
+
+  #listas.titulo-segundo.color-acento-botones
     h2 Listas
 
   p.mb-3 Se debe tener en cuenta que las personas realizan un escaneo del mismo para encontrar elementos de su interés. Las listas deben estar compuestas por elementos relacionados entre sí, con un orden específico o un conteo importante. 
@@ -119,7 +162,7 @@ div.mb-5
     li 
       i.lista-ul__vineta
       | Cita o Referencia
-    li 
+    li  
       i.lista-ul__vineta
       | Imagen + Texto
 
@@ -146,7 +189,8 @@ div.mb-5
       ol.lista-ol
         li 
           span.text-bold 1. 
-          | Item lista ordenada 1
+          | Item lista ordenada 1 
+          i Texto en Italica
         li 
           span.text-bold 2. 
           | Item lista ordenada 2
@@ -164,7 +208,8 @@ div.mb-5
       ol.lista-ol
         li 
           span.text-bold a. 
-          | Item lista ordenada a
+          | Item lista ordenada a 
+          i Texto en Italica
         li 
           span.text-bold b. 
           | Item lista ordenada b
@@ -182,7 +227,8 @@ div.mb-5
       ol.lista-ol.lista-ol--separador
         li 
           span.text-bold a. 
-          | Item lista ordenada a
+          | Item lista ordenada a 
+          i Texto en Italica
         li 
           span.text-bold b. 
           | Item lista ordenada b
@@ -203,7 +249,8 @@ div.mb-5
         li 
           .lista-ol--cuadro__vineta
             span 1
-          | Item lista ordenada 1
+          | Item lista ordenada 1 
+          i Texto en Italica
         li 
           .lista-ol--cuadro__vineta
             span 2
@@ -304,13 +351,15 @@ div.mb-5
               | Item lista no ordenada
             li 
               i.fas.fa-angle-right
-              | Item lista no ordenada
+              | Item lista no ordenada 
+              i Texto en Italica
         li 
           i.fas.fa-angle-right
           | Item lista no ordenada
         li 
           i.fas.fa-angle-right
-          | Item lista no ordenada
+          | Item lista no ordenada 
+          i Texto en Italica
 
     .col-sm
       h4 Listado no ordenado básico + separadores
@@ -334,13 +383,14 @@ div.mb-5
           | Item lista no ordenada
 
 
-  .row.mb-5
+  .row
     .col-sm.mb-5.mb-sm-0
       h4 Listado no ordenado color
       ul.lista-ul--color
         li 
           i.lista-ul__vineta
-          | Item lista no ordenada
+          | Item lista no ordenada 
+          i Texto en Italica
         li
           ul
             li 
@@ -361,7 +411,8 @@ div.mb-5
       ul.lista-ul--color
         li 
           i.fas.fa-brain
-          | Item lista no ordenada
+          | Item lista no ordenada 
+          i Texto en Italica
         li
           ul
             li 
@@ -382,12 +433,14 @@ div.mb-5
       ul.lista-ul--color.lista-ul--separador
         li 
           i.fas.fa-feather
-          | Item lista no ordenada
+          | Item lista no ordenada 
+          i Texto en Italica
         li.pb-0
           ul
             li 
               i.fas.fa-cookie
-              | Item lista no ordenada
+              | Item lista no ordenada 
+              b texto bold
             li 
               i.fas.fa-hat-wizard
               | Item lista no ordenada
@@ -400,7 +453,7 @@ div.mb-5
 
   Separador
 
-  #tablas.titulo-segundo
+  #tablas.titulo-segundo.color-acento-botones
     h2 Tablas
 
   .h5 Requerimientos de información
@@ -448,7 +501,7 @@ div.mb-5
   //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
   .tabla-b.color-acento-contenido.mb-5
     .tabla-b__header
-      h5.mb-0 Niveles del lenguaje
+      h4.mb-0 Niveles del lenguaje
     table
       caption Leyenda de la tabla
       tr
@@ -468,7 +521,7 @@ div.mb-5
         td Design as if your life depended on it. Keep going. It isn’t what you are, but what you’re going to become. Don’t censor yourself. 
 
   h3.titulo-tercero Tabla C
-  .tabla-c.mb-5
+  .tabla-c
     table
       caption Leyenda de la tabla
       tr
@@ -529,7 +582,7 @@ div.mb-5
 
   Separador
 
-  #imagen.titulo-segundo
+  #imagen.titulo-segundo.color-acento-botones
     h2 Imagen
 
   figure.mb-5
@@ -541,7 +594,7 @@ div.mb-5
       //- .imagen-titulo--der debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       .imagen-titulo--der.color-secundario
-        figure.mb-5
+        figure
           img(src='@/assets/template/img-placeholder-1-1.svg', alt='Texto que describa la imagen')
 
         .imagen-titulo__titulo
@@ -551,48 +604,83 @@ div.mb-5
       //- .imagen-titulo--izq debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       .imagen-titulo--izq.color-acento-botones
-        figure.mb-5
+        figure
           img(src='@/assets/template/img-placeholder-1-1.svg', alt='Texto que describa la imagen')
 
         .imagen-titulo__titulo
           h4.m-0 Titulo de imagen
+
   Separador
 
-  #imagen_infografica.titulo-segundo
+  #imagen_infografica.titulo-segundo.color-acento-botones
     h2 Imagen Infográfica
 
-  ImagenInfografica.color-secundario.mb-5
+  h3 Imagen Infográfica A
 
+  ImagenInfografica.color-secundario.mb-5
     template(v-slot:imagen)
       figure
         img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
         figcaption Leyenda de la imagen
 
-    .tarjeta.color-acento-botones.p-3(x="20%" y="20%")
+    .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
       .h5.mb-2 titulo
       p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
 
-    .tarjeta.color-acento-botones.p-3(x="50%" y="50%")
+    .tarjeta.color-acento-botones.p-3(x="50%" y="50%" numero="A")
       .h5.mb-2 titulo
       p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
 
-    .tarjeta.color-acento-botones.p-3(x="70%" y="70%")
+    .tarjeta.color-acento-botones.p-3(x="70%" y="70%" numero="B")
       .h5.mb-2 titulo
       p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
 
+
+
+  h3 Imagen Infográfica B
+
+  ImagenInfograficaB.color-primario.mb-5
+    template(v-slot:imagen)
+      figure
+        img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+        figcaption Leyenda de la imagen
+
+    div(x="20%" y="20%" tooltip="tooltip de max 35 caracteres" numero="1")
+      h5 titulo
+      p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+      p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+      p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+
+    div(x="50%" y="50%" tooltip="tooltip de max 35 caracteres")
+      .h5.mb-2 titulo
+      p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+
+    div(x="70%" y="70%" tooltip="tooltip de max 35 caracteres")
+      .h5.mb-2 titulo
+      p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+
+  h3 Imagen zoom
+
+  .position-relative(@mouseover="indicadorImagenZoom = false")
+    Zoom(
+      lente="200" 
+      :baja-resolucion="require('@/assets/curso/baja.jpeg')" 
+      :alta-resolucion="require('@/assets/curso/alta.jpeg')"
+    )
+    .indicador--hover(v-if="indicadorImagenZoom")
   Separador
 
-  #video.titulo-segundo
+  #video.titulo-segundo.color-acento-botones
     h2 Video
 
-  figure.mb-5
+  figure
     .video
       iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     figcaption Video: Leyenda del video
 
   Separador
 
-  #texto_destacado.titulo-segundo
+  #texto_destacado.titulo-segundo.color-acento-botones
     h2 Bloques de texto destacado
 
   p.mb-3 Su función principal es destacar bloques de información importantes a través de recursos gráficos (imágenes y/o texto). 
@@ -627,7 +715,7 @@ div.mb-5
   h3.titulo-tercero Cajón texto color
   //- .cajon debe ir acompañado de una de una de estas clases => 
   //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-  .row.mb-5 
+  .row
     .col-lg-4
       .cajon.color-primario.p-4.mb-4
         .h5 Cajón texto color
@@ -644,7 +732,15 @@ div.mb-5
       .cajon.color-acento-botones.p-4.mb-4
         .h5 Cajón texto color
         p Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.
-    
+
+  //- .cajon-b debe ir acompañado de una de una de estas clases => 
+  //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+  //- .arriba-derecha, .abajo-derecha, .abajo-izquierda (arriba-izquierda esta por defecto)
+  .cajon-b.color-primario.p-3.mb-5
+    p.mb-0 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel porta justo. Praesent congue nibh a justo ornare, eget vulputate nisl eleifend. Cras interdum finibus lacinia. Fusce dignissim sapien sit amet orci imperdiet, pharetra maximus nisi ullamcorper. Aliquam interdum elit ac nisi viverra, ultrices finibus est ultricies. Fusce tincidunt velit nulla. Aliquam eleifend libero eu neque rhoncus, sed placerat mi ornare.
+      br
+      br
+      | Proin dignissim nisl ac iaculis molestie. Fusce et orci arcu. Cras ac ultricies nisl. Praesent posuere tempor felis in pharetra. Curabitur vestibulum, mi sed placerat accumsan, est nulla sagittis mi, non faucibus tortor ex ac lacus. Nunc condimentum dolor sem, et pulvinar sapien cursus ut. Aenean consequat pharetra rutrum. Nunc vel nunc laoreet, ornare augue a, efficitur quam.
 
   h3.titulo-tercero Cajón texto color A
   //- .bloque-texto-a debe ir acompañado de una de una de estas clases => 
@@ -699,7 +795,7 @@ div.mb-5
       //- .bloque-texto-e debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       .bloque-texto-e.color-secundario.p-4
-        .bloque-texto-e__text
+        .bloque-texto-e__texto
           i.fas.fa-quote-left
           h2.text-regular Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt augue in augue tempus, in dapibus justo interdum. Sed viverra sed odio quis rhoncus. In elementum purus massa, id venenatis purus ullamcorper ut. Vestibulum vel dictum dolor, nec fringilla orci. Nulla vestibulum, metus nec porttitor bibendum, lectus ligula viverra eros, eget tempor risus nulla pretium justo. Nullam turpis dolor, pharetra vel fermentum at, rutrum in elit. Maecenas vitae hendrerit libero, et ornare augue. Vestibulum iaculis, metus et accumsan malesuada.
           i.fas.fa-quote-right
@@ -736,9 +832,19 @@ div.mb-5
         br
         | Stand so tall that they can’t look past you. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect accept possibility of failure. 
 
+  .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
+    .bloque-texto-g__img(
+      :style="{'background-image': `url(${require('@/assets/curso/img.jpg')})`}"
+    )
+    .bloque-texto-g__texto.p-4
+      p.mb-0 Think about all the possibilities. A good composition is the result of a hierarchy consisting of clearly contrasting elements set with distinct alignments containing irregular intervals of negative space. Nothing of without working at it. Be impossible to ignore.
+        br
+        br
+        | Stand so tall that they can’t look past you. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect accept possibility of failure. 
+
   Separador
 
-  #sliders.titulo-segundo
+  #sliders.titulo-segundo.color-acento-botones
     h2 Sliders
 
   p.mb-3 Es una sección dinámica que permite mostrar varios contenidos repartidos en diapositivas, su función principal es mostrar el contenido más importante de manera concisa y con la menor cantidad de texto posible, haciendo uso extensivo de imágenes o íconos de acompañamiento.
@@ -757,7 +863,9 @@ div.mb-5
       | Textos puntuales y claros.
 
   h3.titulo-tercero Slider A
+
   .tarjeta.tarjeta--azul.p-4.mb-5
+    h4.titulo-cuarto Tipo A
     SlyderA
       .row
         .col-md-6.mb-4.mb-md-0
@@ -767,12 +875,10 @@ div.mb-5
           figure
             img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
             figcaption Leyenda de la imagen
-
       div
         figure
           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-          figcaption Leyenda de la imagen
-
+          figcaption Leyenda de la imagen`
       .row
         .col-md-6.mb-4.mb-md-0
           p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
@@ -781,7 +887,33 @@ div.mb-5
           figure
             img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
             figcaption Leyenda de la imagen
+      div
+        figure
+          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          figcaption Leyenda de la imagen
 
+  .tarjeta.tarjeta--azul.p-4.mb-5
+    h4.titulo-cuarto Tipo B
+    SlyderA(tipo="b")
+      .row
+        .col-md-6.mb-4.mb-md-0
+          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+      
+        .col-md-6
+          figure
+            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            figcaption Leyenda de la imagen
+      div
+        figure
+          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          figcaption Leyenda de la imagen
+      .row
+        .col-md-6.mb-4.mb-md-0
+          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+        .col-md-6
+          figure
+            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            figcaption Leyenda de la imagen
       div
         figure
           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
@@ -796,8 +928,124 @@ div.mb-5
   h3 Slider D
   SlyderD.mb-5(:datos="datosSlyder")
 
+  h3 Slider E
+  // SlyderE, para controlar la posicion de los botones de "atras y "adelante" 
+  //- se usa el prop 'indicadores' con los valores => 'centro' y 'derecha' 
+  // para el valor 'izquierda' se deja sin el prop 'indicadores'
+  SlyderE(indicadores="derecha")
+    .row
+      .col-md-6.mb-4.mb-md-0
+        p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+    
+      .col-md-6
+        figure
+          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          figcaption Leyenda de la imagen
+
+    div
+      figure
+        img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+        figcaption Leyenda de la imagen
+
+    .row
+      .col-md-6.mb-4.mb-md-0
+        p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+    
+      .col-md-6
+        figure
+          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          figcaption Leyenda de la imagen
+
+    div
+      figure
+        img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+        figcaption Leyenda de la imagen
+
+  h3 Slyder F
+
+  SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+    .tarjeta.color-acento-botones.p-4
+      .row.justify-content-center.mb-3
+        .col-8
+          img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+      h2.text-center FIRST
+      p.text-center moment. Abandon the shelter  asdf asdf asdf asdf asdfasdf asaasdfa sdf asdfsadf asd fasd dsf sdf asdfa sdfasdf asd of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
+    .tarjeta.color-acento-botones.p-4
+      .row.justify-content-center.mb-3
+        .col-8
+          img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+      h2.text-center 2
+      p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
+    .tarjeta.color-acento-botones.p-4
+      .row.justify-content-center.mb-3
+        .col-8
+          img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+      h2.text-center 3
+      p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
+    .tarjeta.color-acento-botones.p-4
+      .row.justify-content-center.mb-3
+        .col-8
+          img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+      h2.text-center 4
+      p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
+    .tarjeta.color-acento-botones.p-4
+      .row.justify-content-center.mb-3
+        .col-8
+          img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+      h2.text-center 5
+      p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
+    .tarjeta.color-acento-botones.p-4
+      .row.justify-content-center.mb-3
+        .col-8
+          img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+      h2.text-center 6
+      p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
+    .tarjeta.color-acento-botones.p-4
+      .row.justify-content-center.mb-3
+        .col-8
+          img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+      h2.text-center 7
+      p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
+    .tarjeta.color-acento-botones.p-4
+      .row.justify-content-center.mb-3
+        .col-8
+          img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+      h2.text-center LAST
+      p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
+  .row.justify-content-center.mb-5
+    .col-md-6
+      SlyderF(columnas="col-12")
+        .tarjeta.color-acento-botones.p-4
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+          h2.text-center John Doe
+          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
+        .tarjeta.color-acento-botones.p-4
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+          h2.text-center John Doe
+          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
+        .tarjeta.color-acento-botones.p-4
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+          h2.text-center John Doe
+          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
   h3 Slider Bootstrap
-  #carouselExampleIndicators.carousel.slide.mb-5(data-bs-ride='carousel')
+  #carouselExampleIndicators.carousel.slide(data-bs-ride='carousel')
     .carousel-indicators
       button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
       button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
@@ -824,7 +1072,7 @@ div.mb-5
 
   Separador
 
-  #acordiones.titulo-segundo
+  #acordiones.titulo-segundo.color-acento-botones
     h2 Acordiones
 
   p.mb-3 Es un componente web que permite ahorrar espacio vertical a través del uso de botones  representados por títulos que permiten desplegar u ocultar información pertinente. 
@@ -853,7 +1101,7 @@ div.mb-5
     li 
       i.lista-ul__vineta
       | No se debe utilizar dentro del acordeón vídeos.
-
+  
   h3 Acordion A tipo A
   AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
     .row(titulo="Titulo item 1")
@@ -871,7 +1119,7 @@ div.mb-5
         figcaption Leyenda de la imagen
 
   h3 Acordion A tipo B
-  AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+  AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
     .row(titulo="Titulo item 1")
       .col-md-6.mb-4.mb-md-0
         p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
@@ -888,7 +1136,7 @@ div.mb-5
 
   Separador
 
-  #tabs.titulo-segundo
+  #tabs.titulo-segundo.color-acento-botones
     h2 Pestañas o Tabs
 
   p.mb-3 Es un elemento web que permite cambiar rápidamente el contenido que el usuario está consumiendo sin cambiar de ventana o desplazarse verticalmente por el sitio web. 
@@ -1059,7 +1307,7 @@ div.mb-5
   h3 Pestañas C
   //- TabsC debe ir acompañado de una de una de estas clases => 
   //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-  TabsC.color-primario.mb-5
+  TabsC.color-primario
     .py-3.py-md-4(titulo="The splendor of the mystery")
       .row
         .col-md-6.mb-4.mb-md-0
@@ -1125,7 +1373,27 @@ div.mb-5
 
   Separador
 
-  #lineas_tiempo.titulo-segundo
+  #actividad-dialogo.titulo-segundo.color-acento-botones
+    h2 Actividad dialogo Ingles
+
+  DialogoActividad.color-primario.mb-5(:dialogo="dialogoActividad")
+    template(#nombre-actividad) Arrastrar y Soltar
+    template(#titulo-actividad) Titulo de actividad - Completa la conversación.
+    template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+    //- template(#feedback-correcto) Bien!
+    //- template(#feedback-incorrecto) Mal!
+    
+  Separador
+  #actividad-dialogo.titulo-segundo.color-acento-botones
+    h2 Complementos dialogo Ingles
+
+  DialogoBurbuja.color-primario.borde.mb-3(:dialogoItem="dialogoItem")
+
+  Dialogo.mb-5.color-secundario.borde(:dialogo="dialogo")  
+
+  Separador
+
+  #lineas_tiempo.titulo-segundo.color-acento-botones
     h2 Líneas de tiempo
 
   p.mb-3 Es una representación gráfica para sintetizar información, que permite ordenar y explicar acontecimientos que han ocurrido a lo largo de un periodo.
@@ -1166,7 +1434,8 @@ div.mb-5
   .tarjeta.tarjeta--gris.p-4.mb-5
     //- LineaTiempoC debe ir acompañado de una de una de estas clases => 
     //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    LineaTiempoC.color-acento-contenido
+    //- text-small se usa para que los títulos sean mas pequeños
+    LineaTiempoC.color-acento-contenido(text-small)
       .row(titulo="1761")
         .col-md-6.mb-4.mb-md-0
           p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
@@ -1300,9 +1569,35 @@ div.mb-5
           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
           figcaption Leyenda de la imagen
 
+  h3 Linea Tiempo E
+
+  //- LineaTiempoE debe ir acompañado de una de una de estas clases => 
+  //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+  LineaTiempoE.color-acento-contenido
+    .row(titulo="2014 - Present" subtitulo="Title, Company")
+      .col-lg-6.mb-4.mb-lg-0
+        p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+      .col-lg-6
+        figure
+          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          figcaption Leyenda de la imagen
+
+    div(titulo="2014 - asodasdk als alskd asdlkj sdfkj" subtitulo="Title, Company")
+      figure
+        img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+        figcaption Leyenda de la imagen
+
+    .row(titulo="2014 - Present" subtitulo="Title, Company")
+      .col-lg-6.mb-4.mb-lg-0
+        p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+      .col-lg-6
+        figure
+          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          figcaption Leyenda de la imagen
+
   Separador
 
-  #pasos.titulo-segundo
+  #pasos.titulo-segundo.color-acento-botones
     h2 Pasos
 
   h3 Pasos A tipo n
@@ -1369,7 +1664,7 @@ div.mb-5
       p Aliquam ornare sem in mauris lobortis accumsan. Suspendisse sollicitudin tellus eget bibendum cursus. Praesent tincidunt cursus mattis. Fusce nec convallis mauris, eu tincidunt neque. Proin justo orci, fermentum vel est vel, ornare sodales dui. Etiam consequat commodo tincidunt. Maecenas imperdiet ante eu mauris imperdiet, Phasellus pretium tortor quis varius sagittis. Suspendisse eu posuere enim, sed lacinia justo. Praesent eget tempor erat, a pretium ante. Nulla facilisi.
 
   h3 Pasos B
-  .tarjeta.tarjeta--gris.p-4.mb-5
+  .tarjeta.tarjeta--gris.p-4
     //- PasosB debe ir acompañado de una de una de estas clases => 
     //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
     PasosB.color-acento-contenido
@@ -1434,7 +1729,7 @@ div.mb-5
 
   Separador
 
-  #llamados_accion.titulo-segundo
+  #llamados_accion.titulo-segundo.color-acento-botones
     h2 Llamados a la acción
 
   p.mb-2 Es un bloque de texto que destaca por su composición y diseño. Su principal función es incentivar al usuario a realizar una acción a través de un botón o hipervínculo, en este caso, con el fin de poder acceder a recursos como infografías, videos, documentos y sitios web externos e independientes del componente formativo.
@@ -1523,7 +1818,7 @@ div.mb-5
               i.fas.fa-file-download
 
   .h5 Ejemplo: Llamado a la acción 3 Recursos externos versión simplificada
-  .row.mb-5
+  .row
     .col-lg-6
       a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
         .anexo__icono
@@ -1570,7 +1865,7 @@ div.mb-5
 
   Separador
 
-  #tarjetas.titulo-segundo
+  #tarjetas.titulo-segundo.color-acento-botones
     h2 Tarjetas
   
   p.mb-3 Es la agrupación de contenidos (texto e imágenes) en forma de tarjeta, que tiene como propósito, uno, ser más amigable el consumo de la información y dos, destacar información o conceptos relevantes.
@@ -1686,7 +1981,8 @@ div.mb-5
   .row
     .col-lg-6
       .tarjeta-avatar-b.mb-5
-        img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+        .tarjeta-avatar-b__img
+          img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
         .tarjeta.tarjeta--azul
           .p-4
             h2 John Doe
@@ -1694,7 +1990,8 @@ div.mb-5
 
     .col-lg-6
       .tarjeta-avatar-b.mb-5
-        img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+        .tarjeta-avatar-b__img
+          img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
         //- .tarjeta debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         //- estas clases tambien tienen un modificador --borde
@@ -1705,7 +2002,8 @@ div.mb-5
 
     .col-lg-6
       .tarjeta-avatar-b.mb-5
-        img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+        .tarjeta-avatar-b__img
+          img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
         //- .tarjeta debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         //- estas clases tambien tienen un modificador --borde
@@ -1716,7 +2014,8 @@ div.mb-5
 
     .col-lg-6
       .tarjeta-avatar-b.mb-5
-        img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+        .tarjeta-avatar-b__img
+          img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
         //- .tarjeta debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         //- estas clases tambien tienen un modificador --borde
@@ -1760,6 +2059,81 @@ div.mb-5
             h2.text-center Greatness isn’t the height
             p moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
 
+  h3 Tarjetas flip
+
+  .row.mb-5
+    .col-sm-6.col-xl-3.mb-4.mb-xl-0
+      .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+        .indicador--hover(v-if="indicadorTarjetaFlip")
+        .tarjeta-flip__contenedor
+          .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
+          .tarjeta-flip__contenido.p-4.p-xl-5
+            h1 John Doe
+            p Lorem ipsum dolor sit amet, 
+
+    .col-sm-6.col-xl-3.mb-4.mb-xl-0
+      .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
+        .tarjeta-flip__contenedor
+          .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
+          .tarjeta-flip__contenido.p-4.p-xl-5
+            h1 John Doe
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
+
+    .col-sm-6.col-xl-3.mb-4.mb-sm-0
+      .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+        .tarjeta-flip__contenedor
+          .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
+          .tarjeta-flip__contenido.p-4.p-xl-5
+            h1 John Doe
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
+
+    .col-sm-6.col-xl-3
+      .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
+        .tarjeta-flip__contenedor
+          .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
+          .tarjeta-flip__contenido.p-4.p-xl-5
+            h1 John Doe
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
+
+  h3 Tarjetas slide
+
+  //- .tarjeta-slide debe ir acompañado de una de una de estas clases => 
+  //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+  //- .arriba, .abajo, .derecha, .izquierda para controlar la animacion
+  .row.mb-5
+    .col-sm-6.col-xl-3.mb-4.mb-xl-0
+      .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+        .indicador--hover(v-if="indicadorTarjetaSlide")
+        .tarjeta-slide__contenedor
+          .tarjeta-slide__contenido.p-4.p-xl-5
+            h1 John Doe
+            p Lorem ipsum dolor sit amet, 
+          .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
+
+    .col-sm-6.col-xl-3.mb-4.mb-xl-0
+      .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+        .tarjeta-slide__contenedor
+          .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
+          .tarjeta-slide__contenido.p-4.p-xl-5
+            h1 John Doe
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
+
+    .col-sm-6.col-xl-3.mb-4.mb-sm-0
+      .tarjeta.tarjeta-slide.derecha.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+        .tarjeta-slide__contenedor
+          .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
+          .tarjeta-slide__contenido.p-4.p-xl-5
+            h1 John Doe
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
+
+    .col-sm-6.col-xl-3
+      .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
+        .tarjeta-slide__contenedor
+          .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
+          .tarjeta-slide__contenido.p-4.p-xl-5
+            h1 John Doe
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
+
   h3 Tarjetas Tabla
   .row.mb-5
     .col-md-6.col-lg.tarjeta--tabla.p-4
@@ -1793,7 +2167,7 @@ div.mb-5
   h3 Tarjetas con número
 
   .row.mb-5
-    .col-md-6.col-xxl.mb-4.mb-xxl-0
+    .col-md-6.col-xl.mb-4.mb-xl-0
       //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde
@@ -1804,7 +2178,7 @@ div.mb-5
           b Ruta integral de atención en salud para la promoción y mantenimiento de la salud 
         p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
 
-    .col-md-6.col-xxl.mb-4.mb-xxl-0
+    .col-md-6.col-xl.mb-4.mb-xl-0
       //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde
@@ -1815,7 +2189,7 @@ div.mb-5
           b Ruta integral de atención en salud para la promoción y mantenimiento de la salud 
         p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
 
-    .col-md-6.col-xxl.mb-4.mb-xxl-0
+    .col-md-6.col-xl.mb-4.mb-xl-0
       //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde
@@ -1826,7 +2200,7 @@ div.mb-5
           b Ruta integral de atención en salud para la promoción y mantenimiento de la salud 
         p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
 
-    .col-md-6.col-xxl.mb-4.mb-xxl-0
+    .col-md-6.col-xl.mb-4.mb-xl-0
       //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde
@@ -1836,15 +2210,42 @@ div.mb-5
         p.text-center 
           b Ruta integral de atención en salud para la promoción y mantenimiento de la salud 
         p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
+  
+  h3 Tarjeta Avatar Slide
+  .row.mb-5
+    .col-lg-4.mb-4
+      .tarjeta.tarjeta-avatar-slide.color-acento-contenido.p-4.h-100
+        .tarjeta-avatar-slide__img.mb-4
+          .tarjeta-avatar-slide__img__item: img(src='@/assets/curso/avatar-b.svg', alt='Texto que describa la imagen' )
+          .tarjeta-avatar-slide__img__item: img(src='@/assets/curso/avatar.svg', alt='Texto que describa la imagen' )
+        p 
+          b Dirigir a los miembros del equipo 
+          | para que las actividades se cumplan según lo establecido en el plan.
+    .col-lg-4.mb-4
+      .tarjeta.tarjeta-avatar-slide.color-acento-botones.p-4.h-100
+        .tarjeta-avatar-slide__img.mb-4
+          .tarjeta-avatar-slide__img__item: img(src='@/assets/curso/avatar-b.svg', alt='Texto que describa la imagen' )
+          .tarjeta-avatar-slide__img__item: img(src='@/assets/curso/avatar.svg', alt='Texto que describa la imagen' )
+        p 
+          b Dirigir a los miembros del equipo 
+          | para que las actividades se cumplan según lo establecido en el plan.
+    .col-lg-4.mb-4
+      .tarjeta.tarjeta-avatar-slide.color-primario.p-4.h-100
+        .tarjeta-avatar-slide__img.mb-4
+          .tarjeta-avatar-slide__img__item: img(src='@/assets/curso/avatar-b.svg', alt='Texto que describa la imagen' )
+          .tarjeta-avatar-slide__img__item: img(src='@/assets/curso/avatar.svg', alt='Texto que describa la imagen' )
+        p 
+          b Dirigir a los miembros del equipo 
+          | para que las actividades se cumplan según lo establecido en el plan.
 
   Separador
 
-  #modal.titulo-segundo
+  #modal.titulo-segundo.color-acento-botones
     h2 Modal
 
   .row
     .col-auto
-      a.boton.color-acento-contenido.mb-5.indicador__container(@click="modal1 = true")
+      a.boton.color-acento-contenido.indicador__container(@click="modal1 = true")
         span Abrir modal
         .indicador--click(v-if="mostrarIndicador")
     .col
@@ -1865,7 +2266,7 @@ div.mb-5
 
   Separador
 
-  #modal.titulo-segundo
+  #modal.titulo-segundo.color-acento-botones
     h2 Animaciones
 
   h3.titulo-tercero Fade
@@ -1932,7 +2333,7 @@ div.mb-5
 
 
   h3.titulo-tercero Zoom
-  .row.mb-5
+  .row
     .col-sm-6.col-md-4.col-lg-3.col-xxl-2.mb-3
       .tarjeta.color-primario.text-center.p-3(data-aos="zoom-in")
         h3.mb-0 zoom-in
@@ -1971,6 +2372,11 @@ export default {
   name: 'Muestras',
   data: () => ({
     mostrarIndicador: true,
+    indicadorImagenZoom: true,
+    indicadorTarjetaFlip: true,
+    indicadorTarjetaSlide: true,
+    mostrarIndicadorAudio: true,
+    mostrarIndicadorTarjetaAudio: true,
     modal1: false,
     modal2: false,
     datosLineaTiempoA: [
@@ -2051,8 +2457,111 @@ export default {
         leyendaImagen: 'Leyenda de la imagen',
       },
     ],
+    dialogoItem: {
+      personaje: {
+        nombre: 'Jhon',
+        img: require('@/assets/componentes/ej-05.svg'),
+      },
+      textoIng: 'She is forgetting the keys.',
+      textoEsp: 'Ella está olvidando las llaves.',
+      audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+    },
+    dialogo: {
+      personajes: [
+        {
+          nombre: 'Hanna',
+          img: require('@/assets/componentes/ej-05.svg'),
+        },
+        {
+          nombre: 'Jhon',
+          img: require('@/assets/componentes/ej-05.svg'),
+        },
+      ],
+      dialogo: [
+        {
+          personaje: 'Hanna',
+          textoIng: 'I need the biology book and the sheets.',
+          textoEsp: 'Yo necesito el libro de biologia y las diapositivas.',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Jhon',
+          textoIng: 'I need the book and the sheets',
+          textoEsp: 'Yo necesito el libro de y las diapositivas',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Hanna',
+          textoIng: 'I need the biology books and the.',
+          textoEsp: 'Yo necesito el libro de biologia y las.',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Jhon',
+          textoIng: 'I the biology books and the sheets',
+          textoEsp: 'Yo el libro de biologia y las diapositivas.',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Hanna',
+          textoIng: 'I need the biology books and the.',
+          textoEsp: 'Yo necesito el libro de biologia y las.',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+      ],
+    },
+    dialogoActividad: {
+      personajes: [
+        {
+          nombre: 'Hanna',
+          img: require('@/assets/componentes/ej-05.svg'),
+        },
+        {
+          nombre: 'Jhon',
+          img: require('@/assets/componentes/ej-05.svg'),
+        },
+      ],
+      dialogo: [
+        {
+          personaje: 'Hanna',
+          textoIng: 'I need the biology book and the sheets.',
+          textoEsp: 'Yo necesito el libro de biologia y las diapositivas.',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Jhon',
+          textoIng:
+            'I need the *** book and the sheets book and the sheets book and the sheets book and the sheets.',
+          textoEsp:
+            'Yo necesito el libro de *** y las diapositivas Yo necesito el libro de Yo necesito el libro de Yo necesito el libro de .',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+          palabra: 'Biology1',
+        },
+        {
+          personaje: 'Hanna',
+          textoIng: 'I need the biology books and the ***.',
+          textoEsp: 'Yo necesito el libro de biologia y las ***.',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+          palabra: 'sheets2',
+        },
+        {
+          personaje: 'Jhon',
+          textoIng: 'I *** the biology books and the sheets',
+          textoEsp: 'Yo *** el libro de biologia y las diapositivas.',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+          palabra: 'need3',
+        },
+        {
+          personaje: 'Hanna',
+          textoIng: 'I need the biology books and the ***.',
+          textoEsp: 'Yo necesito el libro de biologia y las ***.',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+          palabra: 'sheets4',
+        },
+      ],
+    },
   }),
 }
 </script>
 
-<style lang="sass" scoped></style>
+<style lang="sass"></style>

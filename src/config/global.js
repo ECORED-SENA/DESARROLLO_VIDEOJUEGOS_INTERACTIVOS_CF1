@@ -15,7 +15,7 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-info',
+        icono: 'fas fa-info-circle',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
@@ -29,7 +29,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Pipeline del videojuego',
+            titulo: '<i>Pipeline</i> del videojuego',
             hash: 't_1_1',
           },
           {
@@ -80,7 +80,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.5',
-            titulo: 'Storyboard',
+            titulo: '<i>Storyboard</i>',
             hash: 't_2_5',
           },
           {
@@ -94,6 +94,12 @@ export default {
     ],
     subMenu: [
       {
+        icono: 'fas fa-sitemap',
+        titulo: 'Síntesis',
+        nombreRuta: 'sintesis',
+        desarrolloContenidos: true,
+      },
+      {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
@@ -104,15 +110,20 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      // {
-      //   nombreRuta: 'complementario',
-      //   icono: 'far fa-folder-open',
-      //   titulo: 'Material complementario',
-      // },
+      //{
+      //  nombreRuta: 'complementario',
+      //  icono: 'far fa-folder-open',
+      //  titulo: 'Material complementario',
+      //},
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
+      },
+      {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/material.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -126,6 +137,97 @@ export default {
       },
     ],
   },
+  complementario: [
+    {
+      tema: '',
+      referencia: '',
+      tipo: '',
+      link: 'https://www.google.com/',
+    },
+    {
+      tema: '',
+      referencia: '',
+      tipo: '',
+      descarga: '/downloads/prueba.pdf',
+    },
+  ],
+  glosario: [
+    {
+      termino: 'Abstracto',
+      significado:
+        'Son diseños simples, basados en figuras geométricas, pueden ser figurativas, como círculos, cuadrados y triángulos que conforman la imagen.',
+    },
+    {
+      termino: 'Antagonistas',
+      significado:
+        'Son los personajes que hacen parte de la historia y que, por lo general, son el enemigo del protagonista principal. En su gran mayoría son el malo de la historia.',
+    },
+    {
+      termino: '<em>Background</em>',
+      significado:
+        'Es el fondo que complementa una escena. Puede ser un paisaje, un color totalmente limpio.',
+    },
+    {
+      termino: '<em>Cell shading</em>',
+      significado:
+        'Proceso de renderizado estilo de dibujo animado, que utiliza los colores planos.',
+    },
+    {
+      termino: 'Contraluz',
+      significado:
+        'Se genera cuando la luz está detrás del objeto y la cámara frente a este, lo que genera una silueta totalmente negra.',
+    },
+    {
+      termino: 'Exponencial',
+      significado:
+        'Se entiende por exponencial como dicho de un crecimiento o desarrollo de un ritmo, cadencia o proporción que incrementa o aumenta cada vez más rápidamente y de manera notoria.',
+    },
+    {
+      termino: 'Interacción',
+      significado:
+        'Es la acción que se tiene sobre un objeto y este responde ante ese estímulo.',
+    },
+    {
+      termino: 'Mecánicas',
+      significado:
+        'Acciones que el jugador realiza mediante la interacción con mandos, lo que genera una orden que cumple un objeto.',
+    },
+    {
+      termino: '<em>Pixel art</em>',
+      significado:
+        'El Pixel Art, como bien su nombre lo indica, es el arte generado por pixeles. Consiste en la unión de varios pixeles para crear una imagen en concreto. Esta técnica se ha empleado, en su mayor parte, en videojuegos antiguos o retro, ya sea para consolas, PC o teléfonos móviles.',
+    },
+    {
+      termino: 'Portabilidad',
+      significado:
+        'La noción de portabilidad alude a la condición de portable. Este adjetivo (portable), en tanto, refiere a lo portátil: es decir, que resulta movible o que se puede trasladar con facilidad. ',
+    },
+    {
+      termino: '<em>Score</em>',
+      significado:
+        'Es el puntaje que se genera en una partida, este se va actualizando durante el progreso del juego.',
+    },
+    {
+      termino: '<em>Streaming</em>',
+      significado:
+        'Archivos multimedia, como audio, video o imágenes, que no hay necesidad de descargarlos, sino que se ejecutan desde el servidor o página web.',
+    },
+    {
+      termino: '<em>Thumbnails</em>',
+      significado:
+        'Son imágenes en miniatura realizadas antes de los bocetos. Estas se hacen de forma simplificada a partir de siluetas. ',
+    },
+    {
+      termino: 'Trama',
+      significado:
+        'Son sucesos cronológicos que se conectan entre sí para generar una historia.',
+    },
+    {
+      termino: 'Vista cenital',
+      significado:
+        'El plano cenital es obtener una imagen en la que la cámara se sitúa en la parte superior y mira hacia abajo. Correspondería a una vista en planta y también se le llama plano cenital.',
+    },
+  ],
   referencias: [
     {
       referencia:
@@ -150,19 +252,19 @@ export default {
         'https://www.socialfuturo.com/tal-dia-como-hoy/el-primer-video-juego-de-la-historia/#:%7E:text=El%2018%20de%20octubre%20de,Model%2030%20utilizando%20un%20osciloscopio',
     },
     {
-      referencia: 'Ferrer, S. (2014). Los videojuegos. La Ardilla Digital.',
+      referencia: 'Ferrer, S. (2014). Los videojuegos. La Ardilla Digital. ',
       link:
         'http://ardilladigital.com/DOCUMENTOS/TECNOLOGIA%20EDUCATIVA/TICs/T8%20VIDEOJUEGOS/08%20LOS%20VIDEOJUEGOS.pdf',
     },
     {
       referencia:
-        'Franch, A. (s. f.). Introducción al diseño de videojuegos. UOC.',
+        'Franch, A. (s. f.). Introducción al diseño de videojuegos. UOC. ',
       link:
         'http://openaccess.uoc.edu/webapps/o2/bitstream/10609/26941/2/atejedaf_TFG_0114.pdf',
     },
     {
       referencia:
-        'García, H. (2013). Iluminación en ilustración y en el arte. Ilustrando en la escuela de arte.',
+        'García, H. (2013). Iluminación en ilustración y en el arte. Ilustrando en la escuela de arte. ',
       link:
         'http://ilustrandoenlaescueladearte.blogspot.com/2013/03/iluminacion-en-ilustracion-y-el-arte.html',
     },
@@ -193,212 +295,171 @@ export default {
     },
     {
       referencia:
-        'Universidad de Palermo. (2013). Storyboard en los videojuegos. Blog del docente del Área en la Facultad de Diseño y Comunicación.',
+        'Universidad de Palermo. (2013). Storyboard en los videojuegos. Blog del docente del Área en la Facultad de Diseño y Comunicación. ',
       link:
         'http://fido.palermo.edu/servicios_dyc/blog/docentes/detalle_tp.php?id_docente=80946&id_blog=10682',
     },
   ],
-  glosario: [
+  creditos: [
     {
-      termino: 'Abstracto',
-      significado:
-        'Son diseños simples, basados en figuras geométricas, pueden ser figurativas, como círculos, cuadrados y triángulos que conforman la imagen.',
+      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          cargo: 'Responsable del equipo',
+          centro: 'Dirección General',
+        },
+        {
+          nombre: 'Liliana Victoria Morales Gualdrón',
+          cargo: 'Responsable de línea de producción',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+      ],
     },
     {
-      termino: 'Antagonistas',
-      significado:
-        'Son los personajes que hacen parte de la historia y que, por lo general, son el enemigo del protagonista principal. En su gran mayoría son el malo de la historia.',
+      titulo: 'CONTENIDO INSTRUCCIONAL',
+      autores: [
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor metodológico y pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Fabián Andrés Gómez Pico',
+          cargo: 'Experto temático 3D',
+          centro:
+            'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
+        },
+        {
+          nombre: 'Johnier Felipe Perafán Ledezma',
+          cargo: 'Experto temático 3D',
+          centro:
+            'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
+        },
+        {
+          nombre: 'Luz Aída Quintero Velásquez',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Oscar Absalón Guevara',
+          cargo: 'Evaluador instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Uriel Darío González Montoya',
+          cargo: 'Revisión y corrección de estilo',
+          centro: 'Centro Agropecuario La Granja - Regional Tolima',
+        },
+        {
+          nombre: 'Gloria Amparo López Escudero',
+          cargo: 'Adecuadora instruccional - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Metodólogo para la formación virtual - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+      ],
     },
     {
-      termino: 'Background',
-      significado:
-        'Es el fondo que complementa una escena. Puede ser un paisaje, un color totalmente limpio.',
+      titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Francisco José Lizcano Reyes',
+          cargo: 'Responsable del equipo',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Anllelo Andres Reina Montañez',
+          cargo: 'Diseño web',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Yuly Andrea Rey Quiñonez',
+          cargo: 'Diseñador de contenidos digitales - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'María Carolina Tamayo López',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Zuleidy Maria Ruiz Torres',
+          cargo: 'Producción audiovisual',
+          centro: 'Centro de Comercio y Servicios -  Regional Tolima',
+        },
+        {
+          nombre: 'Sergio Omar Camacho Orduz',
+          cargo: 'Desarrollo front-end',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Jhon Jairo Urueta Alvarez',
+          cargo: 'Desarrollador full-stack - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+      ],
     },
     {
-      termino: 'Cell shading',
-      significado:
-        'Proceso de renderizado estilo de dibujo animado, que utiliza los colores planos.',
-    },
-    {
-      termino: 'Contraluz',
-      significado:
-        'Se genera cuando la luz está detrás del objeto y la cámara frente a este, lo que genera una silueta totalmente negra.',
-    },
-    {
-      termino: 'Exponencial',
-      significado:
-        'Se entiende por exponencial como dicho de un crecimiento o desarrollo de un ritmo, cadencia o proporción que incrementa o aumenta cada vez más rápidamente y de manera notoria.',
-    },
-    {
-      termino: 'Interacción',
-      significado:
-        'Es la acción que se tiene sobre un objeto y este responde ante ese estímulo.',
-    },
-    {
-      termino: 'Mecánicas',
-      significado:
-        'Acciones que el jugador realiza mediante la interacción con mandos, lo que genera una orden que cumple un objeto.',
-    },
-    {
-      termino: 'Pixel art',
-      significado:
-        'El Pixel Art como bien su nombre lo indica es el arte generado por pixeles. Consiste en la unión de varios pixeles para crear una imagen en concreto. Esta técnica se ha empleado, en su mayor parte, en videojuegos antiguos o retro, ya sea para consolas, PC o teléfonos móviles.',
-    },
-    {
-      termino: 'Portabilidad',
-      significado:
-        'La noción de portabilidad alude a la condición de portable. Este adjetivo (portable), en tanto, refiere a lo portátil: es decir, que resulta movible o que se puede trasladar con facilidad. ',
-    },
-    {
-      termino: 'Score',
-      significado:
-        'Es el puntaje que se genera en una partida, este se va actualizando durante el progreso del juego.',
-    },
-    {
-      termino: 'Streaming',
-      significado:
-        'Archivos multimedia, como audio, video o imágenes, que no hay necesidad de descargarlos, sino que se ejecutan desde el servidor o página web.',
-    },
-    {
-      termino: 'Thumbnails',
-      significado:
-        'Son imágenes en miniatura realizadas antes de los bocetos. Estas se hacen de forma simplificada a partir de siluetas. ',
-    },
-    {
-      termino: 'Trama',
-      significado:
-        'Son sucesos cronológicos que se conectan entre sí para generar una historia.',
-    },
-    {
-      termino: 'Vista cenital',
-      significado:
-        'El plano cenital es obtener una imagen en la que la cámara se sitúa en la parte superior y mira hacia abajo. Correspondería a una vista en planta y también se le llama plano cenital.',
+      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
+      autores: [
+        {
+          nombre: 'Jenny Paola Montillo Gélvez',
+          cargo: 'Validación de diseño y contenido',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Validadora de recursos digitales - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Leyson Fabián Castaño Pérez',
+          cargo: 'Validador de recursos digitales - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+      ],
     },
   ],
-  // complementario: [
-  //   {
-  //     texto:
-  //       'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-  //     tipo: 'Video',
-  //     link: 'https://www.google.com/',
-  //   },
-  //   {
-  //     texto:
-  //       'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-  //     tipo: 'Página web',
-  //     descarga: '/downloads/prueba.pdf',
-  //   },
-  // ],
-  creditos: {
-    liderEquipo: [
-      {
-        nombre: 'Maria Camila Garcia Santamaria',
-        cargo: 'Líder del equipo',
-        centro: 'Dirección General',
-      },
-    ],
-    contenidoInstruccional: [
-      {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Fabián Andrés Gómez Pico',
-        cargo: 'Experto temático 3D',
-        centro:
-          'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
-      },
-      {
-        nombre: 'Johnier Felipe Perafán Ledezma',
-        cargo: 'Experto temático 3D',
-        centro:
-          'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
-      },
-      {
-        nombre: 'Luz Aída Quintero Velásquez',
-        cargo: 'Diseñadora instruccional',
-        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
-      },
-      {
-        nombre: 'Oscar Absalón Guevara',
-        cargo: 'Evaluador instruccional',
-        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
-      },
-      {
-        nombre: 'Uriel Darío González Montoya',
-        cargo: 'Revisión y corrección de estilo',
-        centro: 'Centro Agropecuario La Granja - Regional Tolima',
-      },
-    ],
-    desarrolloProducto: [
-      {
-        nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios -  Regional Tolima',
-      },
-      {
-        nombre: 'Anllelo Andres Reina Montañez',
-        cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Gilberto Junior Rodríguez Rodríguez',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Laura Gisselle Murcia Pardo',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'María Carolina Tamayo López',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Wilson Andrés Arenales Cáceres',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Zuleidy Maria Ruiz Torres',
-        cargo: 'Producción audiovisual',
-        centro: 'Centro de Comercio y Servicios -  Regional Tolima',
-      },
-      {
-        nombre: 'Sergio Omar Camacho Orduz',
-        cargo: 'Desarrollo front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Jenny Paola Montillo Gélvez',
-        cargo: 'Validación de diseño y contenido',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-    ],
-    gestoresRepositorio: [
-      {
-        nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-    ],
+  creditosAdicionales: {
+    imagenes:
+      'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
+    creativeCommons:
+      'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
   // creditosInicio: [
   //   {
